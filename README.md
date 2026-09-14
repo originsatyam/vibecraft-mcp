@@ -90,12 +90,12 @@ Provides ready-to-copy `globals.css` light & dark mode HSL CSS variables, typogr
 
 ## 👤 Author & Contribution
 
-Developed by **Satyam** ([@originsatyam](https://github.com/originsatyam)).
+Developed by **Satyam** ([@satyamuiux-byte](https://github.com/satyamuiux-byte)).
 
 Contributions, issues, and feature requests are welcome!
 
 ```bash
-git clone https://github.com/originsatyam/vibecraft-mcp.git
+git clone https://github.com/satyamuiux-byte/vibecraft-mcp.git
 cd vibecraft-mcp
 npm install
 npm run build
@@ -105,4 +105,4 @@ npm run build
 
 ## 📄 License
 
-MIT © [originsatyam](https://github.com/originsatyam)
+MIT © [satyamuiux-byte](https://github.com/satyamuiux-byte)
