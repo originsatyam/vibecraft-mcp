@@ -104,3 +104,25 @@ export function calculateInteractionState(baseBgClass: string): { hoverClass: st
     focusClass: "focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
   };
 }
+
+export const HYBRID_COMPILER_ARCHITECTURE = {
+  role: "Senior Product Designer & Deterministic UI Compiler Engine",
+  phase1_ux_reasoning: [
+    "Do not invent fake data or unverified marketing claims.",
+    "Reduce cognitive load via progressive disclosure and categorical grouping.",
+    "Mandate 13-state & zero-state coverage (skeletons over spinners, empty states with muted icons).",
+    "Accessibility-first: keyboard navigation, 2px focus ring offset, screen reader aria labels."
+  ],
+  phase2_deterministic_execution: [
+    "4pt/8pt Spatial Grid Math (multiples of 4/8, min 44px touch targets).",
+    "WCAG 2.1 AA Contrast (4.5:1 text, 3:1 large text, HSL tokens).",
+    "Calculated Geometry: R_inner = Math.max(0, R_outer - Padding).",
+    "Z-Index Stacking Token Scale: z-0 (base/charts), z-10..20 (navbars/sticky), z-30 (dropdowns), z-40 (modals), z-50 (toasts).",
+    "Data Visualization: Monochromatic sequential scales, Y-axis baseline at 0, max 3-slice pie charts."
+  ],
+  phase3_enterprise_microcopy: [
+    "Terse, objective, noun-first microcopy.",
+    "Forbidden: 'Supercharge', 'Unleash', 'Empower', 'Awesome!', 'Oops!'.",
+    "Use: [Action] [Entity] or [Verb] [Noun] (e.g. 'Add Patient', 'Export Data')."
+  ]
+};

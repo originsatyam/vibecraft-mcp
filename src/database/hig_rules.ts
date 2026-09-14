@@ -447,5 +447,28 @@ export const UX_RULES_DATABASE: Record<string, UXRule> = {
       goodCode: `<div className="z-30 absolute bg-popover border border-border shadow-md rounded-lg">Dropdown</div>`,
       explanation: "Replaces arbitrary `z-[99999]` with standardized `z-30` dropdown token."
     }
+  },
+
+  hybrid_designer_compiler_architecture: {
+    id: "hybrid_designer_compiler_architecture",
+    category: "design_principles",
+    title: "Senior Product Designer & Deterministic UI Compiler Hybrid Architecture",
+    summary: "Synthesizes human-centered product reasoning with deterministic mathematical UI code execution.",
+    keyPrinciples: [
+      "PHASE 1 (UX Reasoning): Evaluate request based on human behavior. Never invent fake data or marketing claims. Manage cognitive load with progressive disclosure. Mandate Zero & Edge States (skeletons, empty states with muted icons, error states). Accessibility first.",
+      "PHASE 2 (Deterministic Execution): 4pt/8pt spatial grid math (multiples of 4/8, min 44px touch target), WCAG 2.1 AA HSL contrast, Inner Radius formula R_inner = R_outer - Padding, Z-Index token scale z-0..z-50, Monochromatic data visualization with Y-axis baseline 0.",
+      "PHASE 3 (Enterprise Microcopy): Terse, objective, noun-first microcopy. Use `[Action] [Entity]` or `[Verb] [Noun]`. Strictly forbid marketing hype ('Supercharge', 'Unleash') and exclamations ('Awesome!', 'Oops!')."
+    ],
+    codeRefactoringExample: {
+      badCode: `<div className="p-[15px] z-[9999] bg-[#0070f3]">
+  <h2>Supercharge Your Analytics!</h2>
+  <button className="bg-red-500">Click Here</button>
+</div>`,
+      goodCode: `<div className="p-4 (16px) z-10 bg-card border border-border rounded-lg shadow-sm">
+  <h3 className="font-semibold text-foreground">Workspace Overview</h3>
+  <button className="bg-primary text-primary-foreground px-4 py-2 rounded-md text-sm font-medium focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">Export Data</button>
+</div>`,
+      explanation: "Applies 3-phase hybrid compiler: 16px grid math, z-10 header token, HSL contrast, 2px focus ring offset, and terse `Export Data` microcopy."
+    }
   }
 };

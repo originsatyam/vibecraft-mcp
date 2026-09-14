@@ -213,6 +213,18 @@ export function handleAuditUxCompliance(args: { codeOrPrompt: string; componentT
     });
   }
 
+  // Check 17: Unverified Marketing Claim & Fake Data Anti-Pattern
+  if (code.includes("100% guaranteed") || code.includes("10x faster") || code.includes("revolutionary") || code.includes("world's best")) {
+    const r = UX_RULES_DATABASE.hybrid_designer_compiler_architecture;
+    violations.push({
+      ruleId: r.id,
+      title: r.title,
+      issue: "Unverified marketing hype claim or fake testimonial detected. Violates Phase 1 Human-Centered UX reasoning.",
+      recommendation: "Replace unverified marketing claims with realistic, verifiable placeholders and terse noun-first microcopy.",
+      example: r.codeRefactoringExample
+    });
+  }
+
   return {
     content: [
       {
