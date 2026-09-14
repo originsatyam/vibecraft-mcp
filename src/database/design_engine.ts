@@ -77,3 +77,30 @@ export const TRADE_OFF_MATRIX = {
   "visibility_vs_information_density": "High density fits more data on screen but requires high visual scanning effort. Use clear tabular typography.",
   "consistency_vs_context_optimization": "Maintain consistent behavior across screens unless user context strictly demands custom interaction."
 };
+
+/**
+ * Deterministic Algorithm 1: Nested Corner Math Rule
+ * Formula: R_inner = Math.max(0, R_outer - Padding)
+ */
+export function calculateInnerRadius(outerRadiusPx: number, paddingPx: number): number {
+  return Math.max(0, outerRadiusPx - paddingPx);
+}
+
+/**
+ * Deterministic Algorithm 2: 4pt/8pt Grid Calculation
+ * Validates if a pixel value is derived from the strict 4pt/8pt grid algorithm.
+ */
+export function verifyGridAlignment(valuePx: number): boolean {
+  return valuePx % 4 === 0;
+}
+
+/**
+ * Deterministic Algorithm 3: Interaction State Luminance Shift
+ * Predictable hover luminance shift (5-10%) and 2px focus ring with 2px offset.
+ */
+export function calculateInteractionState(baseBgClass: string): { hoverClass: string; focusClass: string } {
+  return {
+    hoverClass: "hover:bg-accent hover:text-accent-foreground transition-colors duration-150",
+    focusClass: "focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+  };
+}

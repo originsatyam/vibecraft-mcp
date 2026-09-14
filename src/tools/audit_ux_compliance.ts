@@ -151,6 +151,32 @@ export function handleAuditUxCompliance(args: { codeOrPrompt: string; componentT
     }
   }
 
+  // Check 12: Non-Grid Arbitrary Value Violation (4pt/8pt Grid Math)
+  if (code.match(/\[(15|21|13|17|19|22|23|25|27|29|31)px\]/g)) {
+    const r = UX_RULES_DATABASE.deterministic_compilation_engine;
+    violations.push({
+      ruleId: r.id,
+      title: r.title,
+      issue: "Arbitrary, non-grid pixel value detected (e.g. 15px, 21px). Violates the 4pt/8pt Spatial Grid System.",
+      recommendation: "Re-align all spacing to multiples of 4 or 8 (e.g. 4px, 8px, 12px, 16px, 24px, 32px).",
+      example: r.codeRefactoringExample
+    });
+  }
+
+  // Check 13: Interactive Element Focus Ring & Offset Compliance
+  if (code.includes("<button") || code.includes("<input") || code.includes("<a ")) {
+    if (code.includes("focus") && !code.includes("ring-offset")) {
+      const r = UX_RULES_DATABASE.deterministic_compilation_engine;
+      violations.push({
+        ruleId: "focus_ring_offset_missing",
+        title: "Focus Ring Missing 2px Offset",
+        issue: "Interactive focus state lacks a calculated 2px focus ring offset from the element border.",
+        recommendation: "Add `focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2` to guarantee high contrast visibility.",
+        example: r.codeRefactoringExample
+      });
+    }
+  }
+
   return {
     content: [
       {

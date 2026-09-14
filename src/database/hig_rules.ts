@@ -370,5 +370,24 @@ export const UX_RULES_DATABASE: Record<string, UXRule> = {
 </div>`,
       explanation: "Calculates inner radius (12px - 8px = 4px) ensuring clean, concentric alignment."
     }
+  },
+
+  deterministic_compilation_engine: {
+    id: "deterministic_compilation_engine",
+    category: "ai_slop_prevention",
+    title: "Algorithmic & Deterministic Design Compilation Engine Directive",
+    summary: "Replaces probabilistic LLM guessing with strict mathematical calculations for grid alignment, font scales, contrast, geometry, and state shifts.",
+    keyPrinciples: [
+      "1. Spatial Grid Math: Every padding, margin, width, height, and gap MUST be a multiple of 4 or 8 (4, 8, 12, 16, 24, 32, 48, 64px). Arbitrary values (15px, 21px) are strictly forbidden.",
+      "2. Modular Typography Scaling: Font sizes & line-heights follow strict math (Body = size * 1.5, Heading = size * 1.2).",
+      "3. Algorithmic Contrast: Text colors must mathematically pass WCAG 2.1 AA (4.5:1 for normal text, 3:1 for large text).",
+      "4. Calculated Radii: Inner radius = Math.max(0, Outer Radius - Padding).",
+      "5. Predictable State Shifts: Hover background luminance shifts by 5-10%; Active/Focus MUST have a calculated 2px ring offset by 2px (`focus-visible:ring-2 focus-visible:ring-offset-2`)."
+    ],
+    codeRefactoringExample: {
+      badCode: `<button className="m-[15px] p-[21px] rounded-[15px] bg-[#0070f3] text-white">Arbitrary Guess</button>`,
+      goodCode: `<button className="m-4 (16px) p-3 (12px) rounded-md (6px) bg-primary text-primary-foreground hover:bg-primary/90 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">Calculated System Button</button>`,
+      explanation: "Replaces arbitrary non-grid values with 4pt/8pt grid math, HSL tokens, 5-10% hover shift, and 2px focus ring offset by 2px."
+    }
   }
 };
