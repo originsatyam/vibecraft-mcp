@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/satyamuiux-byte/vibecraft-mcp.git"
+    "url": "git+https://github.com/originsatyam/vibecraft-mcp.git"
   },
   "keywords": [
     "mcp",
@@ -28,12 +28,12 @@
     "apple-hig",
     "laws-of-ux"
   ],
-  "author": "satyamuiux-byte",
+  "author": "originsatyam",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/satyamuiux-byte/vibecraft-mcp/issues"
+    "url": "https://github.com/originsatyam/vibecraft-mcp/issues"
   },
-  "homepage": "https://github.com/satyamuiux-byte/vibecraft-mcp#readme",
+  "homepage": "https://github.com/originsatyam/vibecraft-mcp#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.6.1",
     "zod": "^3.24.2"
