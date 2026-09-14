@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Build Output
+dist/
+
+# Environment and Secrets (NEVER COMMIT)
+.env
+.env.local
+.env.*.local
+*.log
+
+# IDE & System Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
