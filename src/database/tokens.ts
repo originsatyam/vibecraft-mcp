@@ -167,5 +167,17 @@ export const DESIGN_TOKENS: Record<string, DesignTokenGroup> = {
       viewTransitionFade: "::view-transition-old(root), ::view-transition-new(root) { animation-duration: 250ms; }",
       layoutIdMorphing: "framer-motion layoutId='shared-element-id' transition={{ type: 'spring', stiffness: 350, damping: 30 }}"
     }
+  },
+  zIndexScale: {
+    category: "Deterministic Z-Index & Stacking Context System",
+    usageGuidance: "Never output arbitrary z-indices (z-9999, z-99). Use explicit token scale and isolation: isolate.",
+    tokens: {
+      zBase: "z-0 [Base Content, Charts, Data Tables, SVGs]",
+      zSticky: "z-10 to z-20 [Sticky Headers, Navbars, Sidebars]",
+      zDropdown: "z-30 [Dropdown Menus, Popovers, Tooltips]",
+      zModal: "z-40 [Modals, Dialog Overlays, Sheet Backdrops]",
+      zToast: "z-50 [Toasts, Emergency Alerts, Critical Notifications]",
+      stackingIsolation: "isolation: isolate [Constrain third-party widgets & Canvas from bleeding]"
+    }
   }
 };

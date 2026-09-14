@@ -177,6 +177,42 @@ export function handleAuditUxCompliance(args: { codeOrPrompt: string; componentT
     }
   }
 
+  // Check 14: Arbitrary / Infinite Z-Index Violation
+  if (code.match(/z-\[(999|9999|99999|10000|99)\]|z-(99|999|9999)/g)) {
+    const r = UX_RULES_DATABASE.z_index_stacking_system;
+    violations.push({
+      ruleId: r.id,
+      title: r.title,
+      issue: "Arbitrary or infinite z-index value detected (e.g. z-99999, z-99). Causes severe stacking context collisions.",
+      recommendation: "Adhere to strict z-index tokens: z-0 (base/charts), z-10..20 (navbars/sticky), z-30 (dropdowns), z-40 (modals), z-50 (toasts).",
+      example: r.codeRefactoringExample
+    });
+  }
+
+  // Check 15: Marketing Fluff Microcopy Anti-Pattern
+  if (code.includes("supercharge") || code.includes("unleash") || code.includes("empower") || code.includes("awesome!") || code.includes("oops!")) {
+    const r = UX_RULES_DATABASE.microcopy_tone_tokenization;
+    violations.push({
+      ruleId: r.id,
+      title: r.title,
+      issue: "Marketing fluff verb or exclamatory emotion detected in microcopy ('Supercharge', 'Awesome!', 'Oops!').",
+      recommendation: "Use terse, objective, noun-first microcopy formatted as `[Verb] [Noun]` or `[Entity] [Action Past-Tense]`.",
+      example: r.codeRefactoringExample
+    });
+  }
+
+  // Check 16: Multi-slice Pie / Donut Chart Anti-Pattern
+  if (code.includes("<piechart") || code.includes("<donutchart")) {
+    const r = UX_RULES_DATABASE.data_visualization_laws;
+    violations.push({
+      ruleId: r.id,
+      title: r.title,
+      issue: "Pie / Donut Chart detected. FORBIDDEN if dataset contains > 3 categories due to high visual scanning friction.",
+      recommendation: "Default to horizontal bar charts for categorical comparisons and line/area charts for time-series data.",
+      example: r.codeRefactoringExample
+    });
+  }
+
   return {
     content: [
       {

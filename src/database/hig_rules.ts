@@ -389,5 +389,63 @@ export const UX_RULES_DATABASE: Record<string, UXRule> = {
       goodCode: `<button className="m-4 (16px) p-3 (12px) rounded-md (6px) bg-primary text-primary-foreground hover:bg-primary/90 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2">Calculated System Button</button>`,
       explanation: "Replaces arbitrary non-grid values with 4pt/8pt grid math, HSL tokens, 5-10% hover shift, and 2px focus ring offset by 2px."
     }
+  },
+
+  data_visualization_laws: {
+    id: "data_visualization_laws",
+    category: "ai_slop_prevention",
+    title: "Data Visualization & Charting Laws (Anti-Slop Data Engine)",
+    summary: "Never use rainbow palettes or distorted charts. Enforce zero Y-axis baseline, sequential monochromatic scales, and max 3-slice pie chart limits.",
+    keyPrinciples: [
+      "1. Color Scale: Use sequential monochromatic shades of primary token or explicit semantic status tokens (Success/Warning/Error). No arbitrary rainbow palettes.",
+      "2. Chart Type Rules: Pie/Donut charts are FORBIDDEN if categories > 3. Default to horizontal bar charts for categorical comparisons, line/area charts for time-series data.",
+      "3. Baseline Math: Y-axes MUST always start at 0 to prevent visual data distortion.",
+      "4. Gridlines: Faint and dashed (`opacity: 0.1` or `stroke-dasharray`), applied ONLY to the primary reading axis."
+    ],
+    codeRefactoringExample: {
+      badCode: `<PieChart data={categoriesWith10Items} colors={['red', 'blue', 'green', 'yellow', 'purple', 'pink', 'orange']} />`,
+      goodCode: `<BarChart data={categoriesWith10Items} layout="vertical">
+  <YAxis domain={[0, 'auto']} />
+  <Bar dataKey="value" fill="hsl(var(--primary))" radius={[0, 4, 4, 0]} />
+</BarChart>`,
+      explanation: "Replaces rainbow 10-slice pie chart with vertical horizontal bar chart starting Y-axis at 0 using primary HSL token."
+    }
+  },
+
+  microcopy_tone_tokenization: {
+    id: "microcopy_tone_tokenization",
+    category: "ds_governance",
+    title: "Enterprise Microcopy & Utilitarian Tone Tokenization",
+    summary: "Microcopy must be terse, objective, noun-first, and strictly utilitarian. Marketing fluff and exclamations are strictly forbidden.",
+    keyPrinciples: [
+      "Forbidden Words: 'Supercharge', 'Unleash', 'Empower', 'Awesome!', 'Oops!', 'Great job!'.",
+      "Success State Format: `[Entity] [Action Past-Tense]` (e.g. 'Settings updated.', 'User deleted.', 'API key generated.').",
+      "Action Label Format: `[Verb] [Noun]` (e.g. 'Export Data', 'Create Project', 'Rotate Credentials')."
+    ],
+    codeRefactoringExample: {
+      badCode: `<h3>Supercharge Your Workflow!</h3><p>Awesome! Your project was created successfully!</p>`,
+      goodCode: `<h3>Workspace Overview</h3><p className="text-xs text-muted-foreground">Project created.</p>`,
+      explanation: "Replaces marketing fluff and exclamations with terse, objective, noun-first utilitarian microcopy."
+    }
+  },
+
+  z_index_stacking_system: {
+    id: "z_index_stacking_system",
+    category: "ds_governance",
+    title: "Strict Z-Index & Stacking Context System",
+    summary: "Eliminate arbitrary/infinite z-indices (`z-9999`, `z-99`). Enforce strict token scale (z-0 to z-50) and CSS stacking isolation.",
+    keyPrinciples: [
+      "z-0: Base Content, Charts, Data Tables, SVGs.",
+      "z-10 to z-20: Sticky Headers, Navbars, Sidebars.",
+      "z-30: Dropdown Menus, Popovers, Tooltips.",
+      "z-40: Modals, Dialogs, Sheet Overlays.",
+      "z-50: Toasts, Emergency Alerts, Critical System Notifications.",
+      "Isolation: Third-party widgets, SVGs, and Canvas elements MUST use `isolation: isolate` to prevent bleeding through overlays."
+    ],
+    codeRefactoringExample: {
+      badCode: `<div className="z-[99999] absolute">Dropdown</div>`,
+      goodCode: `<div className="z-30 absolute bg-popover border border-border shadow-md rounded-lg">Dropdown</div>`,
+      explanation: "Replaces arbitrary `z-[99999]` with standardized `z-30` dropdown token."
+    }
   }
 };
