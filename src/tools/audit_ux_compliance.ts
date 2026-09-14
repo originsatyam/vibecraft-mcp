@@ -120,9 +120,35 @@ export function handleAuditUxCompliance(args: { codeOrPrompt: string; componentT
       ruleId: r.id,
       title: r.title,
       issue: "Heavy drop shadows (`shadow-2xl`) or hard internal borders detected. Causes severe visual fatigue over long shifts.",
-      recommendation: "Flatten visual hierarchy. Use subtle background color shifts (`#F9FAFB` canvas vs `#FFFFFF` cards) and generous whitespace to separate sections.",
+      recommendation: "Flatten visual hierarchy. Use subtle background color shifts (`#F9FAFB` canvas vs `#FFFFFF` cards) and generous whitespace.",
       example: r.codeRefactoringExample
     });
+  }
+
+  // Check 10: Oversized Structural Container Radius Anti-Pattern
+  if (code.includes("rounded-3xl") || (code.includes("rounded-2xl") && (code.includes("sidebar") || code.includes("panel") || code.includes("dashboard")))) {
+    const r = UX_RULES_DATABASE.functional_border_radius_hierarchy;
+    violations.push({
+      ruleId: r.id,
+      title: r.title,
+      issue: "Oversized structural container curves (`rounded-3xl` or `rounded-2xl`) detected in enterprise/dashboard view. Softens interface excessively.",
+      recommendation: "Use Medium/Subtle curves (`6px` to `8px` / `rounded-md` to `rounded-lg`) for structural containers to preserve crisp alignment lines.",
+      example: r.codeRefactoringExample
+    });
+  }
+
+  // Check 11: Nested Corner Math Mismatch
+  if (code.includes("p-") && (code.includes("rounded-xl") || code.includes("rounded-2xl"))) {
+    const r = UX_RULES_DATABASE.nested_corner_math;
+    if (code.match(/rounded-(xl|2xl|3xl).*<.*rounded-(xl|2xl|3xl)/s)) {
+      violations.push({
+        ruleId: r.id,
+        title: r.title,
+        issue: "Nested inner element shares identical large outer radius inside a padded container (`R_inner` must equal `R_outer - Padding`).",
+        recommendation: "Calculate inner radius using `R_inner = R_outer - Padding` (e.g. 12px outer - 8px padding = 4px inner radius `rounded`).",
+        example: r.codeRefactoringExample
+      });
+    }
   }
 
   return {

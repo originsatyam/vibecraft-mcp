@@ -325,5 +325,50 @@ export const UX_RULES_DATABASE: Record<string, UXRule> = {
 </div>`,
       explanation: "De-boxes heavy borders into calm background shifts, de-emphasizing summary cards and reducing shift fatigue."
     }
+  },
+
+  functional_border_radius_hierarchy: {
+    id: "functional_border_radius_hierarchy",
+    category: "ds_governance",
+    title: "Functional Border-Radius & Edge Styling Hierarchy",
+    summary: "Apply border-radius systematically based on element function rather than arbitrary bubbly curves.",
+    keyPrinciples: [
+      "Structural Elements (Cards, Modals, Panels, Sidebars): Use Medium/Subtle curves (6px to 8px / `rounded-md` or `rounded-lg`). NEVER use extreme pill shapes (16px+) for structural containers.",
+      "Interactive Controls (Inputs, Buttons, Dropdowns): Use Small to Medium curves (4px to 6px / `rounded` or `rounded-md`) to stack neatly in grids.",
+      "High-Density Data (Tables, Data Grids): Use Sharp/Very Small curves (0px to 2px / `rounded-none` or `rounded-sm`) to maximize screen real estate and scannable lines.",
+      "Status & Metadata (Badges, Tags, Emergency Actions): Use Fully Rounded Pill shapes (9999px / `rounded-full`) to create a distinct visual silhouette."
+    ],
+    codeRefactoringExample: {
+      badCode: `<div className="rounded-3xl p-6 bg-card border">
+  <span className="rounded-md bg-red-100 text-red-700">Critical</span>
+  <input className="rounded-3xl border p-2" />
+</div>`,
+      goodCode: `<div className="rounded-lg p-6 bg-card border border-border">
+  <span className="rounded-full px-3 py-1 bg-rose-500/10 text-rose-500 text-xs font-bold">Critical</span>
+  <input className="rounded-md border border-input p-2 text-sm" />
+</div>`,
+      explanation: "Applies 8px (`rounded-lg`) to outer card container, 6px (`rounded-md`) to input control, and 9999px (`rounded-full`) to status tag."
+    }
+  },
+
+  nested_corner_math: {
+    id: "nested_corner_math",
+    category: "ds_governance",
+    title: "The Nested Corner Math Rule (Outer Radius - Padding = Inner Radius)",
+    summary: "When placing a rounded element inside another rounded container with padding, mathematically calculate the inner radius to prevent visually broken overlaps.",
+    keyPrinciples: [
+      "Formula: Inner Radius (R_inner) = Outer Radius (R_outer) - Container Padding (P).",
+      "Example: If Outer Card Radius = 12px (`rounded-xl`) and Padding = 8px (`p-2`), Inner Box Radius MUST = 4px (`rounded`).",
+      "Violating this formula results in visually broken, concentric misalignment and amateurish UI."
+    ],
+    codeRefactoringExample: {
+      badCode: `<div className="rounded-xl p-2 bg-card border">
+  <div className="rounded-xl bg-accent p-4">Inner Content</div>
+</div>`,
+      goodCode: `<div className="rounded-xl (12px) p-2 (8px) bg-card border">
+  <div className="rounded (4px) bg-accent p-4">Inner Content</div>
+</div>`,
+      explanation: "Calculates inner radius (12px - 8px = 4px) ensuring clean, concentric alignment."
+    }
   }
 };

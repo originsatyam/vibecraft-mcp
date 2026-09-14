@@ -118,11 +118,11 @@ export const DESIGN_TOKENS: Record<string, DesignTokenGroup> = {
       spaceLg: "24px",
       spaceXl: "32px",
       space2Xl: "48px",
-      radiusSm: "0.375rem (6px)",
-      radiusMd: "0.5rem (8px)",
-      radiusLg: "0.75rem (12px)",
-      radiusCard: "1rem (16px)",
-      radiusPill: "9999px",
+      radiusStructural: "0.375rem to 0.5rem (6px to 8px / rounded-md to rounded-lg) [Cards, Modals, Panels, Sidebars]",
+      radiusControls: "0.25rem to 0.375rem (4px to 6px / rounded to rounded-md) [Inputs, Standard Buttons, Dropdowns]",
+      radiusDenseData: "0px to 0.125rem (0px to 2px / rounded-none to rounded-sm) [Tables, Grids, Dense Data Cells]",
+      radiusStatusPill: "9999px (rounded-full) [Badges, Tags, Metadata, Code Stat Buttons]",
+      nestedCornerMathFormula: "R_inner = R_outer - Padding (e.g., if Outer R = 12px and Padding = 8px, Inner R MUST = 4px)",
       minTouchTarget: "44px",
       minClickTarget: "36px"
     }
