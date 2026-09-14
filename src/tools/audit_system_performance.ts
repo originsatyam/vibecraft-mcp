@@ -1,9 +1,8 @@
 import { SYSTEM_OPTIMIZATION_RULES } from "../database/backend_optimization_rules.js";
 
-export function handleAuditSystemPerformance(args: { codeOrQuery: string; scope?: string }) {
-  const { codeOrQuery, scope } = args;
-
-  const code = codeOrQuery.toLowerCase();
+export function handleAuditSystemPerformance(args: { codeOrQuery?: string; codeOrPrompt?: string; scope?: string }) {
+  const rawCode = args?.codeOrQuery || args?.codeOrPrompt || "";
+  const code = rawCode.toLowerCase();
   const violations: Array<{ ruleId: string; title: string; issue: string; recommendation: string; example: any }> = [];
 
   // Check 1: N+1 Query in Loops
