@@ -2,19 +2,40 @@
 
 > **Deterministic UI/UX Intelligence & Systems Performance Engine for AI Vibe-Coding.**
 
-[![npm version](https://img.shields.io/badge/npm-v1.8.0-indigo.svg)](https://www.npmjs.com/package/vibecraft-mcp)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-originsatyam%2Fvibecraft--mcp-indigo.svg)](https://github.com/originsatyam/vibecraft-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
-**VibeCraft MCP** is an open-source Model Context Protocol (MCP) server that embeds real-world **UI Engineering**, **UX Product Psychology**, and **Backend Performance Auditing** directly into your AI coding agent sessions (Google Antigravity, Cursor, Windsurf, Claude Code).
+**VibeCraft MCP** is a 100% free, open-source Model Context Protocol (MCP) server that embeds real-world **UI Engineering**, **UX Product Psychology**, and **Backend Performance Auditing** directly into your AI coding agent sessions (Google Antigravity, Cursor, Windsurf, Claude Code).
 
 It permanently eliminates **AI Slop**—generic, un-styled, un-accessible, N+1 query-heavy code—by enforcing proven design principles and component engineering automatically.
 
 ---
 
-## ⚡ Quickstart Setup
+## ⚡ 1-Click Quickstart Setup (100% Free)
 
-Add `vibecraft-mcp` to your IDE's `mcp_config.json` (Cursor, Antigravity, Windsurf, Claude Code):
+Add `vibecraft-mcp` to your IDE's `mcp_config.json` (Cursor, Antigravity, Windsurf, Claude Code).
+
+### Method 1: Direct from GitHub (Instant & 100% Free)
+
+```json
+{
+  "mcpServers": {
+    "vibecraft-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "github:originsatyam/vibecraft-mcp"
+      ],
+      "env": {
+        "UI_UX_MCP_API_KEY": "your_api_key_here"
+      }
+    }
+  }
+}
+```
+
+### Method 2: Local Node Execution
 
 ```json
 {
