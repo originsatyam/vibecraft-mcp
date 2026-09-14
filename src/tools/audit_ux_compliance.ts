@@ -99,6 +99,32 @@ export function handleAuditUxCompliance(args: { codeOrPrompt: string; componentT
     }
   }
 
+  // Check 8: Clinical & Enterprise Software Color Semantics Violation
+  if (code.includes("clinical") || code.includes("triage") || code.includes("patient") || code.includes("health") || code.includes("medical")) {
+    if ((code.includes("bg-red") || code.includes("bg-rose") || code.includes("text-red")) && !code.includes("alert") && !code.includes("danger") && !code.includes("code stat") && !code.includes("critical")) {
+      const r = UX_RULES_DATABASE.clinical_color_semantics;
+      violations.push({
+        ruleId: r.id,
+        title: r.title,
+        issue: "Red color detected for standard or active navigation UI in clinical context. Red MUST exclusively mean Critical Alert, Emergency, or Danger.",
+        recommendation: "Replace primary brand/active state with Slate Blue (`hsl(217, 91%, 60%)`), Deep Navy, or Muted Teal. Reserve red strictly for CODE STAT and high-risk patient badges.",
+        example: r.codeRefactoringExample
+      });
+    }
+  }
+
+  // Check 9: Visual Fatigue & Over-boxing Anti-Pattern
+  if (code.includes("shadow-2xl") || code.includes("border-2") || code.includes("border-black") || code.includes("border-gray-900")) {
+    const r = UX_RULES_DATABASE.deboxing_visual_fatigue;
+    violations.push({
+      ruleId: r.id,
+      title: r.title,
+      issue: "Heavy drop shadows (`shadow-2xl`) or hard internal borders detected. Causes severe visual fatigue over long shifts.",
+      recommendation: "Flatten visual hierarchy. Use subtle background color shifts (`#F9FAFB` canvas vs `#FFFFFF` cards) and generous whitespace to separate sections.",
+      example: r.codeRefactoringExample
+    });
+  }
+
   return {
     content: [
       {

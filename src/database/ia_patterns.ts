@@ -278,5 +278,78 @@ export function DestructiveConfirmModal({ itemName, onDelete, onCancel }: any) {
     </div>
   );
 }`
+  },
+
+  "clinical-triage-dashboard": {
+    id: "clinical-triage-dashboard",
+    title: "Enterprise Clinical Triage & Command Center Layout",
+    type: "dashboard",
+    nngPrinciples: [
+      "Color Semantics: Primary active brand state is Slate Blue / Deep Navy. Red is strictly reserved for CODE STAT and emergency alerts.",
+      "De-boxed Hierarchy: Avoid hard borders and drop shadows. Use subtle background color shifts (`#F9FAFB` canvas vs `#FFFFFF` content containers) to prevent shift fatigue.",
+      "Data Hierarchy: De-emphasize top summary metric cards so user's attention focuses on the actionable patient list and active critical alerts first.",
+      "Dark Mode WCAG Contrast: Alert badges pass WCAG AA contrast using desaturated muted reds on dark canvas."
+    ],
+    structureDescription: "Clinical Triage Command Center with Slate Navy active state, de-emphasized summary metrics, and CODE STAT emergency alert controls.",
+    layoutHierarchy: [
+      {
+        zone: "Header Navigation",
+        components: ["ClinicalNav", "SlateActiveBadge", "CodeStatEmergencyButton"],
+        uxGuidance: "Active navigation uses Slate Blue. Red is strictly reserved for CODE STAT."
+      },
+      {
+        zone: "Summary Metrics (De-emphasized)",
+        components: ["SubtleMetricCard", "MutedTextSummary"],
+        uxGuidance: "De-emphasize top summary cards (ICU Bed Utilization, etc.) so they do not compete with the Patient Queue."
+      },
+      {
+        zone: "Patient Triage Queue (Focal Point)",
+        components: ["PatientPriorityList", "TriageBadge", "CriticalAlertBanner"],
+        uxGuidance: "Immediate visual focus on actionable patient list and active critical warnings."
+      }
+    ],
+    codeScaffold: `'use client';
+import React from 'react';
+import { Activity, ShieldAlert } from 'lucide-react';
+
+export default function ClinicalTriageScaffold({ patients }: any) {
+  return (
+    <div className="min-h-screen bg-[#F9FAFB] text-slate-900 font-sans p-6 space-y-6">
+      <header className="flex items-center justify-between bg-slate-900 text-white px-6 py-4 rounded-xl shadow-sm">
+        <div className="flex items-center gap-3">
+          <Activity className="w-6 h-6 text-sky-400" />
+          <h1 className="font-bold text-lg tracking-tight">Clinical Triage Command Center</h1>
+        </div>
+        <div className="flex items-center gap-4">
+          <span className="text-xs bg-slate-800 text-slate-300 px-3 py-1.5 rounded-lg border border-slate-700 font-medium">Slate Navy Primary Active</span>
+          <button className="bg-rose-600 hover:bg-rose-700 text-white font-bold px-4 py-2 rounded-lg text-xs tracking-wider uppercase animate-pulse flex items-center gap-2">
+            <ShieldAlert className="w-4 h-4" /> CODE STAT EMERGENCY
+          </button>
+        </div>
+      </header>
+
+      {/* De-emphasized Top Metric Summary */}
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 opacity-80 hover:opacity-100 transition-opacity">
+        <div className="bg-white p-4 rounded-xl border border-slate-100 text-xs">
+          <div className="text-slate-500 mb-1">ICU Bed Capacity</div>
+          <div className="text-lg font-semibold text-slate-800">84% Capacity</div>
+        </div>
+        <div className="bg-white p-4 rounded-xl border border-slate-100 text-xs">
+          <div className="text-slate-500 mb-1">Avg Triage Time</div>
+          <div className="text-lg font-semibold text-slate-800">12.4 Mins</div>
+        </div>
+      </div>
+
+      {/* Main Focal Point: Actionable Patient Queue */}
+      <main className="bg-white rounded-xl border border-slate-200/60 p-6 space-y-4 shadow-sm">
+        <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+          <h2 className="font-bold text-base text-slate-900">Active Patient Triage Queue</h2>
+          <span className="text-xs font-semibold text-slate-500">Sorted by Severity</span>
+        </div>
+        {/* Patient Table with WCAG AA Desaturated Alerts */}
+      </main>
+    </div>
+  );
+}`
   }
 };

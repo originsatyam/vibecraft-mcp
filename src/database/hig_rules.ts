@@ -282,5 +282,48 @@ export const UX_RULES_DATABASE: Record<string, UXRule> = {
 </button>`,
       explanation: "Harmonizes 1D action copy, 2D visuals (Arrow icon), 4D spring micro-scaling, and 5D hover behavior."
     }
+  },
+
+  clinical_color_semantics: {
+    id: "clinical_color_semantics",
+    category: "ds_governance",
+    title: "Enterprise Clinical & Healthcare Color Semantics Mandate",
+    summary: "In clinical, healthcare, and high-consequence enterprise software, red MUST exclusively signal Critical Alerts, Emergency, or Danger.",
+    keyPrinciples: [
+      "Remove all red/pinkish-red as primary brand colors, active nav highlights, or standard buttons.",
+      "Replace primary active/brand color with calm, trustworthy hues: Slate Blue (`hsl(217, 91%, 60%)`), Deep Navy (`hsl(222, 47%, 11%)`), or Muted Teal (`hsl(173, 80%, 40%)`).",
+      "Reserve red/crimson strictly for 'CODE STAT' emergency buttons, high-risk patient alert badges, and critical warning text."
+    ],
+    codeRefactoringExample: {
+      badCode: `<button className="bg-red-600 text-white font-bold px-4 py-2">Triage Dashboard Active</button>`,
+      goodCode: `<div className="flex items-center gap-3">
+  <button className="bg-slate-800 text-slate-100 px-4 py-2 rounded-lg text-sm font-semibold border border-slate-700">Triage Dashboard Active</button>
+  <button className="bg-rose-600 hover:bg-rose-700 text-white px-3 py-1.5 rounded-lg text-xs font-bold animate-pulse">CODE STAT ALERT</button>
+</div>`,
+      explanation: "Switches active navigation indicator to calm Slate Navy and reserves red strictly for CODE STAT emergency alert."
+    }
+  },
+
+  deboxing_visual_fatigue: {
+    id: "deboxing_visual_fatigue",
+    category: "laws_of_ux",
+    title: "Visual Fatigue Reduction & UI De-boxing Mandate",
+    summary: "Prevent shift fatigue in data-dense clinical and enterprise software by removing heavy drop shadows and hard internal borders.",
+    keyPrinciples: [
+      "Flatten visual hierarchy: remove heavy drop shadows (`shadow-2xl`, `shadow-xl`) and thick internal borders.",
+      "Use subtle background color shifts (e.g. off-white `#F9FAFB` canvas vs pure white `#FFFFFF` card containers, or dark mode equivalent) with generous whitespace.",
+      "De-emphasize top summary metric cards so user's attention goes directly to actionable data lists and active critical alerts first."
+    ],
+    codeRefactoringExample: {
+      badCode: `<div className="border-2 border-gray-900 shadow-2xl p-6 bg-white rounded-none">
+  <div className="border-b-2 border-black p-4">Summary Stats</div>
+  <div className="border-b-2 border-black p-4">Patient Queue</div>
+</div>`,
+      goodCode: `<div className="bg-[#F9FAFB] p-6 space-y-6">
+  <div className="bg-white p-4 rounded-xl border border-gray-100/80 text-gray-500 text-xs">Summary Stats</div>
+  <div className="bg-white p-6 rounded-xl border border-gray-100 shadow-sm">Patient Queue</div>
+</div>`,
+      explanation: "De-boxes heavy borders into calm background shifts, de-emphasizing summary cards and reducing shift fatigue."
+    }
   }
 };
