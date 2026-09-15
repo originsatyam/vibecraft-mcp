@@ -65,13 +65,27 @@ export function handleAuditSystemPerformance(args: { codeOrQuery?: string; codeO
     });
   }
 
+  const totalPenalties = violations.reduce((sum, v) => {
+    if (v.ruleId === "n_plus_one_queries") return sum + 25;
+    if (v.ruleId === "network_waterfall_elimination") return sum + 20;
+    if (v.ruleId === "backend_transaction_safety") return sum + 20;
+    if (v.ruleId === "owasp_idor_security") return sum + 20;
+    if (v.ruleId === "cursor_pagination") return sum + 15;
+    return sum + 10;
+  }, 0);
+
+  const performanceScore = Math.max(0, 100 - totalPenalties);
+  const performanceStatus = performanceScore === 100 ? "OPTIMIZED_PRODUCTION_READY" : performanceScore >= 80 ? "ACCEPTABLE_PERFORMANCE" : "NEEDS_SYSTEM_OPTIMIZATION";
+
   return {
     content: [
       {
         type: "text",
         text: JSON.stringify(
           {
-            performanceStatus: violations.length === 0 ? "OPTIMIZED_PRODUCTION_READY" : "NEEDS_SYSTEM_OPTIMIZATION",
+            performanceStatus,
+            performanceScore: `${performanceScore}/100`,
+            penaltyPoints: totalPenalties,
             violationsCount: violations.length,
             violations,
             systemTargetBudgets: {

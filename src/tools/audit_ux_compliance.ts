@@ -225,16 +225,32 @@ export function handleAuditUxCompliance(args: { codeOrPrompt: string; componentT
     });
   }
 
+  // Quantitative Craft Score Calculation (100 - weighted penalties)
+  const totalPenalties = violations.reduce((sum, v) => {
+    if (["clinical_color_semantics", "deterministic_compilation_engine", "z_index_stacking_system", "icon_button_accessibility"].includes(v.ruleId)) {
+      return sum + 15;
+    }
+    if (["ai_slop_rejection", "hardcoded_hex_colors", "nested_corner_math", "focus_ring_offset_missing", "fitts_law"].includes(v.ruleId)) {
+      return sum + 10;
+    }
+    return sum + 5;
+  }, 0);
+
+  const craftScore = Math.max(0, 100 - totalPenalties);
+  const auditStatus = craftScore === 100 ? "PERFECT_DETERMINISTIC_CRAFT" : craftScore >= 80 ? "PASSED_HIGH_CRAFT" : "NEEDS_REFACTORING";
+
   return {
     content: [
       {
         type: "text",
         text: JSON.stringify(
           {
-            auditStatus: violations.length === 0 ? "PASSED_HIGH_CRAFT" : "NEEDS_REFACTORING",
+            auditStatus,
+            craftScore: `${craftScore}/100`,
+            penaltyPoints: totalPenalties,
             violationsCount: violations.length,
             violations,
-            generalGuidance: "Ensure code uses HSL semantic color variables, optical line heights, icons with aria-labels, and single primary CTA buttons."
+            generalGuidance: "Ensure code uses HSL semantic color variables, calculated corner math, 4pt/8pt grid spacing, icons with aria-labels, and single primary CTA buttons."
           },
           null,
           2

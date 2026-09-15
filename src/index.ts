@@ -10,11 +10,12 @@ import { handleGetComponentCode } from "./tools/get_component_code.js";
 import { handleGetDesignTokens } from "./tools/get_design_tokens.js";
 import { handleGetLayoutBlueprint } from "./tools/get_layout_blueprint.js";
 import { handleAuditSystemPerformance } from "./tools/audit_system_performance.js";
+import { handleCalculateUiMath } from "./tools/calculate_ui_math.js";
 
 const server = new Server(
   {
     name: "vibecraft-mcp",
-    version: "1.8.0"
+    version: "1.9.0"
   },
   {
     capabilities: {
@@ -26,6 +27,36 @@ const server = new Server(
 server.setRequestHandler(ListToolsRequestSchema, async () => {
   return {
     tools: [
+      {
+        name: "calculate_ui_math",
+        description:
+          "Executes exact, deterministic mathematical UI calculations without LLM estimation: Concentric Nested Corner Radius (R_inner = max(0, R_outer - padding)), 4pt/8pt Spatial Grid Alignment, WCAG 2.1 Contrast Ratio (L1/L2 luminance ratio), Optical Line Height, Priority Matrix Score, and Hick's Law Complexity Cost.",
+        inputSchema: {
+          type: "object",
+          properties: {
+            operation: {
+              type: "string",
+              enum: ["nested_corner_radius", "grid_alignment", "wcag_contrast_ratio", "optical_line_height", "ux_priority_score", "complexity_cost"],
+              description: "The mathematical calculation operation to execute"
+            },
+            outerRadiusPx: { type: "number", description: "Outer container border-radius in pixels" },
+            paddingPx: { type: "number", description: "Container internal padding in pixels" },
+            valuePx: { type: "number", description: "Pixel value to test for 4pt/8pt grid alignment" },
+            foregroundHexOrHsl: { type: "string", description: "Foreground text/icon color in Hex (#8B5CF6) or HSL (hsl(262, 83%, 58%))" },
+            backgroundHexOrHsl: { type: "string", description: "Background canvas/card color in Hex (#05050A) or HSL (hsl(240, 33%, 3%))" },
+            fontSizePx: { type: "number", description: "Font size in pixels for optical line-height calculation" },
+            textType: { type: "string", enum: ["heading", "body", "caption"], description: "Typographic text element category" },
+            importance: { type: "number", description: "User goal importance scale 1-5" },
+            frequency: { type: "number", description: "Task usage frequency scale 1-5" },
+            urgency: { type: "number", description: "Task urgency scale 1-5" },
+            consequence: { type: "number", description: "Error consequence scale 1-5" },
+            choices: { type: "number", description: "Number of options/buttons on screen" },
+            steps: { type: "number", description: "Number of flow interaction steps" },
+            cognitiveBurden: { type: "number", description: "Perceived cognitive load scale 1-5" }
+          },
+          required: ["operation"]
+        }
+      },
       {
         name: "audit_system_performance",
         description:
@@ -134,6 +165,8 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
   try {
     switch (name) {
+      case "calculate_ui_math":
+        return handleCalculateUiMath(args as any);
       case "audit_system_performance":
         return handleAuditSystemPerformance(args as any);
       case "get_layout_blueprint":
