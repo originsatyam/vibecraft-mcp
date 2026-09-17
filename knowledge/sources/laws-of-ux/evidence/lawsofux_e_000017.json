@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000017",
+  "source_id": "lawsofux_mental_model",
+  "title": "Mental Model",
+  "claim": "A compressed model based on what we think we know about a system and how it works.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/mental-model/",
+  "source_location": "Laws of UX > Mental Model",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

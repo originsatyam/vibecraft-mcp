@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000023",
+  "source_id": "lawsofux_peak_end_rule",
+  "title": "Peak-End Rule",
+  "claim": "People judge an experience largely based on how they felt at its peak and at its end, rather than the total sum or average of every moment of the experience.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/peak-end-rule/",
+  "source_location": "Laws of UX > Peak-End Rule",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

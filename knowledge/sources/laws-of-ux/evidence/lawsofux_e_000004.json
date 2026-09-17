@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000004",
+  "source_id": "lawsofux_cognitive_bias",
+  "title": "Cognitive Bias",
+  "claim": "A systematic error of thinking or rationality in judgment that influence our perception of the world and our decision-making ability.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/cognitive-bias/",
+  "source_location": "Laws of UX > Cognitive Bias",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

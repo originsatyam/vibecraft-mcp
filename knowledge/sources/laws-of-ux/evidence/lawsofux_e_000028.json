@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000028",
+  "source_id": "lawsofux_von_restorff_effect",
+  "title": "Von Restorff Effect",
+  "claim": "The Von Restorff effect, also known as The Isolation Effect, predicts that when multiple similar objects are present, the one that differs from the rest is most likely to be remembered.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/von-restorff-effect/",
+  "source_location": "Laws of UX > Von Restorff Effect",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

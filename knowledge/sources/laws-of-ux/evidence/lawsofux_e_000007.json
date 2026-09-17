@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000007",
+  "source_id": "lawsofux_fittss_law",
+  "title": "Fitts’s Law",
+  "claim": "The time to acquire a target is a function of the distance to and size of the target.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/fittss-law/",
+  "source_location": "Laws of UX > Fitts’s Law",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

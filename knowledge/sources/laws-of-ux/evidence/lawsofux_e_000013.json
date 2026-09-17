@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000013",
+  "source_id": "lawsofux_law_of_proximity",
+  "title": "Law of Proximity",
+  "claim": "Objects that are near, or proximate to each other, tend to be grouped together.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/law-of-proximity/",
+  "source_location": "Laws of UX > Law of Proximity",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

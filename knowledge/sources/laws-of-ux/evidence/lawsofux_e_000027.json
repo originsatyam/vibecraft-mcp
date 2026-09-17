@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000027",
+  "source_id": "lawsofux_teslers_law",
+  "title": "Tesler’s Law",
+  "claim": "Tesler's Law, also known as The Law of Conservation of Complexity, states that for any system there is a certain amount of complexity which cannot be reduced.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/teslers-law/",
+  "source_location": "Laws of UX > Tesler’s Law",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

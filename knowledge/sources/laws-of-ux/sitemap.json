@@ -1,0 +1,217 @@
+{
+  "source": "Laws of UX",
+  "base_url": "https://lawsofux.com/",
+  "total_laws": 30,
+  "entries": [
+    {
+      "source_id": "lawsofux_aesthetic_usability_effect",
+      "slug": "aesthetic-usability-effect",
+      "title": "Aesthetic-Usability Effect",
+      "url": "https://lawsofux.com/aesthetic-usability-effect/",
+      "claim": "Users often perceive aesthetically pleasing design as design that’s more usable."
+    },
+    {
+      "source_id": "lawsofux_choice_overload",
+      "slug": "choice-overload",
+      "title": "Choice Overload",
+      "url": "https://lawsofux.com/choice-overload/",
+      "claim": "The tendency for people to get overwhelmed when they are presented with a large number of options, often used interchangeably with the term paradox of choice."
+    },
+    {
+      "source_id": "lawsofux_chunking",
+      "slug": "chunking",
+      "title": "Chunking",
+      "url": "https://lawsofux.com/chunking/",
+      "claim": "A process by which individual pieces of an information set are broken down and then grouped together in a meaningful whole."
+    },
+    {
+      "source_id": "lawsofux_cognitive_bias",
+      "slug": "cognitive-bias",
+      "title": "Cognitive Bias",
+      "url": "https://lawsofux.com/cognitive-bias/",
+      "claim": "A systematic error of thinking or rationality in judgment that influence our perception of the world and our decision-making ability."
+    },
+    {
+      "source_id": "lawsofux_cognitive_load",
+      "slug": "cognitive-load",
+      "title": "Cognitive Load",
+      "url": "https://lawsofux.com/cognitive-load/",
+      "claim": "The amount of mental resources needed to understand and interact with an interface."
+    },
+    {
+      "source_id": "lawsofux_doherty_threshold",
+      "slug": "doherty-threshold",
+      "title": "Doherty Threshold",
+      "url": "https://lawsofux.com/doherty-threshold/",
+      "claim": "Productivity soars when a computer and its users interact at a pace (<400ms) that ensures that neither has to wait on the other."
+    },
+    {
+      "source_id": "lawsofux_fittss_law",
+      "slug": "fittss-law",
+      "title": "Fitts’s Law",
+      "url": "https://lawsofux.com/fittss-law/",
+      "claim": "The time to acquire a target is a function of the distance to and size of the target."
+    },
+    {
+      "source_id": "lawsofux_flow",
+      "slug": "flow",
+      "title": "Flow",
+      "url": "https://lawsofux.com/flow/",
+      "claim": "The mental state in which a person performing some activity is fully immersed in a feeling of energized focus, full involvement, and enjoyment in the process of the activity."
+    },
+    {
+      "source_id": "lawsofux_goal_gradient_effect",
+      "slug": "goal-gradient-effect",
+      "title": "Goal-Gradient Effect",
+      "url": "https://lawsofux.com/goal-gradient-effect/",
+      "claim": "The tendency to approach a goal increases with proximity to the goal."
+    },
+    {
+      "source_id": "lawsofux_hicks_law",
+      "slug": "hicks-law",
+      "title": "Hick’s Law",
+      "url": "https://lawsofux.com/hicks-law/",
+      "claim": "The time it takes to make a decision increases with the number and complexity of choices."
+    },
+    {
+      "source_id": "lawsofux_jakobs_law",
+      "slug": "jakobs-law",
+      "title": "Jakob’s Law",
+      "url": "https://lawsofux.com/jakobs-law/",
+      "claim": "Users spend most of their time on other sites. This means that users prefer your site to work the same way as all the other sites they already know."
+    },
+    {
+      "source_id": "lawsofux_law_of_common_region",
+      "slug": "law-of-common-region",
+      "title": "Law of Common Region",
+      "url": "https://lawsofux.com/law-of-common-region/",
+      "claim": "Elements tend to be perceived into groups if they are sharing an area with a clearly defined boundary."
+    },
+    {
+      "source_id": "lawsofux_law_of_proximity",
+      "slug": "law-of-proximity",
+      "title": "Law of Proximity",
+      "url": "https://lawsofux.com/law-of-proximity/",
+      "claim": "Objects that are near, or proximate to each other, tend to be grouped together."
+    },
+    {
+      "source_id": "lawsofux_law_of_pr%C3%A4gnanz",
+      "slug": "law-of-pr%C3%A4gnanz",
+      "title": "Law of Prägnanz",
+      "url": "https://lawsofux.com/law-of-pr%C3%A4gnanz/",
+      "claim": "People will perceive and interpret ambiguous or complex images as the simplest form possible, because it is the interpretation that requires the least cognitive effort of us."
+    },
+    {
+      "source_id": "lawsofux_law_of_similarity",
+      "slug": "law-of-similarity",
+      "title": "Law of Similarity",
+      "url": "https://lawsofux.com/law-of-similarity/",
+      "claim": "The human eye tends to perceive similar elements as a complete picture, shape, or group, even if those elements are separated."
+    },
+    {
+      "source_id": "lawsofux_law_of_uniform_connectedness",
+      "slug": "law-of-uniform-connectedness",
+      "title": "Law of Uniform Connectedness",
+      "url": "https://lawsofux.com/law-of-uniform-connectedness/",
+      "claim": "Elements that are visually connected are perceived as more related than elements with no connection."
+    },
+    {
+      "source_id": "lawsofux_mental_model",
+      "slug": "mental-model",
+      "title": "Mental Model",
+      "url": "https://lawsofux.com/mental-model/",
+      "claim": "A compressed model based on what we think we know about a system and how it works."
+    },
+    {
+      "source_id": "lawsofux_millers_law",
+      "slug": "millers-law",
+      "title": "Miller’s Law",
+      "url": "https://lawsofux.com/millers-law/",
+      "claim": "The average person can only keep 7 (plus or minus 2) items in their working memory."
+    },
+    {
+      "source_id": "lawsofux_occams_razor",
+      "slug": "occams-razor",
+      "title": "Occam’s Razor",
+      "url": "https://lawsofux.com/occams-razor/",
+      "claim": "Among competing hypotheses that predict equally well, the one with the fewest assumptions should be selected."
+    },
+    {
+      "source_id": "lawsofux_paradox_of_the_active_user",
+      "slug": "paradox-of-the-active-user",
+      "title": "Paradox of the Active User",
+      "url": "https://lawsofux.com/paradox-of-the-active-user/",
+      "claim": "Users never read manuals but start using the software immediately."
+    },
+    {
+      "source_id": "lawsofux_pareto_principle",
+      "slug": "pareto-principle",
+      "title": "Pareto Principle",
+      "url": "https://lawsofux.com/pareto-principle/",
+      "claim": "The Pareto principle states that, for many events, roughly 80% of the effects come from 20% of the causes."
+    },
+    {
+      "source_id": "lawsofux_parkinsons_law",
+      "slug": "parkinsons-law",
+      "title": "Parkinson’s Law",
+      "url": "https://lawsofux.com/parkinsons-law/",
+      "claim": "Any task will inflate until all of the available time is spent."
+    },
+    {
+      "source_id": "lawsofux_peak_end_rule",
+      "slug": "peak-end-rule",
+      "title": "Peak-End Rule",
+      "url": "https://lawsofux.com/peak-end-rule/",
+      "claim": "People judge an experience largely based on how they felt at its peak and at its end, rather than the total sum or average of every moment of the experience."
+    },
+    {
+      "source_id": "lawsofux_postels_law",
+      "slug": "postels-law",
+      "title": "Postel’s Law",
+      "url": "https://lawsofux.com/postels-law/",
+      "claim": "Be liberal in what you accept, and conservative in what you send."
+    },
+    {
+      "source_id": "lawsofux_selective_attention",
+      "slug": "selective-attention",
+      "title": "Selective Attention",
+      "url": "https://lawsofux.com/selective-attention/",
+      "claim": "The process of focusing our attention only to a subset of stimuli in an environment — usually those related to our goals."
+    },
+    {
+      "source_id": "lawsofux_serial_position_effect",
+      "slug": "serial-position-effect",
+      "title": "Serial Position Effect",
+      "url": "https://lawsofux.com/serial-position-effect/",
+      "claim": "Users have a propensity to best remember the first and last items in a series."
+    },
+    {
+      "source_id": "lawsofux_teslers_law",
+      "slug": "teslers-law",
+      "title": "Tesler’s Law",
+      "url": "https://lawsofux.com/teslers-law/",
+      "claim": "Tesler's Law, also known as The Law of Conservation of Complexity, states that for any system there is a certain amount of complexity which cannot be reduced."
+    },
+    {
+      "source_id": "lawsofux_von_restorff_effect",
+      "slug": "von-restorff-effect",
+      "title": "Von Restorff Effect",
+      "url": "https://lawsofux.com/von-restorff-effect/",
+      "claim": "The Von Restorff effect, also known as The Isolation Effect, predicts that when multiple similar objects are present, the one that differs from the rest is most likely to be remembered."
+    },
+    {
+      "source_id": "lawsofux_working_memory",
+      "slug": "working-memory",
+      "title": "Working Memory",
+      "url": "https://lawsofux.com/working-memory/",
+      "claim": "A cognitive system that temporarily holds and manipulates information needed to complete tasks."
+    },
+    {
+      "source_id": "lawsofux_zeigarnik_effect",
+      "slug": "zeigarnik-effect",
+      "title": "Zeigarnik Effect",
+      "url": "https://lawsofux.com/zeigarnik-effect/",
+      "claim": "People remember uncompleted or interrupted tasks better than completed tasks. - Oval 9 Copy - Combined Shape - Rectangle 15"
+    }
+  ]
+}

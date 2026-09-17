@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000003",
+  "source_id": "lawsofux_chunking",
+  "title": "Chunking",
+  "claim": "A process by which individual pieces of an information set are broken down and then grouped together in a meaningful whole.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/chunking/",
+  "source_location": "Laws of UX > Chunking",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

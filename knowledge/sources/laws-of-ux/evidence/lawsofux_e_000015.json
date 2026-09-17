@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000015",
+  "source_id": "lawsofux_law_of_similarity",
+  "title": "Law of Similarity",
+  "claim": "The human eye tends to perceive similar elements as a complete picture, shape, or group, even if those elements are separated.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/law-of-similarity/",
+  "source_location": "Laws of UX > Law of Similarity",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

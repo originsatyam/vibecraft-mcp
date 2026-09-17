@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000012",
+  "source_id": "lawsofux_law_of_common_region",
+  "title": "Law of Common Region",
+  "claim": "Elements tend to be perceived into groups if they are sharing an area with a clearly defined boundary.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/law-of-common-region/",
+  "source_location": "Laws of UX > Law of Common Region",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

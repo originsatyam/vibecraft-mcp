@@ -1,0 +1,45 @@
+{
+  "total_measurements": 4,
+  "measurements": [
+    {
+      "measurement_id": "m_lawsofux_000006",
+      "parameter": "doherty-threshold_threshold",
+      "value": 400,
+      "unit": "ms",
+      "condition": "Productivity soars when a computer and its users interact at a pace (<400ms) that ensures that neither has to wait on the other.",
+      "platform": "Universal Web & Mobile Context",
+      "source_id": "lawsofux_doherty_threshold",
+      "source_location": "Laws of UX > Doherty Threshold"
+    },
+    {
+      "measurement_id": "m_lawsofux_000018",
+      "parameter": "millers-law_threshold",
+      "value": 7,
+      "unit": "count",
+      "condition": "The average person can only keep 7 (plus or minus 2) items in their working memory.",
+      "platform": "Universal Web & Mobile Context",
+      "source_id": "lawsofux_millers_law",
+      "source_location": "Laws of UX > Miller’s Law"
+    },
+    {
+      "measurement_id": "m_lawsofux_000021",
+      "parameter": "pareto-principle_threshold",
+      "value": 80,
+      "unit": "%",
+      "condition": "The Pareto principle states that, for many events, roughly 80% of the effects come from 20% of the causes.",
+      "platform": "Universal Web & Mobile Context",
+      "source_id": "lawsofux_pareto_principle",
+      "source_location": "Laws of UX > Pareto Principle"
+    },
+    {
+      "measurement_id": "m_lawsofux_000030",
+      "parameter": "zeigarnik-effect_threshold",
+      "value": 9,
+      "unit": "count",
+      "condition": "People remember uncompleted or interrupted tasks better than completed tasks. - Oval 9 Copy - Combined Shape - Rectangle 15",
+      "platform": "Universal Web & Mobile Context",
+      "source_id": "lawsofux_zeigarnik_effect",
+      "source_location": "Laws of UX > Zeigarnik Effect"
+    }
+  ]
+}

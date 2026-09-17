@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000025",
+  "source_id": "lawsofux_selective_attention",
+  "title": "Selective Attention",
+  "claim": "The process of focusing our attention only to a subset of stimuli in an environment — usually those related to our goals.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/selective-attention/",
+  "source_location": "Laws of UX > Selective Attention",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

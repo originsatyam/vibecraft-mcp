@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000016",
+  "source_id": "lawsofux_law_of_uniform_connectedness",
+  "title": "Law of Uniform Connectedness",
+  "claim": "Elements that are visually connected are perceived as more related than elements with no connection.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/law-of-uniform-connectedness/",
+  "source_location": "Laws of UX > Law of Uniform Connectedness",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

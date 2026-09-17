@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000021",
+  "source_id": "lawsofux_pareto_principle",
+  "title": "Pareto Principle",
+  "claim": "The Pareto principle states that, for many events, roughly 80% of the effects come from 20% of the causes.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/pareto-principle/",
+  "source_location": "Laws of UX > Pareto Principle",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

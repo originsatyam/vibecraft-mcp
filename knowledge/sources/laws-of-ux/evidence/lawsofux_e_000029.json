@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000029",
+  "source_id": "lawsofux_working_memory",
+  "title": "Working Memory",
+  "claim": "A cognitive system that temporarily holds and manipulates information needed to complete tasks.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/working-memory/",
+  "source_location": "Laws of UX > Working Memory",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

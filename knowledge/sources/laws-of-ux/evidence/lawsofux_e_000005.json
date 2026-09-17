@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000005",
+  "source_id": "lawsofux_cognitive_load",
+  "title": "Cognitive Load",
+  "claim": "The amount of mental resources needed to understand and interact with an interface.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/cognitive-load/",
+  "source_location": "Laws of UX > Cognitive Load",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

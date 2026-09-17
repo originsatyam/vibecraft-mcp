@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000008",
+  "source_id": "lawsofux_flow",
+  "title": "Flow",
+  "claim": "The mental state in which a person performing some activity is fully immersed in a feeling of energized focus, full involvement, and enjoyment in the process of the activity.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/flow/",
+  "source_location": "Laws of UX > Flow",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

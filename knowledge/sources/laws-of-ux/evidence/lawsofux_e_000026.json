@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000026",
+  "source_id": "lawsofux_serial_position_effect",
+  "title": "Serial Position Effect",
+  "claim": "Users have a propensity to best remember the first and last items in a series.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/serial-position-effect/",
+  "source_location": "Laws of UX > Serial Position Effect",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000009",
+  "source_id": "lawsofux_goal_gradient_effect",
+  "title": "Goal-Gradient Effect",
+  "claim": "The tendency to approach a goal increases with proximity to the goal.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/goal-gradient-effect/",
+  "source_location": "Laws of UX > Goal-Gradient Effect",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

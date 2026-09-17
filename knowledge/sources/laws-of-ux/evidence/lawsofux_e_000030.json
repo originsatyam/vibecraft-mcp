@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000030",
+  "source_id": "lawsofux_zeigarnik_effect",
+  "title": "Zeigarnik Effect",
+  "claim": "People remember uncompleted or interrupted tasks better than completed tasks. - Oval 9 Copy - Combined Shape - Rectangle 15",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/zeigarnik-effect/",
+  "source_location": "Laws of UX > Zeigarnik Effect",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

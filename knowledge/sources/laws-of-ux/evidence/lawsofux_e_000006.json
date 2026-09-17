@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000006",
+  "source_id": "lawsofux_doherty_threshold",
+  "title": "Doherty Threshold",
+  "claim": "Productivity soars when a computer and its users interact at a pace (<400ms) that ensures that neither has to wait on the other.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/doherty-threshold/",
+  "source_location": "Laws of UX > Doherty Threshold",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

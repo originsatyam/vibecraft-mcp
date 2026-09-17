@@ -1,0 +1,26 @@
+{
+  "graph_name": "VibeCraft Cross-Source Knowledge Graph",
+  "total_nodes": 267,
+  "edges": [
+    {
+      "from": "apple_hig_buttons",
+      "relation": "implements",
+      "to": "lawsofux_fitts_law"
+    },
+    {
+      "from": "apple_hig_loading",
+      "relation": "satisfies",
+      "to": "lawsofux_doherty_threshold"
+    },
+    {
+      "from": "growth_design_hicks_law",
+      "relation": "maps_to",
+      "to": "lawsofux_hicks_law"
+    },
+    {
+      "from": "growth_design_chunking",
+      "relation": "maps_to",
+      "to": "lawsofux_chunking"
+    }
+  ]
+}

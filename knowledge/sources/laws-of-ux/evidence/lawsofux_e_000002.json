@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000002",
+  "source_id": "lawsofux_choice_overload",
+  "title": "Choice Overload",
+  "claim": "The tendency for people to get overwhelmed when they are presented with a large number of options, often used interchangeably with the term paradox of choice.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/choice-overload/",
+  "source_location": "Laws of UX > Choice Overload",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

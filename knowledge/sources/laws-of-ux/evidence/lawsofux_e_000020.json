@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000020",
+  "source_id": "lawsofux_paradox_of_the_active_user",
+  "title": "Paradox of the Active User",
+  "claim": "Users never read manuals but start using the software immediately.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/paradox-of-the-active-user/",
+  "source_location": "Laws of UX > Paradox of the Active User",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

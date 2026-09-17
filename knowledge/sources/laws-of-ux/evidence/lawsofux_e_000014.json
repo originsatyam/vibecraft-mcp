@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000014",
+  "source_id": "lawsofux_law_of_pr%C3%A4gnanz",
+  "title": "Law of Prägnanz",
+  "claim": "People will perceive and interpret ambiguous or complex images as the simplest form possible, because it is the interpretation that requires the least cognitive effort of us.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/law-of-pr%C3%A4gnanz/",
+  "source_location": "Laws of UX > Law of Prägnanz",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

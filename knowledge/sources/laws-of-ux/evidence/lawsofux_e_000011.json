@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000011",
+  "source_id": "lawsofux_jakobs_law",
+  "title": "Jakob’s Law",
+  "claim": "Users spend most of their time on other sites. This means that users prefer your site to work the same way as all the other sites they already know.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/jakobs-law/",
+  "source_location": "Laws of UX > Jakob’s Law",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

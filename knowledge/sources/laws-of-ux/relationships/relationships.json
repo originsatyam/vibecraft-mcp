@@ -1,0 +1,185 @@
+{
+  "total_relationships": 30,
+  "relationships": [
+    {
+      "from": "lawsofux_aesthetic_usability_effect",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/aesthetic-usability-effect/"
+    },
+    {
+      "from": "lawsofux_choice_overload",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/choice-overload/"
+    },
+    {
+      "from": "lawsofux_chunking",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/chunking/"
+    },
+    {
+      "from": "lawsofux_cognitive_bias",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/cognitive-bias/"
+    },
+    {
+      "from": "lawsofux_cognitive_load",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/cognitive-load/"
+    },
+    {
+      "from": "lawsofux_doherty_threshold",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/doherty-threshold/"
+    },
+    {
+      "from": "lawsofux_fittss_law",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/fittss-law/"
+    },
+    {
+      "from": "lawsofux_flow",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/flow/"
+    },
+    {
+      "from": "lawsofux_goal_gradient_effect",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/goal-gradient-effect/"
+    },
+    {
+      "from": "lawsofux_hicks_law",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/hicks-law/"
+    },
+    {
+      "from": "lawsofux_jakobs_law",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/jakobs-law/"
+    },
+    {
+      "from": "lawsofux_law_of_common_region",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/law-of-common-region/"
+    },
+    {
+      "from": "lawsofux_law_of_proximity",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/law-of-proximity/"
+    },
+    {
+      "from": "lawsofux_law_of_pr%C3%A4gnanz",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/law-of-pr%C3%A4gnanz/"
+    },
+    {
+      "from": "lawsofux_law_of_similarity",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/law-of-similarity/"
+    },
+    {
+      "from": "lawsofux_law_of_uniform_connectedness",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/law-of-uniform-connectedness/"
+    },
+    {
+      "from": "lawsofux_mental_model",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/mental-model/"
+    },
+    {
+      "from": "lawsofux_millers_law",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/millers-law/"
+    },
+    {
+      "from": "lawsofux_occams_razor",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/occams-razor/"
+    },
+    {
+      "from": "lawsofux_paradox_of_the_active_user",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/paradox-of-the-active-user/"
+    },
+    {
+      "from": "lawsofux_pareto_principle",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/pareto-principle/"
+    },
+    {
+      "from": "lawsofux_parkinsons_law",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/parkinsons-law/"
+    },
+    {
+      "from": "lawsofux_peak_end_rule",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/peak-end-rule/"
+    },
+    {
+      "from": "lawsofux_postels_law",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/postels-law/"
+    },
+    {
+      "from": "lawsofux_selective_attention",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/selective-attention/"
+    },
+    {
+      "from": "lawsofux_serial_position_effect",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/serial-position-effect/"
+    },
+    {
+      "from": "lawsofux_teslers_law",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/teslers-law/"
+    },
+    {
+      "from": "lawsofux_von_restorff_effect",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/von-restorff-effect/"
+    },
+    {
+      "from": "lawsofux_working_memory",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/working-memory/"
+    },
+    {
+      "from": "lawsofux_zeigarnik_effect",
+      "relationship": "cross_references",
+      "target_title": "Cognitive Psychology & Interaction Design",
+      "target_url": "https://lawsofux.com/zeigarnik-effect/"
+    }
+  ]
+}

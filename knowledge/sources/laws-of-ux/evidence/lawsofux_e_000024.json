@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000024",
+  "source_id": "lawsofux_postels_law",
+  "title": "Postel’s Law",
+  "claim": "Be liberal in what you accept, and conservative in what you send.",
+  "claim_type": "principle",
+  "qualifier": "consider",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/postels-law/",
+  "source_location": "Laws of UX > Postel’s Law",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

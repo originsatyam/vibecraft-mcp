@@ -1,0 +1,15 @@
+{
+  "evidence_id": "lawsofux_e_000019",
+  "source_id": "lawsofux_occams_razor",
+  "title": "Occam’s Razor",
+  "claim": "Among competing hypotheses that predict equally well, the one with the fewest assumptions should be selected.",
+  "claim_type": "principle",
+  "qualifier": "should",
+  "context": "Universal UX & Human Cognition",
+  "platform": "Universal Web & Mobile Context",
+  "source_url": "https://lawsofux.com/occams-razor/",
+  "source_location": "Laws of UX > Occam’s Razor",
+  "evidence_level": "Secondary Synthesis / Educational Law",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}
