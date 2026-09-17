@@ -470,5 +470,56 @@ export const UX_RULES_DATABASE: Record<string, UXRule> = {
 </div>`,
       explanation: "Applies 3-phase hybrid compiler: 16px grid math, z-10 header token, HSL contrast, 2px focus ring offset, and terse `Export Data` microcopy."
     }
+  },
+
+  action_friction_minimization: {
+    id: "action_friction_minimization",
+    category: "hook_model",
+    title: "Action Friction Minimization & Step-Count Constraint",
+    summary: "Minimizing cognitive & physical friction to core reward increases action completion rate exponentially.",
+    keyPrinciples: [
+      "Rule: Keep primary UI task completion within 3 or fewer taps/clicks from launch.",
+      "Align Fogg Ability factor (Time & Effort) with Fitts's Law and Hick's Law choice reduction.",
+      "Prohibited: High-consequence destructive actions (account deletion, clinical record purge), which MANDATE confirmation friction."
+    ],
+    codeRefactoringExample: {
+      badCode: `<form onSubmit={submit}>
+  <input placeholder="Step 1" />
+  <button onClick={nextStep}>Next</button>
+  {/* 7-step wizard modal for simple action */}
+</form>`,
+      goodCode: `<div className="flex items-center gap-2 p-3 bg-card border border-border rounded-xl">
+  <input className="flex-1 px-3 py-2 text-sm bg-background border rounded-lg" placeholder="Search or command..." />
+  <button className="bg-primary text-primary-foreground px-4 py-2 rounded-lg text-sm font-semibold">Execute</button>
+</div>`,
+      explanation: "Replaces 7-step wizard with 1-click inline action for non-destructive workflows."
+    }
+  },
+
+  post_reward_non_modal_investment: {
+    id: "post_reward_non_modal_investment",
+    category: "hook_model",
+    title: "Post-Reward Non-Modal Investment Rule",
+    summary: "Prompt low-friction investment (Save, Bookmark, Tag) immediately post-reward in a non-modal, non-interruptive layout.",
+    keyPrinciples: [
+      "Capitalize on peak satisfaction dopamine window right after reward delivery.",
+      "Must be non-modal and inline (e.g. toast action or card footer button), never interrupting modal popups.",
+      "Must store authentic user value (data, content, preferences), NOT lock-in via dark patterns."
+    ],
+    codeRefactoringExample: {
+      badCode: `{/* Modal overlay interrupting user immediately after task completion */}
+<Modal isOpen={true}>
+  <h3>Rate Us 5 Stars!</h3>
+  <button>Rate Now</button>
+</Modal>`,
+      goodCode: `<div className="p-4 bg-emerald-500/10 border border-emerald-500/30 rounded-xl flex items-center justify-between">
+  <div className="flex items-center gap-2 text-sm text-foreground font-medium">
+    <CheckCircle className="w-4 h-4 text-emerald-500" />
+    <span>Export Complete</span>
+  </div>
+  <button className="text-xs bg-accent hover:bg-accent/80 px-3 py-1.5 rounded-md font-medium text-foreground">Save to Workspace</button>
+</div>`,
+      explanation: "Offers inline non-modal 'Save to Workspace' investment prompt right after task completion."
+    }
   }
 };
