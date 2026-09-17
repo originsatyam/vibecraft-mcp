@@ -1,0 +1,14 @@
+{
+  "evidence_id": "gd_e_000014",
+  "source_id": "growth_design_psychology",
+  "title": "Visual Anchors",
+  "claim": "Elements used to guide users' eyes Coming Soon",
+  "claim_type": "psychological_effect",
+  "qualifier": "consider",
+  "context": "Growth.Design Psychology / Information",
+  "platform": "Universal Web & App Context",
+  "source_url": "https://growth.design/psychology",
+  "source_location": "Growth.Design > Information > Visual Anchors",
+  "evidence_level": "Secondary Synthesis / Heuristic",
+  "documentation_status": "COMMING_SOON_LISTED_ONLY"
+}

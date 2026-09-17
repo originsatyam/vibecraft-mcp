@@ -1,0 +1,139 @@
+{
+  "total_parameters": 9,
+  "parameters": [
+    {
+      "parameter_id": "param_target_size",
+      "name": "Minimum Target Size",
+      "definition": "Interactive hit region width and height in points/pixels",
+      "data_type": "number",
+      "unit": "pt",
+      "measurement_method": "Bounding box measurement",
+      "applicable_context": "Touch screen & pointer interaction",
+      "supported_by": [
+        "Apple HIG",
+        "WCAG 2.1 AA"
+      ],
+      "ruleability": "DIRECTLY_RULEABLE",
+      "constraint_level": "HARD CONSTRAINT (BLOCK)"
+    },
+    {
+      "parameter_id": "param_contrast_ratio",
+      "name": "WCAG Text & Graphic Contrast Ratio",
+      "definition": "Relative luminance ratio (L1 + 0.05)/(L2 + 0.05)",
+      "data_type": "number",
+      "unit": "ratio",
+      "measurement_method": "Relative luminance formula",
+      "applicable_context": "All visual typography and icons",
+      "supported_by": [
+        "Apple HIG Accessibility",
+        "WCAG 2.1 AA"
+      ],
+      "ruleability": "DIRECTLY_RULEABLE",
+      "constraint_level": "HARD CONSTRAINT (BLOCK)"
+    },
+    {
+      "parameter_id": "param_choice_count",
+      "name": "Hick's Law Choice Density",
+      "definition": "Number of unprioritized interactive controls in a single view",
+      "data_type": "number",
+      "unit": "count",
+      "measurement_method": "Button / CTA count inside container",
+      "applicable_context": "Button clusters, menus, dialogs",
+      "supported_by": [
+        "Hick's Law",
+        "Growth.Design",
+        "Apple HIG"
+      ],
+      "ruleability": "DIRECTLY_RULEABLE",
+      "constraint_level": "SOFT CONSTRAINT (WARN)"
+    },
+    {
+      "parameter_id": "param_inner_radius",
+      "name": "Nested Corner Radius Delta",
+      "definition": "Concentric inner border radius calculated as R_outer - Padding",
+      "data_type": "number",
+      "unit": "px",
+      "measurement_method": "R_inner = Math.max(0, R_outer - Padding)",
+      "applicable_context": "Card containers, badges, nested buttons",
+      "supported_by": [
+        "Concentric Geometry Law",
+        "VibeCraft Engine"
+      ],
+      "ruleability": "DIRECTLY_RULEABLE",
+      "constraint_level": "HARD CONSTRAINT (BLOCK)"
+    },
+    {
+      "parameter_id": "param_grid_step",
+      "name": "4pt/8pt Spatial Grid Alignment",
+      "definition": "Pixel spacing value modulo 4 == 0",
+      "data_type": "number",
+      "unit": "px",
+      "measurement_method": "valuePx % 4 === 0",
+      "applicable_context": "Padding, margins, gap spacing",
+      "supported_by": [
+        "Spatial Grid Math",
+        "Apple HIG"
+      ],
+      "ruleability": "DIRECTLY_RULEABLE",
+      "constraint_level": "HARD CONSTRAINT (BLOCK)"
+    },
+    {
+      "parameter_id": "param_pie_chart_slices",
+      "name": "Data Visualization Pie Slice Count",
+      "definition": "Number of categorical slices in a pie or donut chart",
+      "data_type": "number",
+      "unit": "count",
+      "measurement_method": "Categorical dataset slice count",
+      "applicable_context": "Data visualization dashboards",
+      "supported_by": [
+        "Data Visualization Laws",
+        "Apple HIG"
+      ],
+      "ruleability": "DIRECTLY_RULEABLE",
+      "constraint_level": "HARD CONSTRAINT (BLOCK)"
+    },
+    {
+      "parameter_id": "param_z_index_token",
+      "name": "Z-Index Stacking Token Scale",
+      "definition": "Stacking context depth restricted to predefined tokens z-0..z-50",
+      "data_type": "number",
+      "unit": "level",
+      "measurement_method": "Tailwind z-index token verification",
+      "applicable_context": "Modals, dropdowns, toasts, navbars",
+      "supported_by": [
+        "Stacking Context System"
+      ],
+      "ruleability": "DIRECTLY_RULEABLE",
+      "constraint_level": "HARD CONSTRAINT (BLOCK)"
+    },
+    {
+      "parameter_id": "param_doherty_latency",
+      "name": "Doherty Threshold Async Latency",
+      "definition": "Feedback response window threshold of 400ms for async loading state",
+      "data_type": "number",
+      "unit": "ms",
+      "measurement_method": "Async loading skeleton trigger window",
+      "applicable_context": "Data fetching, API requests",
+      "supported_by": [
+        "Doherty Threshold",
+        "Growth.Design"
+      ],
+      "ruleability": "DIRECTLY_RULEABLE",
+      "constraint_level": "HARD CONSTRAINT (BLOCK)"
+    },
+    {
+      "parameter_id": "param_clinical_red_scope",
+      "name": "Clinical & Danger Red Color Scope",
+      "definition": "Red color usage restricted strictly to critical alert / CODE STAT",
+      "data_type": "string",
+      "unit": "semantic_token",
+      "measurement_method": "Contextual red color class verification",
+      "applicable_context": "Healthcare UI & enterprise software",
+      "supported_by": [
+        "Clinical Color Semantics"
+      ],
+      "ruleability": "DIRECTLY_RULEABLE",
+      "constraint_level": "HARD CONSTRAINT (BLOCK)"
+    }
+  ]
+}

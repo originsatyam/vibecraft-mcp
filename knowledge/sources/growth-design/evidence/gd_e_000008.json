@@ -1,0 +1,14 @@
+{
+  "evidence_id": "gd_e_000008",
+  "source_id": "growth_design_psychology",
+  "title": "Fitts's Law",
+  "claim": "Large and close elements are easier to interact with",
+  "claim_type": "psychological_effect",
+  "qualifier": "consider",
+  "context": "Growth.Design Psychology / Information",
+  "platform": "Universal Web & App Context",
+  "source_url": "https://growth.design/psychology",
+  "source_location": "Growth.Design > Information > Fitts's Law",
+  "evidence_level": "Secondary Synthesis / Heuristic",
+  "documentation_status": "DOCUMENTED_WITH_EVIDENCE"
+}

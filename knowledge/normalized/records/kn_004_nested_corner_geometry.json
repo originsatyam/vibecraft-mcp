@@ -1,0 +1,23 @@
+{
+  "knowledge_id": "kn_004_nested_corner_geometry",
+  "canonical_name": "Concentric Nested Corner Radius Law",
+  "type": "Constraint",
+  "domain": "Geometric Design Math",
+  "definition": "When a container with border-radius R_outer has inner padding P, the inner element radius must equal max(0, R_outer - P).",
+  "claims": [
+    {
+      "source": "VibeCraft Engine",
+      "claim": "Nested inner radius R_inner must equal R_outer - Padding to preserve concentric curves."
+    }
+  ],
+  "parameters": [
+    "param_inner_radius"
+  ],
+  "applicability": [
+    "Cards, Modals, Badges, Containers"
+  ],
+  "ruleability": "DIRECTLY_RULEABLE",
+  "constraint_level": "HARD CONSTRAINT (BLOCK)",
+  "thresholds": [],
+  "status": "ACTIVE"
+}

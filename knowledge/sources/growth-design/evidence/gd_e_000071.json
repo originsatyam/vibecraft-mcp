@@ -1,0 +1,14 @@
+{
+  "evidence_id": "gd_e_000071",
+  "source_id": "growth_design_psychology",
+  "title": "Dunning-Kruger Effect",
+  "claim": "People tend to overestimate their skills when they don't know much",
+  "claim_type": "psychological_effect",
+  "qualifier": "consider",
+  "context": "Growth.Design Psychology / Time",
+  "platform": "Universal Web & App Context",
+  "source_url": "https://growth.design/psychology",
+  "source_location": "Growth.Design > Time > Dunning-Kruger Effect",
+  "evidence_level": "Secondary Synthesis / Heuristic",
+  "documentation_status": "DOCUMENTED_WITH_EVIDENCE"
+}

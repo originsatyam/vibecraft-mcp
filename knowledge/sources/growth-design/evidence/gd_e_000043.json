@@ -1,0 +1,14 @@
+{
+  "evidence_id": "gd_e_000043",
+  "source_id": "growth_design_psychology",
+  "title": "Hawthorne Effect",
+  "claim": "Users change their behavior when they know they are being observed",
+  "claim_type": "psychological_effect",
+  "qualifier": "consider",
+  "context": "Growth.Design Psychology / Meaning",
+  "platform": "Universal Web & App Context",
+  "source_url": "https://growth.design/psychology",
+  "source_location": "Growth.Design > Meaning > Hawthorne Effect",
+  "evidence_level": "Secondary Synthesis / Heuristic",
+  "documentation_status": "DOCUMENTED_WITH_EVIDENCE"
+}

@@ -1,0 +1,47 @@
+{
+  "knowledge_id": "kn_001_touch_target_accessibility",
+  "canonical_name": "Minimum Accessible Hit Region",
+  "type": "Requirement",
+  "domain": "Accessibility & Input Ergonomics",
+  "definition": "Interactive components must provide sufficient touch/click hit areas to prevent misclicks.",
+  "claims": [
+    {
+      "source": "Apple HIG",
+      "claim": "Provide a touch target of at least 44x44 pt on iOS/iPadOS and 60x60 pt on visionOS."
+    },
+    {
+      "source": "WCAG 2.1 AA",
+      "claim": "Target size for pointer inputs must be at least 44x44 CSS pixels."
+    }
+  ],
+  "parameters": [
+    "param_target_size"
+  ],
+  "applicability": [
+    "iOS",
+    "iPadOS",
+    "visionOS",
+    "macOS",
+    "Web"
+  ],
+  "ruleability": "DIRECTLY_RULEABLE",
+  "constraint_level": "HARD CONSTRAINT (BLOCK)",
+  "thresholds": [
+    {
+      "platform": "iOS / iPadOS",
+      "value": 44,
+      "unit": "pt"
+    },
+    {
+      "platform": "visionOS",
+      "value": 60,
+      "unit": "pt"
+    },
+    {
+      "platform": "macOS",
+      "value": 28,
+      "unit": "pt"
+    }
+  ],
+  "status": "ACTIVE"
+}

@@ -1,0 +1,22 @@
+{
+  "report_id": "step2_conflict_reconciliation_report",
+  "timestamp": "2026-09-17T11:25:25.594Z",
+  "total_conflicts_analyzed": 2,
+  "conflicts": [
+    {
+      "conflict_id": "conf_001_millers_law_memory",
+      "concept": "Miller's Law (7 ± 2 items in memory)",
+      "claim_growth_design": "Miller's Law states working memory capacity is 7 ± 2.",
+      "reconciliation": "Miller's Law applies to chunking in short-term memory, NOT visual UI list items. Visual UI list items rely on visual recognition rather than recall. Do NOT enforce 7-item limits on data tables or menus.",
+      "resolution_status": "RECONCILED (Scope restricted to short-term recall tasks)"
+    },
+    {
+      "conflict_id": "conf_002_apple_vs_universal_radius",
+      "concept": "Oversized Container Radius",
+      "claim_apple_hig": "Use crisp medium curves (6-8px) for structural dashboard containers on macOS.",
+      "claim_general_ui": "Use large rounded-3xl curves on mobile marketing cards.",
+      "reconciliation": "Structural enterprise dashboards MUST use 6-8px container curves for crisp alignment. Consumer marketing cards MAY use rounded-2xl curves.",
+      "resolution_status": "RECONCILED (Context-dependent ruleability)"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "evidence_id": "gd_e_000030",
+  "source_id": "growth_design_psychology",
+  "title": "Social Proof",
+  "claim": "Users adapt their behaviors based on what others do",
+  "claim_type": "psychological_effect",
+  "qualifier": "consider",
+  "context": "Growth.Design Psychology / Meaning",
+  "platform": "Universal Web & App Context",
+  "source_url": "https://growth.design/psychology",
+  "source_location": "Growth.Design > Meaning > Social Proof",
+  "evidence_level": "Secondary Synthesis / Heuristic",
+  "documentation_status": "DOCUMENTED_WITH_EVIDENCE"
+}

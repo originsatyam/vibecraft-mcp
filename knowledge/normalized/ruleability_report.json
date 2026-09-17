@@ -1,0 +1,25 @@
+{
+  "report_id": "step2_ruleability_report",
+  "timestamp": "2026-09-17T11:25:25.596Z",
+  "breakdown": {
+    "DIRECTLY_RULEABLE": 12,
+    "PARTIALLY_RULEABLE": 8,
+    "CONTEXT_DEPENDENT": 15,
+    "QUALITATIVE_ONLY": 45,
+    "NOT_CURRENTLY_RULEABLE": 26
+  },
+  "ruleable_entities": [
+    "Minimum Touch Target (44pt / 60pt)",
+    "WCAG 2.1 Contrast Ratio (4.5:1)",
+    "Concentric Corner Math (R_inner = R_outer - Padding)",
+    "4pt/8pt Spatial Grid Alignment (valuePx % 4 == 0)",
+    "Z-Index Stacking Context Scale (z-0..z-50)",
+    "Competing Primary CTA Count (max 1 primary)",
+    "Data Visualization Slices (max 3 slices)",
+    "Clinical Red Color Scope (Red strictly for CODE STAT)",
+    "Doherty Loading Skeleton Trigger (< 400ms)",
+    "Focus Ring 2px Offset",
+    "Icon-Only Button Accessibility Label",
+    "Microcopy Marketing Fluff Removal"
+  ]
+}

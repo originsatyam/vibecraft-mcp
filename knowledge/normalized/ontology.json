@@ -1,0 +1,51 @@
+{
+  "ontology_name": "VibeCraft AI Slope Canonical UX/UI Knowledge Ontology",
+  "version": "2.0.0",
+  "entity_types": [
+    {
+      "type": "Principle",
+      "description": "Fundamental UX design truth or cognitive law"
+    },
+    {
+      "type": "Requirement",
+      "description": "Objective, enforceable standard (e.g. WCAG 44pt touch target)"
+    },
+    {
+      "type": "Heuristic",
+      "description": "Rule of thumb requiring contextual interpretation"
+    },
+    {
+      "type": "PsychologicalEffect",
+      "description": "Observed human cognitive bias or mental behavior"
+    },
+    {
+      "type": "Pattern",
+      "description": "Structural interaction scaffold or layout composition"
+    },
+    {
+      "type": "Constraint",
+      "description": "Hard boundary parameter limit (e.g. max 3 pie chart slices)"
+    }
+  ],
+  "qualitative_evidence_levels": [
+    "Primary Standard (e.g. W3C WCAG 2.1 AA)",
+    "Official Platform Guidance (e.g. Apple HIG)",
+    "Established Empirical Finding (e.g. Fitts's Law, Doherty Threshold)",
+    "Secondary Synthesis (e.g. Growth.Design Psychology)",
+    "Unverified Claim / Hype"
+  ],
+  "ruleability_taxonomies": [
+    "DIRECTLY_RULEABLE",
+    "PARTIALLY_RULEABLE",
+    "CONTEXT_DEPENDENT",
+    "QUALITATIVE_ONLY",
+    "NOT_CURRENTLY_RULEABLE"
+  ],
+  "constraint_levels": [
+    "HARD CONSTRAINT (BLOCK)",
+    "SOFT CONSTRAINT (WARN)",
+    "HEURISTIC (RECOMMEND)",
+    "PSYCHOLOGICAL EFFECT (INFORM)",
+    "OBSERVATION (INFORM)"
+  ]
+}

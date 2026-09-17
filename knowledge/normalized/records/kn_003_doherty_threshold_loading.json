@@ -1,0 +1,33 @@
+{
+  "knowledge_id": "kn_003_doherty_threshold_loading",
+  "canonical_name": "Doherty Threshold Async Feedback",
+  "type": "Principle",
+  "domain": "System Responsiveness & Perceived Performance",
+  "definition": "Productivity increases when a computer and its users interact at a pace (< 400ms) that ensures neither has to wait.",
+  "claims": [
+    {
+      "source": "Growth.Design",
+      "claim": "Provide immediate visual feedback (< 400ms) during async operations."
+    },
+    {
+      "source": "Apple HIG",
+      "claim": "Use skeleton loaders during async data fetches to prevent layout shifts."
+    }
+  ],
+  "parameters": [
+    "param_doherty_latency"
+  ],
+  "applicability": [
+    "Universal Async Data Fetching"
+  ],
+  "ruleability": "DIRECTLY_RULEABLE",
+  "constraint_level": "HARD CONSTRAINT (BLOCK)",
+  "thresholds": [
+    {
+      "parameter": "Feedback Latency Window",
+      "max_allowed": 400,
+      "unit": "ms"
+    }
+  ],
+  "status": "ACTIVE"
+}

@@ -1,0 +1,14 @@
+{
+  "evidence_id": "gd_e_000095",
+  "source_id": "growth_design_psychology",
+  "title": "Chunking",
+  "claim": "People remember grouped information better",
+  "claim_type": "psychological_effect",
+  "qualifier": "consider",
+  "context": "Growth.Design Psychology / Memory",
+  "platform": "Universal Web & App Context",
+  "source_url": "https://growth.design/psychology",
+  "source_location": "Growth.Design > Memory > Chunking",
+  "evidence_level": "Secondary Synthesis / Heuristic",
+  "documentation_status": "DOCUMENTED_WITH_EVIDENCE"
+}

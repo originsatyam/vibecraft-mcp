@@ -1,0 +1,14 @@
+{
+  "evidence_id": "gd_e_000041",
+  "source_id": "growth_design_psychology",
+  "title": "Occam’s Razor",
+  "claim": "Simple solutions are often better than the more complex ones",
+  "claim_type": "psychological_effect",
+  "qualifier": "consider",
+  "context": "Growth.Design Psychology / Meaning",
+  "platform": "Universal Web & App Context",
+  "source_url": "https://growth.design/psychology",
+  "source_location": "Growth.Design > Meaning > Occam’s Razor",
+  "evidence_level": "Secondary Synthesis / Heuristic",
+  "documentation_status": "DOCUMENTED_WITH_EVIDENCE"
+}

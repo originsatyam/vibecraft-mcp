@@ -1,0 +1,36 @@
+{
+  "knowledge_id": "kn_002_hicks_law_choice_density",
+  "canonical_name": "Hick's Law Choice Reduction & Progressive Disclosure",
+  "type": "Principle",
+  "domain": "Cognitive Load & Decision Time",
+  "definition": "The time to make a decision increases logarithmically with the number and complexity of choices.",
+  "claims": [
+    {
+      "source": "Growth.Design",
+      "claim": "More options lead to harder decisions (Hick's Law)."
+    },
+    {
+      "source": "Apple HIG",
+      "claim": "Establish exactly 1 primary CTA and collapse secondary actions."
+    }
+  ],
+  "parameters": [
+    "param_choice_count"
+  ],
+  "applicability": [
+    "Universal Web & App Layouts"
+  ],
+  "ruleability": "DIRECTLY_RULEABLE",
+  "constraint_level": "SOFT CONSTRAINT (WARN)",
+  "thresholds": [
+    {
+      "context": "Primary CTAs in same container",
+      "max_allowed": 1
+    },
+    {
+      "context": "Unprioritized buttons in view",
+      "max_allowed": 4
+    }
+  ],
+  "status": "ACTIVE"
+}

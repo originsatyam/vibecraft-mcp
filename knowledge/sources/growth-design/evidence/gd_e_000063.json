@@ -1,0 +1,14 @@
+{
+  "evidence_id": "gd_e_000063",
+  "source_id": "growth_design_psychology",
+  "title": "Default Bias",
+  "claim": "Users tend not to change an established behavior",
+  "claim_type": "psychological_effect",
+  "qualifier": "consider",
+  "context": "Growth.Design Psychology / Time",
+  "platform": "Universal Web & App Context",
+  "source_url": "https://growth.design/psychology",
+  "source_location": "Growth.Design > Time > Default Bias",
+  "evidence_level": "Secondary Synthesis / Heuristic",
+  "documentation_status": "DOCUMENTED_WITH_EVIDENCE"
+}

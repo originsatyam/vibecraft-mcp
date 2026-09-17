@@ -1,0 +1,14 @@
+{
+  "evidence_id": "gd_e_000091",
+  "source_id": "growth_design_psychology",
+  "title": "Peak-End Rule",
+  "claim": "People judge an experience by its peak and how it ends.",
+  "claim_type": "psychological_effect",
+  "qualifier": "consider",
+  "context": "Growth.Design Psychology / Memory",
+  "platform": "Universal Web & App Context",
+  "source_url": "https://growth.design/psychology",
+  "source_location": "Growth.Design > Memory > Peak-End Rule",
+  "evidence_level": "Secondary Synthesis / Heuristic",
+  "documentation_status": "DOCUMENTED_WITH_EVIDENCE"
+}
