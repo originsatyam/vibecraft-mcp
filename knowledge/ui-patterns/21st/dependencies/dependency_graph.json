@@ -1,0 +1,8 @@
+{
+  "ecosystem": "21st.dev & shadcn/ui Component Ecosystem",
+  "core_framework": "React 19 / Next.js 15 / Vite",
+  "styling": "Tailwind CSS v4 / Vanilla CSS",
+  "motion": "Framer Motion / Motion React",
+  "icons": "Lucide React",
+  "primitives": "Radix UI (Dialog, Dropdown, Tooltip, ScrollArea)"
+}

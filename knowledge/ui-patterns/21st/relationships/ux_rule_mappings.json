@@ -1,0 +1,25 @@
+{
+  "mapping_name": "21st.dev UI Implementation Mapping to Step 3 Deterministic Rules",
+  "mappings": [
+    {
+      "component_slug": "floating-dock",
+      "implemented_hit_target": "min-w-[44px] min-h-[44px]",
+      "validated_by_rule": "RULE_001_MINIMUM_TOUCH_TARGET",
+      "status": "PASSED (Satisfies 44pt touch target minimum)"
+    },
+    {
+      "component_slug": "glowing-card",
+      "implemented_outer_radius": "24px",
+      "implemented_padding": "24px",
+      "calculated_inner_radius": "0px (rounded-none)",
+      "validated_by_rule": "RULE_002_CONCENTRIC_CORNER_RADIUS",
+      "status": "PASSED (R_inner = max(0, 24 - 24) = 0px)"
+    },
+    {
+      "component_slug": "hero-cta-group",
+      "implemented_primary_button": 1,
+      "validated_by_rule": "RULE_004_SINGLE_PRIMARY_CTA",
+      "status": "PASSED (Exactly 1 primary CTA button)"
+    }
+  ]
+}

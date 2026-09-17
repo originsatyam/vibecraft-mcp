@@ -195,7 +195,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
-  console.error("vibecraft-mcp server v1.8.0 running on stdio");
+  console.error("vibecraft-mcp server v1.9.0 running on stdio");
 }
 
 main().catch((error) => {

@@ -1,0 +1,67 @@
+{
+  "component_id": "comp_21st_glowing_card",
+  "slug": "glowing-card",
+  "name": "Interactive Glowing Glassmorphism Card",
+  "purpose": "Feature showcase or pricing card with radial cursor glow",
+  "category": "cards",
+  "framework": "React 19 / Tailwind CSS v4",
+  "anatomy": {
+    "root": "div.relative.glass-card.p-6.rounded-2xl",
+    "header": "div.flex.items-center.gap-3.mb-4",
+    "body": "p.text-sm.text-gray-400.leading-relaxed",
+    "footer": "div.mt-6.pt-4.border-t.border-white/10"
+  },
+  "props": [
+    {
+      "name": "title",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "icon",
+      "type": "ReactNode",
+      "required": false
+    },
+    {
+      "name": "glowColor",
+      "type": "string",
+      "default": "rgba(139, 92, 246, 0.15)"
+    }
+  ],
+  "variants": {
+    "border": [
+      "subtle (border-white/10)",
+      "highlighted (border-brand-primary/40)"
+    ],
+    "glow": [
+      "violet",
+      "cyan",
+      "fuchsia"
+    ]
+  },
+  "states": [
+    "default",
+    "hover (glow effect + translateY(-2px))",
+    "focus-visible"
+  ],
+  "dependencies": [
+    "framer-motion",
+    "lucide-react",
+    "clsx",
+    "tailwind-merge"
+  ],
+  "shadcn_primitives": [
+    "card"
+  ],
+  "observed_tokens": {
+    "radius": "rounded-2xl (24px)",
+    "padding": "p-6 (24px)",
+    "background": "rgba(18, 18, 26, 0.65)",
+    "blur": "backdrop-blur(20px)"
+  }
+}

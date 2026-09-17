@@ -1,0 +1,14 @@
+{
+  "pattern_id": "pat_21st_saas_hero",
+  "name": "SaaS Hero Section with Interactive Terminal & Badge",
+  "purpose": "High-impact landing page introduction with interactive CLI launcher",
+  "required_components": [
+    "HeaderBadge",
+    "TitleHeading",
+    "SubtitleProse",
+    "InteractiveTerminal",
+    "FeaturePills"
+  ],
+  "composition_rules": "Title MUST be centered or left-aligned with optical line height; CTA buttons MUST provide 1 primary action.",
+  "responsive_behavior": "Stacks vertically on mobile (< 768px); 2-column hero on desktop (>= 1024px)."
+}

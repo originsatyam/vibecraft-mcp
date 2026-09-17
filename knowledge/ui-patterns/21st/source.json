@@ -1,0 +1,8 @@
+{
+  "source_id": "21st_dev_ui_pattern_corpus",
+  "name": "21st.dev Component & Composition Registry",
+  "repository": "https://github.com/serafimcloud/21st",
+  "website": "https://21st.dev/",
+  "nature_of_source": "Implementation & Pattern Evidence (shadcn/ui, React, Tailwind, Framer Motion)",
+  "extracted_at": "2026-09-17T11:35:43.152Z"
+}

@@ -1,0 +1,41 @@
+{
+  "token_family": "21st.dev Observed Design Token Families",
+  "spacing_scale_px": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    32,
+    40,
+    48,
+    64
+  ],
+  "border_radii": {
+    "none": "0px",
+    "sm": "4px (R_inner)",
+    "md": "8px (Container inner)",
+    "lg": "12px (Buttons/Inputs)",
+    "xl": "16px (Cards)",
+    "2xl": "24px (Glass Cards)",
+    "full": "9999px (Pills/Docks)"
+  },
+  "motion_curves": {
+    "spring_gentle": {
+      "stiffness": 300,
+      "damping": 24
+    },
+    "spring_snappy": {
+      "stiffness": 500,
+      "damping": 35
+    },
+    "ease_out_expo": [
+      0.16,
+      1,
+      0.3,
+      1
+    ]
+  }
+}

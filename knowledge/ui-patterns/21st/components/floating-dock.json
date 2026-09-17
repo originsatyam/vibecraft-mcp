@@ -1,0 +1,54 @@
+{
+  "component_id": "comp_21st_floating_dock",
+  "slug": "floating-dock",
+  "name": "Apple Dock Magnetic Navigation",
+  "purpose": "Bottom fixed or floating main application navigation dock",
+  "category": "navigation",
+  "framework": "React 19 / Framer Motion",
+  "anatomy": {
+    "root": "div.fixed.bottom-6.left-1/2.-translate-x-1/2.flex.items-center.gap-3.px-4.py-2.glass-card.rounded-full",
+    "item": "button.relative.p-2.5.rounded-full.flex.items-center.justify-center.min-w-[44px].min-h-[44px]",
+    "tooltip": "div.absolute.-top-8.px-2.py-1.rounded.text-[10px].font-mono"
+  },
+  "props": [
+    {
+      "name": "items",
+      "type": "Array<{ title: string, icon: ReactNode, href: string }>",
+      "required": true
+    },
+    {
+      "name": "desktopOnly",
+      "type": "boolean",
+      "default": false
+    }
+  ],
+  "variants": {
+    "magnification": [
+      "subtle (scale 1.2)",
+      "strong (scale 1.5)"
+    ],
+    "position": [
+      "bottom-center",
+      "sidebar-left"
+    ]
+  },
+  "states": [
+    "default",
+    "hover (magnetic spring scale)",
+    "active",
+    "focus-visible (ring-2 ring-offset-2)"
+  ],
+  "dependencies": [
+    "framer-motion",
+    "lucide-react"
+  ],
+  "shadcn_primitives": [
+    "tooltip"
+  ],
+  "observed_tokens": {
+    "radius": "rounded-full (9999px)",
+    "touch_target": "min-w-[44px] min-h-[44px]",
+    "spring_stiffness": 300,
+    "spring_damping": 24
+  }
+}

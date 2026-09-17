@@ -1,0 +1,13 @@
+{
+  "pattern_id": "pat_21st_before_after_slider",
+  "name": "Interactive Before vs After Comparison Slider",
+  "purpose": "Visual proof comparison between unconstrained output vs governed high-craft output",
+  "required_components": [
+    "Container",
+    "BeforePane",
+    "AfterPane",
+    "DividerDragger"
+  ],
+  "composition_rules": "Clip-path inset percentage controlled by mouse pointer capture.",
+  "responsive_behavior": "Full width container with touch drag support."
+}
