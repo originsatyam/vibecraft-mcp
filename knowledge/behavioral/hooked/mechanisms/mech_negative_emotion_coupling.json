@@ -7,7 +7,6 @@
   "mediator": "Conditioned cognitive association built through past successful reward cycles",
   "effect": "Automated impulse to open app (e.g. boredom -> YouTube/TikTok, loneliness -> Instagram, uncertainty -> Google)",
   "evidence_refs": [
-    "ref_dichter_word_of_mouth",
-    "ref_kahneman_loss_aversion"
+    "ev_fogg_behavior_model_lab"
   ]
 }

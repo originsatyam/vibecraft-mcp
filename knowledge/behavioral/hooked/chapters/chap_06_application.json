@@ -5,17 +5,13 @@
   "page_range": "p. 362-396",
   "core_thesis": "Habit-forming technologies are persuasive tools that alter behavior. Product creators must apply ethical self-audit via the Manipulation Matrix (Facilitator, Peddler, Entertainer, Dealer) to ensure long-term user wellbeing.",
   "key_concepts": [
-    "manipulation_matrix",
-    "facilitator",
-    "peddler",
-    "entertainer",
-    "dealer",
-    "persuasive_technology_ethics"
+    "concept_manipulation_matrix",
+    "concept_persuasive_ethics"
   ],
   "models": [
-    "model_manipulation_matrix_2x2"
+    "model_manipulation_matrix"
   ],
   "exercises": [
-    "ex_06_audit_manipulation_matrix"
+    "ex_hooked_06_manipulation_audit"
   ]
 }

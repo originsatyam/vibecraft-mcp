@@ -1,0 +1,10 @@
+{
+  "example_id": "ex_instagram_hook_loop",
+  "source_chapter": "chap_01_habit_zone",
+  "epistemic_classification": "CASE_STUDY",
+  "company": "Instagram",
+  "trigger": "Internal: Fear of missing out / boredom. External: Push notification of photo comment.",
+  "action": "Open app with 1 tap.",
+  "variable_reward": "Feed variability (Tribe likes + Hunt new visual content).",
+  "investment": "Post photo, apply filter, tag friends (stored value + loading next trigger)."
+}

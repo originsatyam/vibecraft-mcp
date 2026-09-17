@@ -1,0 +1,7 @@
+{
+  "implication_id": "impl_post_reward_investment_prompt",
+  "source_chapter": "chap_05_investment",
+  "rule_candidate_ref": "CANDIDATE_HOOK_002_POST_REWARD_INVESTMENT_PROMPT",
+  "guideline": "Place stored-value actions (Save, Tag, Bookmark, Customize) immediately AFTER variable reward receipt, never before.",
+  "rationale": "Capitalizes on peak user dopamine satisfaction state to solicit low-friction work."
+}

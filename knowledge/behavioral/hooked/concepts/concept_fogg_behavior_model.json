@@ -1,0 +1,8 @@
+{
+  "concept_id": "concept_fogg_behavior_model",
+  "name": "Fogg Behavior Model (B = MAT)",
+  "category": "behavioral_science",
+  "source_chapter": "chap_03_action",
+  "epistemic_classification": "RESEARCH_REFERENCE",
+  "definition": "Behavior requires Motivation, Ability, and Trigger to occur simultaneously above the Action Line."
+}

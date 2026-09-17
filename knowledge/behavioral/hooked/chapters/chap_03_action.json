@@ -5,17 +5,14 @@
   "page_range": "p. 138-210",
   "core_thesis": "The action is the simplest behavior done in anticipation of a reward. Driven by Fogg's Behavior Model (B = MAT: Behavior = Motivation * Ability * Trigger), reducing friction increases action probability far more effectively than trying to boost motivation.",
   "key_concepts": [
-    "fogg_behavior_model",
-    "motivation_levers",
-    "ability_6_elements_of_simplicity",
-    "heuristics_and_cognitive_biases"
+    "concept_fogg_behavior_model",
+    "concept_simplicity_6_factors"
   ],
   "models": [
     "model_fogg_b_mat",
     "model_simplicity_6_factors"
   ],
   "exercises": [
-    "ex_03_audit_action_friction",
-    "ex_03_reduce_steps_to_reward"
+    "ex_hooked_02_action_friction_audit"
   ]
 }

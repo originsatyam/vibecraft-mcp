@@ -1,0 +1,43 @@
+{
+  "graph_id": "hook_model_mechanism_graph",
+  "nodes": [
+    "Internal Trigger",
+    "External Trigger",
+    "Action",
+    "Variable Reward",
+    "Investment",
+    "Stored Value"
+  ],
+  "edges": [
+    {
+      "from": "Internal Trigger",
+      "to": "External Trigger",
+      "relationship": "strengthens_coupling_with"
+    },
+    {
+      "from": "External Trigger",
+      "to": "Action",
+      "relationship": "prompts_simplest_behavior"
+    },
+    {
+      "from": "Action",
+      "to": "Variable Reward",
+      "relationship": "delivers_unpredictable_payoff"
+    },
+    {
+      "from": "Variable Reward",
+      "to": "Investment",
+      "relationship": "opens_dopamine_window_for_work"
+    },
+    {
+      "from": "Investment",
+      "to": "Stored Value",
+      "relationship": "accumulates_data_reputation_content"
+    },
+    {
+      "from": "Stored Value",
+      "to": "Internal Trigger",
+      "relationship": "reinforces_automatic_habit"
+    }
+  ]
+}

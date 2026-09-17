@@ -1,0 +1,7 @@
+{
+  "limitation_id": "lim_overreliance_on_variable_rewards",
+  "source_chapter": "chap_04_variable_reward",
+  "epistemic_classification": "LIMITATION",
+  "issue": "Gimmicky variable rewards (e.g. artificial points, wheel spins) become predictable or irritating if detached from authentic core utility.",
+  "mitigation": "Ensure variable rewards map directly to real user value (relevant content, social connection, mastery progress)."
+}

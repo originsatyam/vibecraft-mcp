@@ -1,0 +1,7 @@
+{
+  "limitation_id": "lim_ethical_manipulation_risk",
+  "source_chapter": "chap_06_application",
+  "epistemic_classification": "ETHICS",
+  "issue": "Building habit loops for addictive products without user self-benefit creates Dealer products that harm user wellbeing.",
+  "mitigation": "Mandate Manipulation Matrix self-audit (Facilitator quadrant requirement)."
+}

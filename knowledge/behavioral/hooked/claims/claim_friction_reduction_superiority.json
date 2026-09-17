@@ -1,0 +1,9 @@
+{
+  "claim_id": "claim_friction_reduction_superiority",
+  "source_chapter": "chap_03_action",
+  "epistemic_classification": "AUTHOR_CLAIM",
+  "statement": "Reducing the friction of an action increases user behavior frequency far more effectively than trying to boost user motivation.",
+  "supporting_research": "Dr. B.J. Fogg Stanford Persuasive Tech Lab",
+  "evidence_type": "EMPIRICAL_STUDIES_AND_CASE_STUDIES",
+  "limitation": "Applies to high-intent users; zero motivation cannot be overcome by zero friction alone."
+}

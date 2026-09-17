@@ -1,0 +1,7 @@
+{
+  "implication_id": "impl_minimize_steps_to_reward",
+  "source_chapter": "chap_03_action",
+  "rule_candidate_ref": "CANDIDATE_HOOK_001_MINIMUM_STEPS_TO_REWARD",
+  "guideline": "Design UI flows so that the primary variable reward is reached in 3 or fewer taps/clicks from launch.",
+  "rationale": "Aligns with Fogg Ability factor: eliminating cognitive and physical steps exponentially increases action completion rate."
+}

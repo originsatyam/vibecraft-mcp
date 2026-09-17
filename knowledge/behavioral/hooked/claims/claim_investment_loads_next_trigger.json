@@ -1,0 +1,8 @@
+{
+  "claim_id": "claim_investment_loads_next_trigger",
+  "source_chapter": "chap_05_investment",
+  "epistemic_classification": "BEHAVIORAL_MECHANISM",
+  "statement": "User investments (e.g. sending a message, inviting a friend, tagging a photo) automatically load the next external trigger for the user or their network.",
+  "supporting_research": "Escalation of Commitment & IKEA effect research",
+  "evidence_type": "BEHAVIORAL_ECONOMICS"
+}

@@ -1,0 +1,8 @@
+{
+  "concept_id": "concept_stored_value",
+  "name": "Stored Value",
+  "category": "product_strategy",
+  "source_chapter": "chap_05_investment",
+  "epistemic_classification": "BEHAVIORAL_MECHANISM",
+  "definition": "Accumulated data, content, followers, reputation, or skill within an application that increases product utility over time and raises switching costs."
+}

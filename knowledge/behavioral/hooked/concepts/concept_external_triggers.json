@@ -1,0 +1,8 @@
+{
+  "concept_id": "concept_external_triggers",
+  "name": "External Triggers (Paid, Earned, Relationship, Owned)",
+  "category": "interaction_design",
+  "source_chapter": "chap_02_trigger",
+  "epistemic_classification": "AUTHOR_CONCEPT",
+  "definition": "Information embedded in the user's environment (push notifications, emails, app icons, word of mouth) that communicates the next intended action."
+}

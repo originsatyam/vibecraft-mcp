@@ -1,4 +1,4 @@
-# Hooked Behavioral Knowledge Base
+# Hooked Behavioral Knowledge Base (15-Layer Epistemic Corpus)
 
 This directory contains the **Behavioral Knowledge Base** extracted from Nir Eyal's *Hooked: How to Build Habit-Forming Products* following strict epistemic separation guidelines.
 
@@ -11,11 +11,18 @@ Every record is explicitly classified into one of:
 - `EXERCISE`: Operational "Do This Now" product design heuristics.
 - `CANDIDATE`: Unvalidated candidate design rules requiring independent testing.
 
-## Directory Structure
+## All 15 Knowledge Subdirectories Populated
 - `source.json`: Provenance metadata.
-- `chapters/`: Chapter breakdown (01 through 08).
-- `models/`: Key structural models (The Hook Loop, Fogg B=MAT, 6 Simplicity Factors, Manipulation Matrix).
-- `mechanisms/`: Extracted psychological mechanism pathways.
+- `chapters/`: 8 chapter JSON records.
+- `concepts/`: Canonical concept entities.
+- `claims/`: Paraphrased author claims with evidence status.
+- `evidence/`: External cited research & neuroscience studies.
+- `examples/`: Real product case study loops (Instagram, YouVersion).
+- `design-implications/`: Deriveable product guidelines.
+- `limitations/`: Scope bounds & overgeneralization warnings.
+- `ethics/`: Manipulation matrix & moral boundaries.
+- `models/`: Hook Loop, B=MAT, 6 Simplicity Factors, 2x2 Matrix.
+- `mechanisms/`: Cause-and-effect psychological pathways.
 - `exercises/`: Operational design audits and exercises.
-- `ethics/`: Ethical manipulation matrix & boundaries.
-- `candidate-rules/`: Candidate rules generated for future validation.
+- `relationships/`: Hook model mechanism graph.
+- `candidate-rules/`: Unvalidated candidate design rules.

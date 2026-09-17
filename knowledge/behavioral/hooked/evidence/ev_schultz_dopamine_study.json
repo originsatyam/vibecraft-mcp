@@ -1,0 +1,7 @@
+{
+  "evidence_id": "ev_schultz_dopamine_study",
+  "source_chapter": "chap_04_variable_reward",
+  "epistemic_classification": "EMPIRICAL_EVIDENCE",
+  "citation": "Schultz, W. (1997). Neural coding of reward value. Current Opinion in Neurobiology.",
+  "summary": "Monkeys trained to expect juice reward showed peak dopamine neuron firing when the variable signal occurred, proving dopamine drives craving and anticipation."
+}

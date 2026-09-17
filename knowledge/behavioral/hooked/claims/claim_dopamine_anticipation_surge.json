@@ -1,0 +1,8 @@
+{
+  "claim_id": "claim_dopamine_anticipation_surge",
+  "source_chapter": "chap_04_variable_reward",
+  "epistemic_classification": "RESEARCH_REFERENCE",
+  "statement": "Dopamine surges in the brain's nucleus accumbens during the anticipation of an unpredictable reward, not during the actual receipt.",
+  "supporting_research": "Wolfram Schultz dopamine reward prediction error experiments",
+  "evidence_type": "NEUROSCIENCE_RESEARCH"
+}

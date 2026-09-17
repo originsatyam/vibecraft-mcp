@@ -1,0 +1,10 @@
+{
+  "example_id": "ex_youversion_bible_app",
+  "source_chapter": "chap_07_bible_app",
+  "epistemic_classification": "CASE_STUDY",
+  "company": "YouVersion Bible App",
+  "trigger": "Internal: Morning routine / seeking peace. External: Daily verse push notification.",
+  "action": "1-click open verse of the day.",
+  "variable_reward": "Diverse verse translation & community verse plans.",
+  "investment": "Highlighting text, bookmarking, completing streak plans."
+}

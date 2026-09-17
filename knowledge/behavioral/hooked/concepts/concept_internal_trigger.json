@@ -1,0 +1,9 @@
+{
+  "concept_id": "concept_internal_trigger",
+  "name": "Internal Trigger",
+  "category": "psychology",
+  "source_chapter": "chap_02_trigger",
+  "epistemic_classification": "AUTHOR_CONCEPT",
+  "definition": "An emotional or situational state (boredom, anxiety, loneliness, uncertainty) that automatically prompts a specific product habit loop without external prompting.",
+  "key_mechanism": "mech_negative_emotion_coupling"
+}

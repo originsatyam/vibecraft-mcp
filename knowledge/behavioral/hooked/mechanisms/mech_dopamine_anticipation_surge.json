@@ -7,7 +7,6 @@
   "mediator": "Dopamine release in nucleus accumbens during anticipation phase (before reward receipt)",
   "effect": "Heightened desire, focused attention, and compulsive repeating behavior",
   "evidence_refs": [
-    "ref_skinner_operant_conditioning",
-    "ref_schultz_dopamine_reward_prediction_error"
+    "ev_schultz_dopamine_study"
   ]
 }
