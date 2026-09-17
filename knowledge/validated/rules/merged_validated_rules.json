@@ -1,0 +1,52 @@
+[
+  {
+    "rule_id": "RULE_VALIDATED_001_ACTION_FRICTION_MINIMIZATION",
+    "status": "VALIDATED",
+    "title": "Action Friction Minimization & Step Reduction Rule",
+    "mechanism": "Fogg B=MAT Ability Factor + Fitts's Law + Hick's Law",
+    "claim_source": "Hooked Chapter 3 / Laws of UX",
+    "supporting_evidence": [
+      "Fitts's Law target acquisition timing",
+      "Hick's Law choice reduction math",
+      "Doherty Threshold response speed"
+    ],
+    "contradicting_evidence": [
+      "Mandatory friction required for destructive actions (Delete, Purge)"
+    ],
+    "design_implication": "Keep primary UI task completion within <= 3 interactions from launch.",
+    "applicable_when": [
+      "onboarding",
+      "primary_task",
+      "search",
+      "checkout"
+    ],
+    "do_not_apply_when": [
+      "destructive_action",
+      "security_auth_confirm"
+    ]
+  },
+  {
+    "rule_id": "RULE_VALIDATED_002_POST_REWARD_NON_MODAL_INVESTMENT",
+    "status": "VALIDATED_WITH_CONSTRAINTS",
+    "title": "Post-Reward Non-Modal Investment Rule",
+    "mechanism": "Peak-End Rule + Stored Value Escalation of Commitment",
+    "claim_source": "Hooked Chapter 5 / Growth.Design",
+    "supporting_evidence": [
+      "IKEA Effect valuation of user-stored data",
+      "Peak satisfaction post-reward dopamine window"
+    ],
+    "contradicting_evidence": [
+      "Apple HIG prohibition against modal popups interrupting user flow"
+    ],
+    "design_implication": "Offer inline, non-modal investment options (Save, Bookmark, Tag) right after reward delivery.",
+    "applicable_when": [
+      "content_creation",
+      "task_completion",
+      "search_results"
+    ],
+    "do_not_apply_when": [
+      "critical_alerts",
+      "payment_receipts"
+    ]
+  }
+]

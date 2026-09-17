@@ -1,0 +1,75 @@
+[
+  {
+    "candidate_rule_id": "CANDIDATE_HOOK_001_MINIMUM_STEPS_TO_REWARD",
+    "claim_source": "Hooked, Chapter 3: Action (Fogg B=MAT Ability Factor)",
+    "proposed_mechanism": "Minimizing cognitive & physical steps to core reward increases action completion probability.",
+    "cross_sources": [
+      {
+        "source": "Laws of UX (Fitts's Law)",
+        "verdict": "CORROBORATED",
+        "evidence": "Reducing distance and steps minimizes target acquisition time."
+      },
+      {
+        "source": "Laws of UX (Hick's Law)",
+        "verdict": "CORROBORATED",
+        "evidence": "Logarithmic choice reduction directly accelerates decision velocity."
+      },
+      {
+        "source": "Laws of UX (Doherty Threshold)",
+        "verdict": "CORROBORATED",
+        "evidence": "<400ms system response keeps user attention engaged."
+      }
+    ],
+    "final_status": "VALIDATED",
+    "confidence_score": 0.98,
+    "applicable_when": "Consumer onboarding, SaaS feature invocation, checkout flows, search filters.",
+    "do_not_apply_when": "High-consequence destructive actions (e.g. account deletion, patient record purge, financial transfers over $10k), which MANDATE deliberate friction/confirmation steps."
+  },
+  {
+    "candidate_rule_id": "CANDIDATE_HOOK_002_POST_REWARD_INVESTMENT_PROMPT",
+    "claim_source": "Hooked, Chapter 5: Investment (Stored Value & Escalation of Commitment)",
+    "proposed_mechanism": "Soliciting low-friction investment (Save, Tag, Bookmark) immediately post-reward increases future product utility and lock-in.",
+    "cross_sources": [
+      {
+        "source": "Apple HIG (Modality & Interruption Guidelines)",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "evidence": "Prompts must be non-modal, unobtrusive, and inline to prevent user annoyance."
+      },
+      {
+        "source": "Growth.Design (Psychological Friction)",
+        "verdict": "CORROBORATED",
+        "evidence": "Peak-End Rule indicates user satisfaction is highest right after receiving reward."
+      },
+      {
+        "source": "Ethics Framework (The Manipulation Matrix)",
+        "verdict": "QUALIFIED",
+        "evidence": "Investment MUST store authentic user value (data/skills), NOT lock-in via dark patterns."
+      }
+    ],
+    "final_status": "VALIDATED_WITH_CONSTRAINTS",
+    "confidence_score": 0.91,
+    "applicable_when": "Media creation, bookmarking, project configuration, content curation.",
+    "do_not_apply_when": "Transactional confirmation screens where user wants immediate exit without upsell prompts."
+  },
+  {
+    "candidate_rule_id": "CANDIDATE_HOOK_003_EMOTIONAL_CONTEXT_TRIGGER_MATCHING",
+    "claim_source": "Hooked, Chapter 2: Trigger (Internal Trigger Negative Emotion Relief)",
+    "proposed_mechanism": "Push notifications matching user internal emotional context increase re-engagement.",
+    "cross_sources": [
+      {
+        "source": "Apple HIG (Notifications & User Choice)",
+        "verdict": "PARTIALLY_SUPPORTED",
+        "evidence": "Notifications require explicit opt-in, clear utilitarian value, and zero marketing spam."
+      },
+      {
+        "source": "WCAG 2.1 (Accessibility & Cognitive Load)",
+        "verdict": "QUALIFIED",
+        "evidence": "Frequent notification interrupts create cognitive fatigue for users with ADHD/anxiety."
+      }
+    ],
+    "final_status": "PARTIALLY_SUPPORTED",
+    "confidence_score": 0.82,
+    "applicable_when": "Contextual productivity updates, high-priority user messages.",
+    "do_not_apply_when": "Late-night hours or unrequested marketing campaigns."
+  }
+]
