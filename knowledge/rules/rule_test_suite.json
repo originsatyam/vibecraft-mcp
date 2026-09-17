@@ -1,0 +1,159 @@
+{
+  "test_suite_name": "VibeCraft Deterministic Rule Engine Test Suite",
+  "total_rules_tested": 5,
+  "rules": [
+    {
+      "rule_id": "RULE_001_MINIMUM_TOUCH_TARGET",
+      "name": "Minimum Accessible Touch/Click Target Size",
+      "test_count": 5,
+      "test_cases": [
+        {
+          "name": "Positive Pass iOS",
+          "input": {
+            "target_width_pt": 48,
+            "target_height_pt": 48,
+            "platform": "iOS"
+          },
+          "expected": "PASS"
+        },
+        {
+          "name": "Negative Fail iOS",
+          "input": {
+            "target_width_pt": 32,
+            "target_height_pt": 32,
+            "platform": "iOS"
+          },
+          "expected": "ERROR"
+        },
+        {
+          "name": "Boundary Pass iOS",
+          "input": {
+            "target_width_pt": 44,
+            "target_height_pt": 44,
+            "platform": "iOS"
+          },
+          "expected": "PASS"
+        },
+        {
+          "name": "Boundary Fail iOS",
+          "input": {
+            "target_width_pt": 43.9,
+            "target_height_pt": 44,
+            "platform": "iOS"
+          },
+          "expected": "ERROR"
+        },
+        {
+          "name": "Exception Pass macOS",
+          "input": {
+            "target_width_pt": 28,
+            "target_height_pt": 28,
+            "platform": "macOS"
+          },
+          "expected": "PASS"
+        }
+      ]
+    },
+    {
+      "rule_id": "RULE_002_CONCENTRIC_CORNER_RADIUS",
+      "name": "Concentric Nested Corner Radius Formula",
+      "test_count": 3,
+      "test_cases": [
+        {
+          "name": "Positive Pass 16-12=4",
+          "input": {
+            "outer_radius_px": 16,
+            "padding_px": 12,
+            "actual_inner_radius_px": 4
+          },
+          "expected": "PASS"
+        },
+        {
+          "name": "Negative Fail 16-12=16",
+          "input": {
+            "outer_radius_px": 16,
+            "padding_px": 12,
+            "actual_inner_radius_px": 16
+          },
+          "expected": "ERROR"
+        },
+        {
+          "name": "Zero Boundary Pass",
+          "input": {
+            "outer_radius_px": 8,
+            "padding_px": 12,
+            "actual_inner_radius_px": 0
+          },
+          "expected": "PASS"
+        }
+      ]
+    },
+    {
+      "rule_id": "RULE_003_WCAG_CONTRAST_RATIO",
+      "name": "WCAG 2.1 AA Relative Luminance Contrast Ratio",
+      "test_count": 2,
+      "test_cases": [
+        {
+          "name": "Positive Pass 4.51:1",
+          "input": {
+            "foreground_color": "#8B5CF6",
+            "background_color": "#05050A",
+            "font_size_pt": 16
+          },
+          "expected": "PASS"
+        },
+        {
+          "name": "Negative Fail 2.1:1",
+          "input": {
+            "foreground_color": "#4B5563",
+            "background_color": "#111827",
+            "font_size_pt": 14
+          },
+          "expected": "ERROR"
+        }
+      ]
+    },
+    {
+      "rule_id": "RULE_004_SINGLE_PRIMARY_CTA",
+      "name": "Single Primary Action Hierarchy",
+      "test_count": 2,
+      "test_cases": [
+        {
+          "name": "Positive Pass 1 CTA",
+          "input": {
+            "primary_cta_count": 1
+          },
+          "expected": "PASS"
+        },
+        {
+          "name": "Negative Warn 3 CTAs",
+          "input": {
+            "primary_cta_count": 3
+          },
+          "expected": "WARNING"
+        }
+      ]
+    },
+    {
+      "rule_id": "RULE_005_DOHERTY_LOADING_SKELETON",
+      "name": "Doherty Threshold Async Loading Skeleton Trigger",
+      "test_count": 2,
+      "test_cases": [
+        {
+          "name": "Positive Pass Skeleton",
+          "input": {
+            "has_skeleton_loader": true
+          },
+          "expected": "PASS"
+        },
+        {
+          "name": "Negative Fail No Skeleton",
+          "input": {
+            "has_skeleton_loader": false
+          },
+          "expected": "ERROR"
+        }
+      ]
+    }
+  ]
+}

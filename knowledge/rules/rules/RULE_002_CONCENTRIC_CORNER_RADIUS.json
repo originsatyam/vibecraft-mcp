@@ -1,0 +1,89 @@
+{
+  "rule_id": "RULE_002_CONCENTRIC_CORNER_RADIUS",
+  "rule_version": "1.0",
+  "name": "Concentric Nested Corner Radius Formula",
+  "description": "Enforces calculated inner corner radius R_inner = Math.max(0, R_outer - Padding) to prevent optical curve distortion.",
+  "knowledge_refs": [
+    "kn_004_nested_corner_geometry"
+  ],
+  "evidence_refs": [
+    "vibe_math_001"
+  ],
+  "domain": "Geometric Layout Math",
+  "rule_type": "CALCULATION_RULE",
+  "applicability": [
+    "Cards",
+    "Containers",
+    "Modals",
+    "Badges"
+  ],
+  "required_context": {
+    "layout": "nested_container"
+  },
+  "inputs": [
+    {
+      "id": "outer_radius_px",
+      "type": "number",
+      "unit": "px",
+      "required": true
+    },
+    {
+      "id": "padding_px",
+      "type": "number",
+      "unit": "px",
+      "required": true
+    },
+    {
+      "id": "actual_inner_radius_px",
+      "type": "number",
+      "unit": "px",
+      "required": true
+    }
+  ],
+  "formula": "R_inner_expected = Math.max(0, outer_radius_px - padding_px)",
+  "conditions": [
+    {
+      "input": "actual_inner_radius_px",
+      "operator": "!=",
+      "value_expression": "Math.max(0, outer_radius_px - padding_px)",
+      "tolerance_px": 1
+    }
+  ],
+  "expected_state": "actual_inner_radius_px == R_inner_expected",
+  "violation_state": "actual_inner_radius_px != R_inner_expected",
+  "severity": "ERROR",
+  "exceptions": [],
+  "precedence_rank": 3,
+  "message": "Nested inner radius does not equal R_outer - Padding.",
+  "recommendation": "Set inner element radius to R_outer - Padding (e.g. 16px outer - 12px padding = 4px inner radius 'rounded-sm').",
+  "test_cases": [
+    {
+      "name": "Positive Pass 16-12=4",
+      "input": {
+        "outer_radius_px": 16,
+        "padding_px": 12,
+        "actual_inner_radius_px": 4
+      },
+      "expected": "PASS"
+    },
+    {
+      "name": "Negative Fail 16-12=16",
+      "input": {
+        "outer_radius_px": 16,
+        "padding_px": 12,
+        "actual_inner_radius_px": 16
+      },
+      "expected": "ERROR"
+    },
+    {
+      "name": "Zero Boundary Pass",
+      "input": {
+        "outer_radius_px": 8,
+        "padding_px": 12,
+        "actual_inner_radius_px": 0
+      },
+      "expected": "PASS"
+    }
+  ],
+  "status": "ACTIVE"
+}

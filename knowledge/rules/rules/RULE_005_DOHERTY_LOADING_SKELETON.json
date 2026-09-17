@@ -1,0 +1,56 @@
+{
+  "rule_id": "RULE_005_DOHERTY_LOADING_SKELETON",
+  "rule_version": "1.0",
+  "name": "Doherty Threshold Async Loading Skeleton Trigger",
+  "description": "Requires asynchronous data fetching states to trigger a layout skeleton screen loader within 400ms.",
+  "knowledge_refs": [
+    "kn_003_doherty_threshold_loading"
+  ],
+  "evidence_refs": [
+    "gd_e_000008"
+  ],
+  "domain": "System Responsiveness",
+  "rule_type": "PATTERN_RULE",
+  "applicability": [
+    "Async Data Fetching"
+  ],
+  "required_context": {
+    "operation": "async_fetch"
+  },
+  "inputs": [
+    {
+      "id": "has_skeleton_loader",
+      "type": "boolean",
+      "required": true
+    }
+  ],
+  "conditions": [
+    {
+      "input": "has_skeleton_loader",
+      "operator": "==",
+      "value": false
+    }
+  ],
+  "severity": "ERROR",
+  "exceptions": [],
+  "precedence_rank": 2,
+  "message": "Async data fetch detected without a skeleton screen loader.",
+  "recommendation": "Render a skeleton screen component during loading states to prevent visual layout shifts.",
+  "test_cases": [
+    {
+      "name": "Positive Pass Skeleton",
+      "input": {
+        "has_skeleton_loader": true
+      },
+      "expected": "PASS"
+    },
+    {
+      "name": "Negative Fail No Skeleton",
+      "input": {
+        "has_skeleton_loader": false
+      },
+      "expected": "ERROR"
+    }
+  ],
+  "status": "ACTIVE"
+}

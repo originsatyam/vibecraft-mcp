@@ -1,0 +1,116 @@
+{
+  "rule_id": "RULE_001_MINIMUM_TOUCH_TARGET",
+  "rule_version": "1.0",
+  "name": "Minimum Accessible Touch/Click Target Size",
+  "description": "Requires interactive controls to measure at least 44x44pt on touch interfaces (iOS/iPadOS) and 60x60pt on spatial interfaces (visionOS).",
+  "knowledge_refs": [
+    "kn_001_touch_target_accessibility"
+  ],
+  "evidence_refs": [
+    "apple_hig_e_000142",
+    "m_apple_000033",
+    "m_apple_000036"
+  ],
+  "domain": "Accessibility & Input Ergonomics",
+  "rule_type": "HARD_CONSTRAINT",
+  "applicability": [
+    "iOS",
+    "iPadOS",
+    "visionOS",
+    "macOS",
+    "Web"
+  ],
+  "required_context": {
+    "input_method": "touch_or_spatial"
+  },
+  "inputs": [
+    {
+      "id": "target_width_pt",
+      "type": "number",
+      "unit": "pt",
+      "required": true
+    },
+    {
+      "id": "target_height_pt",
+      "type": "number",
+      "unit": "pt",
+      "required": true
+    },
+    {
+      "id": "platform",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "preconditions": [
+    "element.is_interactive == true"
+  ],
+  "conditions": [
+    {
+      "input": "target_width_pt",
+      "operator": "<",
+      "threshold": "context_platform == 'visionOS' ? 60 : 44",
+      "unit": "pt"
+    }
+  ],
+  "expected_state": "width >= 44pt AND height >= 44pt (60pt visionOS)",
+  "violation_state": "width < 44pt OR height < 44pt",
+  "severity": "ERROR",
+  "exceptions": [
+    {
+      "condition": "platform == 'macOS' AND input_method == 'mouse_pointer'",
+      "threshold": 28
+    }
+  ],
+  "precedence_rank": 1,
+  "message": "Touch target size is under minimum accessible size.",
+  "recommendation": "Wrap element in padding (min-w-[44px] min-h-[44px] p-2 flex items-center justify-center).",
+  "test_cases": [
+    {
+      "name": "Positive Pass iOS",
+      "input": {
+        "target_width_pt": 48,
+        "target_height_pt": 48,
+        "platform": "iOS"
+      },
+      "expected": "PASS"
+    },
+    {
+      "name": "Negative Fail iOS",
+      "input": {
+        "target_width_pt": 32,
+        "target_height_pt": 32,
+        "platform": "iOS"
+      },
+      "expected": "ERROR"
+    },
+    {
+      "name": "Boundary Pass iOS",
+      "input": {
+        "target_width_pt": 44,
+        "target_height_pt": 44,
+        "platform": "iOS"
+      },
+      "expected": "PASS"
+    },
+    {
+      "name": "Boundary Fail iOS",
+      "input": {
+        "target_width_pt": 43.9,
+        "target_height_pt": 44,
+        "platform": "iOS"
+      },
+      "expected": "ERROR"
+    },
+    {
+      "name": "Exception Pass macOS",
+      "input": {
+        "target_width_pt": 28,
+        "target_height_pt": 28,
+        "platform": "macOS"
+      },
+      "expected": "PASS"
+    }
+  ],
+  "status": "ACTIVE"
+}

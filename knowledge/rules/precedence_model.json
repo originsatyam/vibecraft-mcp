@@ -1,0 +1,13 @@
+{
+  "model_name": "VibeCraft Deterministic Precedence Resolution Model",
+  "conflict_resolution": "When two rules trigger contradictory recommendations, the rule higher in the precedence hierarchy MUST override the lower rule deterministically.",
+  "hierarchy": [
+    "1. Safety / Accessibility Requirement (WCAG 2.1 AA / AAA)",
+    "2. Platform / System Hard Requirement (Apple HIG OS Constraints)",
+    "3. Hard Geometric & Mathematical Constraint (Concentric Radius, Spatial Grid)",
+    "4. Context-Specific Rule (Device/View Context)",
+    "5. Established Guideline & Soft Constraint (Hick's Law)",
+    "6. Heuristic & Recommendation",
+    "7. Preference"
+  ]
+}

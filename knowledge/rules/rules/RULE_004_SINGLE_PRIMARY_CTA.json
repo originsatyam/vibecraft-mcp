@@ -1,0 +1,60 @@
+{
+  "rule_id": "RULE_004_SINGLE_PRIMARY_CTA",
+  "rule_version": "1.0",
+  "name": "Single Primary Action Hierarchy",
+  "description": "Restricts container views to exactly 1 primary CTA button to satisfy Hick's Law and visual clarity.",
+  "knowledge_refs": [
+    "kn_002_hicks_law_choice_density"
+  ],
+  "evidence_refs": [
+    "apple_hig_e_000012",
+    "gd_e_000001"
+  ],
+  "domain": "Source of Truth Hierarchy & Choice Density",
+  "rule_type": "SOFT_RULE",
+  "applicability": [
+    "Forms",
+    "Modals",
+    "Cards",
+    "Header Sections"
+  ],
+  "required_context": {
+    "container": "action_group"
+  },
+  "inputs": [
+    {
+      "id": "primary_cta_count",
+      "type": "number",
+      "required": true
+    }
+  ],
+  "conditions": [
+    {
+      "input": "primary_cta_count",
+      "operator": ">",
+      "threshold": 1
+    }
+  ],
+  "severity": "WARNING",
+  "exceptions": [],
+  "precedence_rank": 5,
+  "message": "Multiple competing primary CTAs detected in the same container.",
+  "recommendation": "Keep 1 primary CTA button ('bg-primary') and downgrade adjacent buttons to secondary ('hover:bg-accent').",
+  "test_cases": [
+    {
+      "name": "Positive Pass 1 CTA",
+      "input": {
+        "primary_cta_count": 1
+      },
+      "expected": "PASS"
+    },
+    {
+      "name": "Negative Warn 3 CTAs",
+      "input": {
+        "primary_cta_count": 3
+      },
+      "expected": "WARNING"
+    }
+  ],
+  "status": "ACTIVE"
+}

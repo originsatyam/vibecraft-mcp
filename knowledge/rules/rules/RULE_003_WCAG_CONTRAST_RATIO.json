@@ -1,0 +1,76 @@
+{
+  "rule_id": "RULE_003_WCAG_CONTRAST_RATIO",
+  "rule_version": "1.0",
+  "name": "WCAG 2.1 AA Relative Luminance Contrast Ratio",
+  "description": "Requires normal text (< 18pt) to satisfy a contrast ratio of at least 4.5:1 against the background canvas.",
+  "knowledge_refs": [
+    "kn_001_touch_target_accessibility"
+  ],
+  "evidence_refs": [
+    "m_apple_000031",
+    "m_apple_000032"
+  ],
+  "domain": "Visual Accessibility & Contrast",
+  "rule_type": "HARD_CONSTRAINT",
+  "applicability": [
+    "Typography",
+    "Icons",
+    "Interactive Controls"
+  ],
+  "required_context": {
+    "visual": "text_or_icon"
+  },
+  "inputs": [
+    {
+      "id": "foreground_color",
+      "type": "string",
+      "required": true
+    },
+    {
+      "id": "background_color",
+      "type": "string",
+      "required": true
+    },
+    {
+      "id": "font_size_pt",
+      "type": "number",
+      "unit": "pt",
+      "required": true
+    }
+  ],
+  "formula": "CR = (L1 + 0.05) / (L2 + 0.05)",
+  "conditions": [
+    {
+      "input": "calculated_contrast_ratio",
+      "operator": "<",
+      "threshold": "font_size_pt >= 18 ? 3.0 : 4.5",
+      "unit": "ratio"
+    }
+  ],
+  "severity": "ERROR",
+  "exceptions": [],
+  "precedence_rank": 1,
+  "message": "Insufficient contrast ratio against background canvas.",
+  "recommendation": "Adjust HSL color variables to achieve at least 4.5:1 relative luminance contrast.",
+  "test_cases": [
+    {
+      "name": "Positive Pass 4.51:1",
+      "input": {
+        "foreground_color": "#8B5CF6",
+        "background_color": "#05050A",
+        "font_size_pt": 16
+      },
+      "expected": "PASS"
+    },
+    {
+      "name": "Negative Fail 2.1:1",
+      "input": {
+        "foreground_color": "#4B5563",
+        "background_color": "#111827",
+        "font_size_pt": 14
+      },
+      "expected": "ERROR"
+    }
+  ],
+  "status": "ACTIVE"
+}

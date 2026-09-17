@@ -1,0 +1,48 @@
+{
+  "taxonomy_name": "VibeCraft AI Slope Deterministic Rule Taxonomy",
+  "version": "3.0.0",
+  "rule_types": [
+    {
+      "type": "HARD_CONSTRAINT",
+      "description": "Objective, measurable requirement backed by authoritative standard (e.g. WCAG 44pt touch target). Triggers BLOCK / ERROR."
+    },
+    {
+      "type": "CONDITIONAL_RULE",
+      "description": "Applies only in specific defined platform/device context (e.g. visionOS 60pt center spacing)."
+    },
+    {
+      "type": "SOFT_RULE",
+      "description": "Documented recommendation triggering WARNING."
+    },
+    {
+      "type": "PATTERN_RULE",
+      "description": "Checks proper UI pattern scaffold implementation (e.g. Doherty skeleton loader)."
+    },
+    {
+      "type": "CONSISTENCY_RULE",
+      "description": "Enforces UI consistency across related elements."
+    },
+    {
+      "type": "CALCULATION_RULE",
+      "description": "Uses explicit mathematical formula (e.g. R_inner = max(0, R_outer - Padding), WCAG contrast ratio)."
+    }
+  ],
+  "severity_classes": [
+    "BLOCK",
+    "ERROR",
+    "WARNING",
+    "REVIEW",
+    "RECOMMENDATION",
+    "INFORMATION",
+    "PASS"
+  ],
+  "precedence_hierarchy": [
+    "1. Safety / Accessibility Requirement (WCAG 2.1 AA / AAA)",
+    "2. Platform / System Hard Requirement (Apple HIG OS Constraints)",
+    "3. Hard Geometric & Mathematical Constraint (Concentric Radius, Spatial Grid)",
+    "4. Context-Specific Rule (Device/View Context)",
+    "5. Established Guideline & Soft Constraint (Hick's Law)",
+    "6. Heuristic & Recommendation",
+    "7. Preference"
+  ]
+}
