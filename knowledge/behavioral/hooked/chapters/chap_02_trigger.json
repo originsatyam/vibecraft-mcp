@@ -1,0 +1,20 @@
+{
+  "chapter_id": "chap_02_trigger",
+  "number": 2,
+  "title": "Trigger",
+  "page_range": "p. 90-137",
+  "core_thesis": "Triggers prompt the behavior. External triggers (Paid, Earned, Relationship, Owned) communicate information; over time, internal triggers (emotional states, negative feelings, routine contexts) replace external triggers to sustain habit loops.",
+  "key_concepts": [
+    "external_trigger_types",
+    "internal_triggers",
+    "negative_emotion_coupling",
+    "5_whys_root_cause"
+  ],
+  "models": [
+    "model_trigger_evolution_external_to_internal"
+  ],
+  "exercises": [
+    "ex_02_map_internal_triggers",
+    "ex_02_5_whys_analysis"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "model_id": "model_fogg_b_mat",
+  "name": "Fogg Behavior Model (B = MAT)",
+  "source_chapter": "chap_03_action",
+  "epistemic_classification": "RESEARCH_REFERENCE",
+  "original_author": "Dr. B.J. Fogg (Stanford Persuasive Tech Lab)",
+  "equation": "Behavior = Motivation * Ability * Trigger",
+  "rule": "Action occurs when Motivation, Ability, and Trigger converge above the Action Line. If any element is missing or below threshold, behavior fails."
+}

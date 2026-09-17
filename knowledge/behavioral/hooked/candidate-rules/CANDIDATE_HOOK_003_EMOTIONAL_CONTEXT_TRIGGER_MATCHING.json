@@ -1,0 +1,9 @@
+{
+  "rule_id": "CANDIDATE_HOOK_003_EMOTIONAL_CONTEXT_TRIGGER_MATCHING",
+  "context": "Push notifications and external re-engagement triggers",
+  "proposed_rule": "External triggers MUST state a specific user context or value payoff rather than generic 'Check this out' copy, matching the user's anticipated internal emotional state.",
+  "underlying_mechanism": "Internal trigger coupling",
+  "source_reference": "chap_02_trigger",
+  "status": "CANDIDATE",
+  "validation_required": "A/B copy test verification required"
+}

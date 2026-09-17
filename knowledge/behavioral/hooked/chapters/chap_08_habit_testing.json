@@ -1,0 +1,19 @@
+{
+  "chapter_id": "chap_08_habit_testing",
+  "number": 8,
+  "title": "Habit Testing and Where to Look for Habit-Forming Opportunities",
+  "page_range": "p. 426-464",
+  "core_thesis": "Habit Testing is a 3-step empirical process (Identify -> Codify -> Modify) for discovering habit loops in user analytics data, uncovering power user behavior, and iterating product hooks.",
+  "key_concepts": [
+    "habit_testing_3_steps",
+    "habit_path_identification",
+    "nascent_behaviors",
+    "power_user_cohort_analysis"
+  ],
+  "models": [
+    "model_habit_testing_identify_codify_modify"
+  ],
+  "exercises": [
+    "ex_08_execute_habit_test"
+  ]
+}

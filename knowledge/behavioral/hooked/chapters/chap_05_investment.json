@@ -1,0 +1,20 @@
+{
+  "chapter_id": "chap_05_investment",
+  "number": 5,
+  "title": "Investment",
+  "page_range": "p. 299-361",
+  "core_thesis": "The investment phase requires the user to commit a small amount of work (data, content, followers, reputation, skill) to store value in the product and load the next trigger, increasing future product utility and lock-in.",
+  "key_concepts": [
+    "stored_value",
+    "loading_the_next_trigger",
+    "escalation_of_commitment",
+    "ikea_effect_valuation"
+  ],
+  "models": [
+    "model_investment_loop_stored_value"
+  ],
+  "exercises": [
+    "ex_05_identify_stored_value_types",
+    "ex_05_design_next_trigger_load"
+  ]
+}

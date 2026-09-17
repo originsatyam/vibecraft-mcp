@@ -1,0 +1,32 @@
+{
+  "model_id": "model_manipulation_matrix",
+  "name": "The Manipulation Matrix 2x2",
+  "source_chapter": "chap_06_application",
+  "epistemic_classification": "AUTHOR_MODEL",
+  "axes": {
+    "x_axis": "Does the maker use the product themselves?",
+    "y_axis": "Does the product materially improve the user's life?"
+  },
+  "quadrants": {
+    "facilitator": {
+      "use": true,
+      "improve": true,
+      "status": "ETHICAL_GOLD_STANDARD"
+    },
+    "peddler": {
+      "use": false,
+      "improve": true,
+      "status": "REQUIRES_EMPATHY_VALIDATION"
+    },
+    "entertainer": {
+      "use": true,
+      "improve": false,
+      "status": "EPHEMERAL_ATTENTION"
+    },
+    "dealer": {
+      "use": false,
+      "improve": false,
+      "status": "EXPLOITATIVE_ADDICTION"
+    }
+  }
+}

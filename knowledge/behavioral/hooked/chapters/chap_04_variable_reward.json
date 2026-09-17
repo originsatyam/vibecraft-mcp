@@ -1,0 +1,22 @@
+{
+  "chapter_id": "chap_04_variable_reward",
+  "number": 4,
+  "title": "Variable Reward",
+  "page_range": "p. 211-298",
+  "core_thesis": "Variability in reward stimulates dopamine activity in the brain's nucleus accumbens, creating anticipation and urge. Rewards of the Tribe (social validation), the Hunt (material/information search), and the Self (mastery/completion) sustain engagement.",
+  "key_concepts": [
+    "rewards_of_the_tribe",
+    "rewards_of_the_hunt",
+    "rewards_of_the_self",
+    "dopamine_anticipation_gap",
+    "autonomy_preservation"
+  ],
+  "models": [
+    "model_three_variable_reward_types",
+    "model_dopamine_surge_on_anticipation"
+  ],
+  "exercises": [
+    "ex_04_categorize_rewards",
+    "ex_04_introduce_variability"
+  ]
+}

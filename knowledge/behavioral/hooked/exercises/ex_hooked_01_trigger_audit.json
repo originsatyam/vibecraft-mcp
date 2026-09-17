@@ -1,0 +1,16 @@
+{
+  "exercise_id": "ex_hooked_01_trigger_audit",
+  "chapter": "chap_02_trigger",
+  "name": "Internal & External Trigger Identification Audit",
+  "inputs": [
+    "User persona description",
+    "Primary user pain point / emotion"
+  ],
+  "questions": [
+    "Who is your user and what internal trigger precedes their product use?",
+    "What external trigger brings the user to your product at that precise emotional moment?",
+    "Is the external trigger clean, contextual, and unobtrusive?"
+  ],
+  "expected_output": "Documented mapping of 1 internal emotional state to 1 explicit external trigger",
+  "design_purpose": "Ensure product notifications fire when user emotional vulnerability is highest"
+}

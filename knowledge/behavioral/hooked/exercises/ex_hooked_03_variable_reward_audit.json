@@ -1,0 +1,16 @@
+{
+  "exercise_id": "ex_hooked_03_variable_reward_audit",
+  "chapter": "chap_04_variable_reward",
+  "name": "Tribe, Hunt, Self Reward Categorization Audit",
+  "inputs": [
+    "App reward mechanics",
+    "Content feed / interaction outputs"
+  ],
+  "questions": [
+    "Does the product provide rewards of the Tribe (social recognition), Hunt (information/deals), or Self (mastery/completion)?",
+    "Is there authentic variability, or does the reward become predictable and boring over time?",
+    "Does the reward leave the user wanting more while preserving user agency?"
+  ],
+  "expected_output": "Multi-category variable reward strategy matrix",
+  "design_purpose": "Maintain long-term user novelty and prevent cognitive habituation"
+}

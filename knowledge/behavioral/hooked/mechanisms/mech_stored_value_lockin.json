@@ -1,0 +1,9 @@
+{
+  "mechanism_id": "mech_stored_value_lockin",
+  "name": "Stored Value & Escalation of Commitment",
+  "source_chapter": "chap_05_investment",
+  "epistemic_classification": "BEHAVIORAL_MECHANISM",
+  "cause": "User invests time/data/content into application (creating playlists, gaining followers, building reputation)",
+  "mediator": "IKEA effect (valuing own creation) and sunk cost fallacy",
+  "effect": "Increased switching costs and higher responsiveness to subsequent external/internal triggers"
+}

@@ -1,0 +1,13 @@
+{
+  "mechanism_id": "mech_dopamine_anticipation_surge",
+  "name": "Nucleus Accumbens Variable Dopamine Activation",
+  "source_chapter": "chap_04_variable_reward",
+  "epistemic_classification": "RESEARCH_REFERENCE",
+  "cause": "Uncertainty / unpredictability of reward outcome",
+  "mediator": "Dopamine release in nucleus accumbens during anticipation phase (before reward receipt)",
+  "effect": "Heightened desire, focused attention, and compulsive repeating behavior",
+  "evidence_refs": [
+    "ref_skinner_operant_conditioning",
+    "ref_schultz_dopamine_reward_prediction_error"
+  ]
+}

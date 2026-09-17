@@ -1,0 +1,6 @@
+{
+  "framework": "The Manipulation Matrix",
+  "core_principle": "Persuasive technology is non-neutral. Product builders have an ethical duty to create Facilitator tools (products they use themselves that materially improve lives) and avoid Dealer tools.",
+  "dark_patterns_warning": "Using habit loops to induce compulsive addiction without user benefit creates resentment, regulatory backlash, and eventual churn.",
+  "epistemic_boundary": "Nir Eyal's framework provides behavioral design heuristics, NOT universal moral absolutes or infallible psychological proof. All claims must be evaluated alongside WCAG accessibility, user consent, and independent cognitive psychology literature."
+}

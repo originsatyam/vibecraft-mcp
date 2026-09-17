@@ -1,0 +1,16 @@
+{
+  "exercise_id": "ex_hooked_02_action_friction_audit",
+  "chapter": "chap_03_action",
+  "name": "Simplicity & Step-Count Reduction Audit",
+  "inputs": [
+    "Current UI flow sequence",
+    "Click / tap count from launch to reward"
+  ],
+  "questions": [
+    "What is the single core action the user must take to get reward?",
+    "Which of the 6 simplicity factors (Time, Money, Effort, Brain Cycles, Social, Routine) is the biggest bottleneck?",
+    "How can we remove 50% of the steps required to reach the variable reward?"
+  ],
+  "expected_output": "Streamlined single-click or minimal-effort UI interaction spec",
+  "design_purpose": "Maximize Action probability by lowering friction to near-zero"
+}

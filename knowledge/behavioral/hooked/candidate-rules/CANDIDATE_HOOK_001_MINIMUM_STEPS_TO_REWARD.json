@@ -1,0 +1,9 @@
+{
+  "rule_id": "CANDIDATE_HOOK_001_MINIMUM_STEPS_TO_REWARD",
+  "context": "User onboarding & primary feature invocation",
+  "proposed_rule": "The number of user interactions (taps/clicks) between launch and core variable reward receipt MUST NOT exceed 3 steps.",
+  "underlying_mechanism": "Fogg Behavior Model Ability Factor (Time & Brain Cycles friction reduction)",
+  "source_reference": "chap_03_action",
+  "status": "CANDIDATE",
+  "validation_required": "Requires empirical drop-off funnel analytics verification per application domain"
+}

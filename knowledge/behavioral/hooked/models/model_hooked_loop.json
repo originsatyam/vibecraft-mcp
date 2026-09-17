@@ -1,0 +1,13 @@
+{
+  "model_id": "model_hooked_loop",
+  "name": "The Hook Model 4-Phase Loop",
+  "source_chapter": "chap_01_habit_zone",
+  "epistemic_classification": "AUTHOR_MODEL",
+  "structure": {
+    "phase_1": "Trigger (External -> Internal)",
+    "phase_2": "Action (Simplest behavior in anticipation of reward)",
+    "phase_3": "Variable Reward (Tribe, Hunt, Self)",
+    "phase_4": "Investment (Store value + load next trigger)"
+  },
+  "causal_pathway": "External Trigger -> Action -> Variable Reward -> Investment -> Stored Value -> Internal Trigger -> Automatic Habit"
+}

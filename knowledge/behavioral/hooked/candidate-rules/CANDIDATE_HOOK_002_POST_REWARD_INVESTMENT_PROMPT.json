@@ -1,0 +1,9 @@
+{
+  "rule_id": "CANDIDATE_HOOK_002_POST_REWARD_INVESTMENT_PROMPT",
+  "context": "Completion of primary action & reward delivery",
+  "proposed_rule": "Immediately after displaying a variable reward, the UI MUST offer an optional, low-friction investment action (e.g. save, tag, follow, share, set reminder) that stores value.",
+  "underlying_mechanism": "Escalation of commitment & stored value investment loop",
+  "source_reference": "chap_05_investment",
+  "status": "CANDIDATE",
+  "validation_required": "Must verify that investment prompt does not cause user exit friction or fatigue"
+}

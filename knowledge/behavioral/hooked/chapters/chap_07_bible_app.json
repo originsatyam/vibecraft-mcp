@@ -1,0 +1,18 @@
+{
+  "chapter_id": "chap_07_bible_app",
+  "number": 7,
+  "title": "Case Study: The Bible App",
+  "page_range": "p. 397-425",
+  "core_thesis": "Deep analysis of YouVersion Bible App demonstrating how ancient religious practice was modernized into daily digital habits through notifications (external triggers), emotional connection (internal triggers), 1-click verse reading (action), diverse verse plans (variable reward), and highlights/bookmarks (investment).",
+  "key_concepts": [
+    "case_study_youversion",
+    "digital_spiritual_habit",
+    "push_notification_ethics"
+  ],
+  "models": [
+    "model_youversion_hook_loop"
+  ],
+  "exercises": [
+    "ex_07_deconstruct_case_study"
+  ]
+}

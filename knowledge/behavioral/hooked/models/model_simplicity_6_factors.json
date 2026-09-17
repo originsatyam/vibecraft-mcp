@@ -1,0 +1,32 @@
+{
+  "model_id": "model_simplicity_6_factors",
+  "name": "6 Factors of Simplicity (Fogg Ability Factors)",
+  "source_chapter": "chap_03_action",
+  "epistemic_classification": "RESEARCH_REFERENCE",
+  "factors": [
+    {
+      "name": "Time",
+      "measure": "Duration required to complete action"
+    },
+    {
+      "name": "Money",
+      "measure": "Financial cost of action"
+    },
+    {
+      "name": "Physical Effort",
+      "measure": "Amount of physical labor needed"
+    },
+    {
+      "name": "Brain Cycles",
+      "measure": "Mental effort and focus required"
+    },
+    {
+      "name": "Social Deviance",
+      "measure": "Degree to which action goes against social norms"
+    },
+    {
+      "name": "Non-Routine",
+      "measure": "Degree to which action disrupts existing routines"
+    }
+  ]
+}

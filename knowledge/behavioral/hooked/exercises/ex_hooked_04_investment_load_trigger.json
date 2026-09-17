@@ -1,0 +1,15 @@
+{
+  "exercise_id": "ex_hooked_04_investment_load_trigger",
+  "chapter": "chap_05_investment",
+  "name": "Stored Value & Next-Trigger Load Design",
+  "inputs": [
+    "User post-reward interaction UI"
+  ],
+  "questions": [
+    "What small bit of work can the user do right after receiving their reward?",
+    "Does this work store value (data, reputation, content, skill) that improves the product next time?",
+    "Does this investment automatically set up ('load') the next external trigger for the user or a friend?"
+  ],
+  "expected_output": "Investment feature spec that loops back to Phase 1 Trigger",
+  "design_purpose": "Convert transient user engagement into permanent product lock-in"
+}

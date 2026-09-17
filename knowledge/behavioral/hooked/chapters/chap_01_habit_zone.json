@@ -1,0 +1,22 @@
+{
+  "chapter_id": "chap_01_habit_zone",
+  "number": 1,
+  "title": "The Habit Zone",
+  "page_range": "p. 37-89",
+  "core_thesis": "Habits are automatic behaviors triggered by situational cues. Products that form habits create competitive moats by increasing customer lifetime value, providing pricing flexibility, accelerating growth, and raising switching barriers.",
+  "key_concepts": [
+    "habit_definition",
+    "habit_zone_matrix",
+    "vitamin_vs_painkiller",
+    "default_behavior",
+    "lizard_brain_automation"
+  ],
+  "models": [
+    "model_hooked_loop_overview",
+    "model_habit_zone_frequency_vs_utility"
+  ],
+  "exercises": [
+    "ex_01_identify_habits",
+    "ex_01_painkiller_eval"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chapter_id": "chap_06_application",
+  "number": 6,
+  "title": "What Are You Going to Do with This? (The Manipulation Matrix)",
+  "page_range": "p. 362-396",
+  "core_thesis": "Habit-forming technologies are persuasive tools that alter behavior. Product creators must apply ethical self-audit via the Manipulation Matrix (Facilitator, Peddler, Entertainer, Dealer) to ensure long-term user wellbeing.",
+  "key_concepts": [
+    "manipulation_matrix",
+    "facilitator",
+    "peddler",
+    "entertainer",
+    "dealer",
+    "persuasive_technology_ethics"
+  ],
+  "models": [
+    "model_manipulation_matrix_2x2"
+  ],
+  "exercises": [
+    "ex_06_audit_manipulation_matrix"
+  ]
+}
