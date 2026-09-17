@@ -1,0 +1,17 @@
+{
+  "source_id": "apple_hig_dock_menus",
+  "slug": "dock-menus",
+  "title": "Dock Menus",
+  "url": "https://developer.apple.com/design/human-interface-guidelines/dock-menus",
+  "category": "Components",
+  "platforms": [
+    "iOS",
+    "iPadOS",
+    "macOS",
+    "watchOS",
+    "visionOS",
+    "tvOS"
+  ],
+  "retrieved_at": "2026-09-17T11:21:05.271Z",
+  "markdown": "\nDock menus | Apple Developer Documentation\nThis page requires JavaScript.\nPlease turn on JavaScript in your browser and refresh the page to view its content.\n"
+}

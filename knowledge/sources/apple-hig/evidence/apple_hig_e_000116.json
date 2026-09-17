@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000116",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Change log](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Change-log)",
+  "claim": "Current page is Accessibility",
+  "claim_type": "accessibility_requirement",
+  "qualifier": "specified",
+  "context": "Visuals & Accessibility / [Change log](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Change-log)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Change log](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Change-log)",
+  "supporting_text": " Current page is Accessibility ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000083",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)",
+  "claim": "Describe your app’s interface and content for VoiceOver.** VoiceOver is a screen reader that lets people experience your app’s interface without needing to see the screen. For more guidance, see [VoiceOver](https://developer.apple.com/design/human-interface-guidelines/voiceover).",
+  "claim_type": "accessibility_requirement",
+  "qualifier": "specified",
+  "context": "Visuals & Accessibility / [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)",
+  "supporting_text": " **Describe your app’s interface and content for VoiceOver.** VoiceOver is a screen reader that lets people experience your app’s interface without needing to see the screen. For more guidance, see [VoiceOver](https://developer.apple.com/design/human-interface-guidelines/voiceover). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

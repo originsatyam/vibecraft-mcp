@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000001",
+  "source_id": "apple_hig_wallet",
+  "title": "Wallet | Apple Developer Documentation - [Designing passes](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Designing-passes)",
+  "claim": "Design a pass that looks great and works well on all devices.** Passes can look different depending on the device. For example, a pass on Apple Watch shows less information and fewer images than on iPhone. Don’t put essential information in elements that might be unavailable on certain devices, and avoid adding padding to images; for example, watchOS crops white space from some images. For guidance, see [watchOS](https://developer.apple.com/design/human-interface-guidelines/wallet#watchOS).",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Designing passes](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Designing-passes)",
+  "platform": "watchOS",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/wallet",
+  "source_location": "Wallet | Apple Developer Documentation > [Designing passes](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Designing-passes)",
+  "supporting_text": " **Design a pass that looks great and works well on all devices.** Passes can look different depending on the device. For example, a pass on Apple Watch shows less information and fewer images than on iPhone. Don’t put essential information in elements that might be unavailable on certain devices, and avoid adding padding to images; for example, watchOS crops white space from some images. For guidance, see [watchOS](https://developer.apple.com/design/human-interface-guidelines/wallet#watchOS). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

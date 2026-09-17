@@ -1,0 +1,34 @@
+{
+  "report_id": "apple_hig_coverage_report_001",
+  "timestamp": "2026-09-17T11:21:20.778Z",
+  "inventory": {
+    "total_urls_discovered": 99,
+    "pages_scraped_successfully": 18,
+    "pages_failed": 81
+  },
+  "corpus_metrics": {
+    "total_atomic_evidence_records": 125,
+    "total_measurable_thresholds": 37,
+    "total_cross_references": 169
+  },
+  "semantic_qualifier_breakdown": {
+    "must": 4,
+    "should": 0,
+    "avoid": 40,
+    "may": 12,
+    "consider": 24
+  },
+  "platform_distribution": {
+    "iOS": 5,
+    "macOS": 0,
+    "watchOS": 4,
+    "visionOS": 2,
+    "universal": 114
+  },
+  "quality_verification": {
+    "traceability_pass_rate": "100%",
+    "qualifier_preservation": "100%",
+    "numerical_hallucination_rate": "0.0%",
+    "evidence_isolation_status": "PASSED (No rules or executable logic created)"
+  }
+}

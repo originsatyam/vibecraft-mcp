@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000003",
+  "source_id": "apple_hig_wallet",
+  "title": "Wallet | Apple Developer Documentation - [Logo](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Logo)",
+  "claim": "Avoid inner drop shadows on logo artwork.** They can reduce legibility when the logo renders on the pass.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Logo](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Logo)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/wallet",
+  "source_location": "Wallet | Apple Developer Documentation > [Logo](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Logo)",
+  "supporting_text": " **Avoid inner drop shadows on logo artwork.** They can reduce legibility when the logo renders on the pass. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000103",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Cognitive)",
+  "claim": "Identify the core functionality of your app and consider removing noncritical workflows and UI elements.",
+  "claim_type": "guideline",
+  "qualifier": "consider",
+  "context": "Visuals & Accessibility / [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Cognitive)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Cognitive)",
+  "supporting_text": " - Identify the core functionality of your app and consider removing noncritical workflows and UI elements. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

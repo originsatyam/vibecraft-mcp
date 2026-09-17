@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000056",
+  "source_id": "apple_hig_edit_menus",
+  "title": "Edit menus | Apple Developer Documentation - [Best practices](https://developer.apple.com/design/human-interface-guidelines/edit-menus\\#Best-practices)",
+  "claim": "In general, avoid implementing other controls that perform the same functions as edit menu items.** People typically expect to choose familiar edit commands in an edit menu, or use standard keyboard shortcuts. Offering redundant controls can crowd your interface, giving you less space for presenting actions that people might not already know about.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Best practices](https://developer.apple.com/design/human-interface-guidelines/edit-menus\\#Best-practices)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/edit-menus",
+  "source_location": "Edit menus | Apple Developer Documentation > [Best practices](https://developer.apple.com/design/human-interface-guidelines/edit-menus\\#Best-practices)",
+  "supporting_text": " **In general, avoid implementing other controls that perform the same functions as edit menu items.** People typically expect to choose familiar edit commands in an edit menu, or use standard keyboard shortcuts. Offering redundant controls can crowd your interface, giving you less space for presenting actions that people might not already know about. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

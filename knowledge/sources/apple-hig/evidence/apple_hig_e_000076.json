@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000076",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - Accessibility",
+  "claim": "When you design for accessibility, you reach a larger audience and create a more inclusive experience. An accessible interface allows people to experience your app or game regardless of their capabilities or how they use their devices. Accessibility makes information and interactions available to everyone. An accessible interface is:",
+  "claim_type": "accessibility_requirement",
+  "qualifier": "specified",
+  "context": "Visuals & Accessibility / Accessibility",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > Accessibility",
+  "supporting_text": " When you design for accessibility, you reach a larger audience and create a more inclusive experience. An accessible interface allows people to experience your app or game regardless of their capabilities or how they use their devices. Accessibility makes information and interactions available to everyone. An accessible interface is: ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

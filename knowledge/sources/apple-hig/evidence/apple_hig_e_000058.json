@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000058",
+  "source_id": "apple_hig_buttons",
+  "title": "Buttons | Apple Developer Documentation - [Style](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Style)",
+  "claim": "Avoid applying a similar color to button labels and content layer backgrounds.** If your app already has bright, colorful content in the content layer, prefer using the default monochromatic appearance of button labels. For more guidance, see [Liquid Glass color](https://developer.apple.com/design/human-interface-guidelines/color#Liquid-Glass-color).",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Style](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Style)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+  "source_location": "Buttons | Apple Developer Documentation > [Style](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Style)",
+  "supporting_text": " **Avoid applying a similar color to button labels and content layer backgrounds.** If your app already has bright, colorful content in the content layer, prefer using the default monochromatic appearance of button labels. For more guidance, see [Liquid Glass color](https://developer.apple.com/design/human-interface-guidelines/color#Liquid-Glass-color). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000123",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - Supported platforms",
+  "claim": "[Platform considerations](https://developer.apple.com/design/human-interface-guidelines/accessibility#Platform-considerations)",
+  "claim_type": "accessibility_requirement",
+  "qualifier": "specified",
+  "context": "Visuals & Accessibility / Supported platforms",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > Supported platforms",
+  "supporting_text": "- [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility#Cognitive) - [Platform considerations](https://developer.apple.com/design/human-interface-guidelines/accessibility#Platform-considerations) - [Resources](https://developer.apple.com/design/human-interface-guidelines/accessibility#Resources)",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

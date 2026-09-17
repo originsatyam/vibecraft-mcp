@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000096",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Cognitive)",
+  "claim": "Minimize use of time-boxed interface elements.** Views and controls that auto-dismiss on a timer can be problematic for people who need longer to process information, and for people who use assistive technologies that require more time to traverse the interface. Prefer dismissing views with an explicit action.",
+  "claim_type": "recommendation",
+  "qualifier": "prefer",
+  "context": "Visuals & Accessibility / [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Cognitive)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Cognitive)",
+  "supporting_text": " **Minimize use of time-boxed interface elements.** Views and controls that auto-dismiss on a timer can be problematic for people who need longer to process information, and for people who use assistive technologies that require more time to traverse the interface. Prefer dismissing views with an explicit action. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

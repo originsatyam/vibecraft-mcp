@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000061",
+  "source_id": "apple_hig_buttons",
+  "title": "Buttons | Apple Developer Documentation - [Role](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Role)",
+  "claim": "Don’t assign the primary role to a button that performs a destructive action, even if that action is the most likely choice.** Because of its visual prominence, people sometimes choose a primary button without reading it first. Help people avoid losing content by assigning the primary role to nondestructive buttons.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Role](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Role)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+  "source_location": "Buttons | Apple Developer Documentation > [Role](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Role)",
+  "supporting_text": " **Don’t assign the primary role to a button that performs a destructive action, even if that action is the most likely choice.** Because of its visual prominence, people sometimes choose a primary button without reading it first. Help people avoid losing content by assigning the primary role to nondestructive buttons. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000066",
+  "source_id": "apple_hig_buttons",
+  "title": "Buttons | Apple Developer Documentation - [Help buttons](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Help-buttons)",
+  "claim": "Avoid displaying text that introduces a help button.** People know what a help button does, so they don’t need additional descriptive text.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Help buttons](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Help-buttons)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+  "source_location": "Buttons | Apple Developer Documentation > [Help buttons](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Help-buttons)",
+  "supporting_text": " **Avoid displaying text that introduces a help button.** People know what a help button does, so they don’t need additional descriptive text. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

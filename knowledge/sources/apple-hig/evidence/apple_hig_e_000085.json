@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000085",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Hearing](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Hearing)",
+  "claim": "Transcripts** provide a complete textual description of a video, covering both audible and visual information. Transcripts are great for longer-form media like podcasts and audiobooks where people may want to review content as a whole or highlight the transcript as media is playing.",
+  "claim_type": "definition",
+  "qualifier": "may",
+  "context": "Visuals & Accessibility / [Hearing](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Hearing)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Hearing](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Hearing)",
+  "supporting_text": " - **Transcripts** provide a complete textual description of a video, covering both audible and visual information. Transcripts are great for longer-form media like podcasts and audiobooks where people may want to review content as a whole or highlight the transcript as media is playing. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

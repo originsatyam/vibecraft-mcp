@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000053",
+  "source_id": "apple_hig_edit_menus",
+  "title": "Edit menus | Apple Developer Documentation - [Best practices](https://developer.apple.com/design/human-interface-guidelines/edit-menus\\#Best-practices)",
+  "claim": "Prefer the system-provided edit menu.** People are familiar with the contents and behavior of the system-provided component, so creating a custom menu that presents the same commands is redundant and likely to be confusing. For a list of standard edit menu commands, see [`UIResponderStandardEditActions`](https://developer.apple.com/documentation/uikit/uiresponderstandardeditactions).",
+  "claim_type": "recommendation",
+  "qualifier": "prefer",
+  "context": "Components / [Best practices](https://developer.apple.com/design/human-interface-guidelines/edit-menus\\#Best-practices)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/edit-menus",
+  "source_location": "Edit menus | Apple Developer Documentation > [Best practices](https://developer.apple.com/design/human-interface-guidelines/edit-menus\\#Best-practices)",
+  "supporting_text": " **Prefer the system-provided edit menu.** People are familiar with the contents and behavior of the system-provided component, so creating a custom menu that presents the same commands is redundant and likely to be confusing. For a list of standard edit menu commands, see [`UIResponderStandardEditActions`](https://developer.apple.com/documentation/uikit/uiresponderstandardeditactions). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

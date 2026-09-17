@@ -1,0 +1,17 @@
+{
+  "source_id": "apple_hig_text_fields",
+  "slug": "text-fields",
+  "title": "Text Fields",
+  "url": "https://developer.apple.com/design/human-interface-guidelines/text-fields",
+  "category": "Components",
+  "platforms": [
+    "iOS",
+    "iPadOS",
+    "macOS",
+    "watchOS",
+    "visionOS",
+    "tvOS"
+  ],
+  "retrieved_at": "2026-09-17T11:20:51.077Z",
+  "markdown": "\nText fields | Apple Developer Documentation\nThis page requires JavaScript.\nPlease turn on JavaScript in your browser and refresh the page to view its content.\n"
+}

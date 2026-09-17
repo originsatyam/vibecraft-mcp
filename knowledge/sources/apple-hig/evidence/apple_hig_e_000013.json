@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000013",
+  "source_id": "apple_hig_scroll_views",
+  "title": "Scroll views | Apple Developer Documentation - [iOS, iPadOS](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#iOS-iPadOS)",
+  "claim": "Consider showing a page control when a scroll view is in page-by-page mode.** [Page controls](https://developer.apple.com/design/human-interface-guidelines/page-controls) show how many pages, screens, or other chunks of content are available and indicates which one is currently visible. For example, Weather uses a page control to indicate movement between people’s saved locations. If you show a page control with a scroll view, don’t show the scrolling indicator on the same axis to avoid confusing people with redundant controls.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [iOS, iPadOS](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#iOS-iPadOS)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/scroll-views",
+  "source_location": "Scroll views | Apple Developer Documentation > [iOS, iPadOS](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#iOS-iPadOS)",
+  "supporting_text": " **Consider showing a page control when a scroll view is in page-by-page mode.** [Page controls](https://developer.apple.com/design/human-interface-guidelines/page-controls) show how many pages, screens, or other chunks of content are available and indicates which one is currently visible. For example, Weather uses a page control to indicate movement between people’s saved locations. If you show a page control with a scroll view, don’t show the scrolling indicator on the same axis to avoid confusing people with redundant controls. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

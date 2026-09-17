@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000017",
+  "source_id": "apple_hig_scroll_views",
+  "title": "Scroll views | Apple Developer Documentation - [watchOS](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#watchOS)",
+  "claim": "Prefer vertically scrolling content.** People are accustomed to using the Digital Crown to navigate to and within apps on Apple Watch. If your app contains a single list or content view, rotating the Digital Crown scrolls vertically when your app’s content is taller than the height of the display.",
+  "claim_type": "recommendation",
+  "qualifier": "prefer",
+  "context": "Components / [watchOS](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#watchOS)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/scroll-views",
+  "source_location": "Scroll views | Apple Developer Documentation > [watchOS](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#watchOS)",
+  "supporting_text": " **Prefer vertically scrolling content.** People are accustomed to using the Digital Crown to navigate to and within apps on Apple Watch. If your app contains a single list or content view, rotating the Digital Crown scrolls vertically when your app’s content is taller than the height of the display. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000075",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - Accessibility",
+  "claim": "Accessible user interfaces empower everyone to have a great experience with your app or game.",
+  "claim_type": "accessibility_requirement",
+  "qualifier": "specified",
+  "context": "Visuals & Accessibility / Accessibility",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > Accessibility",
+  "supporting_text": " Accessible user interfaces empower everyone to have a great experience with your app or game. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

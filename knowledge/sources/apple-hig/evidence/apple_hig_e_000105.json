@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000105",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [visionOS](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#visionOS)",
+  "claim": "visionOS offers a variety of accessibility features people can use to interact with their surroundings in ways that are comfortable and work best for them, including head and hand Pointer Control, and a Zoom feature.",
+  "claim_type": "accessibility_requirement",
+  "qualifier": "specified",
+  "context": "Visuals & Accessibility / [visionOS](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#visionOS)",
+  "platform": "visionOS",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [visionOS](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#visionOS)",
+  "supporting_text": " visionOS offers a variety of accessibility features people can use to interact with their surroundings in ways that are comfortable and work best for them, including head and hand Pointer Control, and a Zoom feature. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

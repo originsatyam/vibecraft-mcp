@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000023",
+  "source_id": "apple_hig_tab_bars",
+  "title": "Tab bars | Apple Developer Documentation - [Best practices](https://developer.apple.com/design/human-interface-guidelines/tab-bars\\#Best-practices)",
+  "claim": "Avoid overflow tabs.** Depending on device size and orientation, the number of visible tabs can be smaller than the total number of tabs. If horizontal space limits the number of visible tabs, the trailing tab becomes a More tab in iOS and iPadOS, revealing the remaining items in a separate list. The More tab makes it harder for people to reach and notice content on tabs that are hidden, so limit scenarios in your app where this can happen.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Best practices](https://developer.apple.com/design/human-interface-guidelines/tab-bars\\#Best-practices)",
+  "platform": "iOS, iPadOS",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/tab-bars",
+  "source_location": "Tab bars | Apple Developer Documentation > [Best practices](https://developer.apple.com/design/human-interface-guidelines/tab-bars\\#Best-practices)",
+  "supporting_text": " **Avoid overflow tabs.** Depending on device size and orientation, the number of visible tabs can be smaller than the total number of tabs. If horizontal space limits the number of visible tabs, the trailing tab becomes a More tab in iOS and iPadOS, revealing the remaining items in a separate list. The More tab makes it harder for people to reach and notice content on tabs that are hidden, so limit scenarios in your app where this can happen. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

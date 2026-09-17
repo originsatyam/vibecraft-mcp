@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000018",
+  "source_id": "apple_hig_scroll_views",
+  "title": "Scroll views | Apple Developer Documentation - [watchOS](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#watchOS)",
+  "claim": "When displaying paged content, consider limiting the content of an individual page to a single screen height.** Embracing this constraint clarifies the purpose of each page, helping you create a more glanceable design. However, if your app has long pages, people can still use the Digital Crown both to navigate between shorter pages and to scroll content in a longer page because the page indicator expands into a scroll indicator when necessary. Use variable-height pages judiciously and place them after fixed-height pages when possible.",
+  "claim_type": "definition",
+  "qualifier": "consider",
+  "context": "Components / [watchOS](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#watchOS)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/scroll-views",
+  "source_location": "Scroll views | Apple Developer Documentation > [watchOS](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#watchOS)",
+  "supporting_text": " **When displaying paged content, consider limiting the content of an individual page to a single screen height.** Embracing this constraint clarifies the purpose of each page, helping you create a more glanceable design. However, if your app has long pages, people can still use the Digital Crown both to navigate between shorter pages and to scroll content in a longer page because the page indicator expands into a scroll indicator when necessary. Use variable-height pages judiciously and place them after fixed-height pages when possible. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

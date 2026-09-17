@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000112",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Videos](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Videos)",
+  "claim": "Refine accessibility for custom controls](https://developer.apple.com/videos/play/wwdc2026/220)",
+  "claim_type": "accessibility_requirement",
+  "qualifier": "specified",
+  "context": "Visuals & Accessibility / [Videos](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Videos)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Videos](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Videos)",
+  "supporting_text": "\\\\ Refine accessibility for custom controls](https://developer.apple.com/videos/play/wwdc2026/220) ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

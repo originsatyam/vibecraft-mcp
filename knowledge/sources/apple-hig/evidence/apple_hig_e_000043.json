@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000043",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [StandBy presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#StandBy-presentation)",
+  "claim": "Consider using the default background color in StandBy.** The default background color seamlessly blends your Live Activity with the device bezel, achieves a softer look that integrates with a person’s surroundings, and allows the system to scale the Live Activity slightly larger because it doesn’t need to account for the margins around the TrueDepth camera.",
+  "claim_type": "guideline",
+  "qualifier": "consider",
+  "context": "Components / [StandBy presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#StandBy-presentation)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [StandBy presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#StandBy-presentation)",
+  "supporting_text": " **Consider using the default background color in StandBy.** The default background color seamlessly blends your Live Activity with the device bezel, achieves a softer look that integrates with a person’s surroundings, and allows the system to scale the Live Activity slightly larger because it doesn’t need to account for the margins around the TrueDepth camera. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

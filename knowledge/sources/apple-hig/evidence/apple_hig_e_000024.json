@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000024",
+  "source_id": "apple_hig_tab_bars",
+  "title": "Tab bars | Apple Developer Documentation - [Best practices](https://developer.apple.com/design/human-interface-guidelines/tab-bars\\#Best-practices)",
+  "claim": "Consider using SF Symbols to provide familiar, scalable tab bar icons.** When you use [SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols), tab bar icons automatically adapt to different contexts. For example, the tab bar can be regular or compact, depending on the device and orientation. Tab bar icons appear above tab labels in compact views, whereas in regular views, the icons and labels appear side by side. Prefer filled symbols or icons for consistency with the platform.",
+  "claim_type": "recommendation",
+  "qualifier": "prefer",
+  "context": "Components / [Best practices](https://developer.apple.com/design/human-interface-guidelines/tab-bars\\#Best-practices)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/tab-bars",
+  "source_location": "Tab bars | Apple Developer Documentation > [Best practices](https://developer.apple.com/design/human-interface-guidelines/tab-bars\\#Best-practices)",
+  "supporting_text": " **Consider using SF Symbols to provide familiar, scalable tab bar icons.** When you use [SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols), tab bar icons automatically adapt to different contexts. For example, the tab bar can be regular or compact, depending on the device and orientation. Tab bar icons appear above tab labels in compact views, whereas in regular views, the icons and labels appear side by side. Prefer filled symbols or icons for consistency with the platform. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

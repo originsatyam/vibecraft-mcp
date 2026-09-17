@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000073",
+  "source_id": "apple_hig_buttons",
+  "title": "Buttons | Apple Developer Documentation - [visionOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#visionOS)",
+  "claim": "Choose the right shape if you need to display text-labeled buttons in a stack or row.** Specifically, prefer the rounded-rectangle shape in a vertical stack of buttons and prefer the capsule shape in a horizontal row of buttons.",
+  "claim_type": "recommendation",
+  "qualifier": "prefer",
+  "context": "Components / [visionOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#visionOS)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+  "source_location": "Buttons | Apple Developer Documentation > [visionOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#visionOS)",
+  "supporting_text": " **Choose the right shape if you need to display text-labeled buttons in a stack or row.** Specifically, prefer the rounded-rectangle shape in a vertical stack of buttons and prefer the capsule shape in a horizontal row of buttons. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

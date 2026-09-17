@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000108",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [visionOS](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#visionOS)",
+  "claim": "Be gentle with camera and video motion, and avoid situations where someone may feel like the world around them is moving without their control.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Visuals & Accessibility / [visionOS](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#visionOS)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [visionOS](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#visionOS)",
+  "supporting_text": " - Be gentle with camera and video motion, and avoid situations where someone may feel like the world around them is moving without their control. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

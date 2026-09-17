@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000060",
+  "source_id": "apple_hig_buttons",
+  "title": "Buttons | Apple Developer Documentation - [Content](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Content)",
+  "claim": "Consider using text when a short label communicates more clearly than an icon.** To use text, write a few words that succinctly describe what the button does. Using [title-style capitalization](https://help.apple.com/applestyleguide/#/apsgb744e4a3?sub=apdca93e113f1d64), consider starting the label with a verb to help convey the button’s action — for example, a button that lets people add items to their shopping cart might use the label “Add to Cart.”",
+  "claim_type": "guideline",
+  "qualifier": "consider",
+  "context": "Components / [Content](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Content)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+  "source_location": "Buttons | Apple Developer Documentation > [Content](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Content)",
+  "supporting_text": " **Consider using text when a short label communicates more clearly than an icon.** To use text, write a few words that succinctly describe what the button does. Using [title-style capitalization](https://help.apple.com/applestyleguide/#/apsgb744e4a3?sub=apdca93e113f1d64), consider starting the label with a verb to help convey the button’s action — for example, a button that lets people add items to their shopping cart might use the label “Add to Cart.” ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

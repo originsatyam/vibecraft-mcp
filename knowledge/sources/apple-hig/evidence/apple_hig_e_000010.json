@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000010",
+  "source_id": "apple_hig_scroll_views",
+  "title": "Scroll views | Apple Developer Documentation - [Best practices](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#Best-practices)",
+  "claim": "Avoid putting a scroll view inside another scroll view with the same orientation.** Nesting scroll views that have the same orientation can create an unpredictable interface that’s difficult to control. It’s alright to place a horizontal scroll view inside a vertical scroll view (or vice versa), however.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Best practices](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#Best-practices)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/scroll-views",
+  "source_location": "Scroll views | Apple Developer Documentation > [Best practices](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#Best-practices)",
+  "supporting_text": " **Avoid putting a scroll view inside another scroll view with the same orientation.** Nesting scroll views that have the same orientation can create an unpredictable interface that’s difficult to control. It’s alright to place a horizontal scroll view inside a vertical scroll view (or vice versa), however. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

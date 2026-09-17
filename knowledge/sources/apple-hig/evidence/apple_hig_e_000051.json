@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000051",
+  "source_id": "apple_hig_pickers",
+  "title": "Pickers | Apple Developer Documentation - [Best practices](https://developer.apple.com/design/human-interface-guidelines/pickers\\#Best-practices)",
+  "claim": "Avoid switching views to show a picker.** A picker works well when displayed in context, below or in proximity to the field people are editing. A picker typically appears at the bottom of a window or in a popover.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Best practices](https://developer.apple.com/design/human-interface-guidelines/pickers\\#Best-practices)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/pickers",
+  "source_location": "Pickers | Apple Developer Documentation > [Best practices](https://developer.apple.com/design/human-interface-guidelines/pickers\\#Best-practices)",
+  "supporting_text": " **Avoid switching views to show a picker.** A picker works well when displayed in context, below or in proximity to the field people are editing. A picker typically appears at the bottom of a window or in a popover. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

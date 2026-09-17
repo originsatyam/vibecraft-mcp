@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000067",
+  "source_id": "apple_hig_buttons",
+  "title": "Buttons | Apple Developer Documentation - [Image buttons](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Image-buttons)",
+  "claim": "Use an image button in a view, not in the window frame.** For example, avoid placing an image button in a toolbar or status bar. If you need to use an image as a button in a toolbar, use a toolbar item. See [Toolbars](https://developer.apple.com/design/human-interface-guidelines/toolbars).",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Image buttons](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Image-buttons)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+  "source_location": "Buttons | Apple Developer Documentation > [Image buttons](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Image-buttons)",
+  "supporting_text": " **Use an image button in a view, not in the window frame.** For example, avoid placing an image button in a toolbar or status bar. If you need to use an image as a button in a toolbar, use a toolbar item. See [Toolbars](https://developer.apple.com/design/human-interface-guidelines/toolbars). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

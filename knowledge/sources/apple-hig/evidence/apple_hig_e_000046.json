@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000046",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [CarPlay](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#CarPlay)",
+  "claim": "Carefully consider including buttons or toggles in your custom layout.** In CarPlay, the system deactivates interactive elements in your Live Activity. If people are likely to start or observe your Live Activity while driving, prefer displaying timely content rather than buttons and toggles.",
+  "claim_type": "recommendation",
+  "qualifier": "prefer",
+  "context": "Components / [CarPlay](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#CarPlay)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [CarPlay](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#CarPlay)",
+  "supporting_text": " **Carefully consider including buttons or toggles in your custom layout.** In CarPlay, the system deactivates interactive elements in your Live Activity. If people are likely to start or observe your Live Activity while driving, prefer displaying timely content rather than buttons and toggles. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

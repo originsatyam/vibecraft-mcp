@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000029",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [Best practices](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Best-practices)",
+  "claim": "Avoid displaying sensitive information.** Live Activities are prominently visible and could be viewed by casual observers; for example, on the Lock Screen or in the Always-On display. For content people might consider sensitive or private, display an innocuous summary and let people tap the Live Activity to view the sensitive information in your app. Alternatively, redact views that may contain sensitive information and let people configure whether to show sensitive data. For developer guidance, see [Creating a widget extension](https://developer.apple.com/documentation/widgetkit/creating-a-widget-extension).",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Best practices](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Best-practices)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [Best practices](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Best-practices)",
+  "supporting_text": " **Avoid displaying sensitive information.** Live Activities are prominently visible and could be viewed by casual observers; for example, on the Lock Screen or in the Always-On display. For content people might consider sensitive or private, display an innocuous summary and let people tap the Live Activity to view the sensitive information in your app. Alternatively, redact views that may contain sensitive information and let people configure whether to show sensitive data. For developer guidance, see [Creating a widget extension](https://developer.apple.com/documentation/widgetkit/creating-a-widget-extension). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000059",
+  "source_id": "apple_hig_buttons",
+  "title": "Buttons | Apple Developer Documentation - [Content](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Content)",
+  "claim": "Try to associate familiar actions with familiar icons.** For example, people can predict that a button containing the `square.and.arrow.up` symbol will help them perform share-related activities. If it makes sense to use an icon in your button, consider using an existing or customized [symbol](https://developer.apple.com/design/human-interface-guidelines/sf-symbols). For a list of symbols that represent common actions, see [Standard icons](https://developer.apple.com/design/human-interface-guidelines/icons#Standard-icons).",
+  "claim_type": "guideline",
+  "qualifier": "consider",
+  "context": "Components / [Content](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Content)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+  "source_location": "Buttons | Apple Developer Documentation > [Content](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Content)",
+  "supporting_text": " **Try to associate familiar actions with familiar icons.** For example, people can predict that a button containing the `square.and.arrow.up` symbol will help them perform share-related activities. If it makes sense to use an icon in your button, consider using an existing or customized [symbol](https://developer.apple.com/design/human-interface-guidelines/sf-symbols). For a list of symbols that represent common actions, see [Standard icons](https://developer.apple.com/design/human-interface-guidelines/icons#Standard-icons). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000088",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Mobility](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Mobility)",
+  "claim": "Support simple gestures for common interactions.** For many people, with or without disabilities, complex gestures can be challenging. For interactions people do frequently in your app or game, use the simplest gesture possible — avoid custom multifinger and multihand gestures — so repetitive actions are both comfortable and easy to remember.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Visuals & Accessibility / [Mobility](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Mobility)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Mobility](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Mobility)",
+  "supporting_text": " **Support simple gestures for common interactions.** For many people, with or without disabilities, complex gestures can be challenging. For interactions people do frequently in your app or game, use the simplest gesture possible — avoid custom multifinger and multihand gestures — so repetitive actions are both comfortable and easy to remember. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000020",
+  "source_id": "apple_hig_status_bars",
+  "title": "Status bars | Apple Developer Documentation - [Best practices](https://developer.apple.com/design/human-interface-guidelines/status-bars\\#Best-practices)",
+  "claim": "Consider temporarily hiding the status bar when displaying full-screen media.** A status bar can be distracting when people are paying attention to media. Temporarily hide these elements to provide a more immersive experience. The Photos app, for example, hides the status bar and other interface elements when people browse full-screen photos.",
+  "claim_type": "definition",
+  "qualifier": "consider",
+  "context": "Components / [Best practices](https://developer.apple.com/design/human-interface-guidelines/status-bars\\#Best-practices)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/status-bars",
+  "source_location": "Status bars | Apple Developer Documentation > [Best practices](https://developer.apple.com/design/human-interface-guidelines/status-bars\\#Best-practices)",
+  "supporting_text": " **Consider temporarily hiding the status bar when displaying full-screen media.** A status bar can be distracting when people are paying attention to media. Temporarily hide these elements to provide a more immersive experience. The Photos app, for example, hides the status bar and other interface elements when people browse full-screen photos. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000021",
+  "source_id": "apple_hig_status_bars",
+  "title": "Status bars | Apple Developer Documentation - [Best practices](https://developer.apple.com/design/human-interface-guidelines/status-bars\\#Best-practices)",
+  "claim": "Avoid permanently hiding the status bar.** Without a status bar, people have to leave your app to check the time or see if they have a Wi-Fi connection. Let people redisplay a hidden status bar with a simple, discoverable gesture. For example, when browsing full-screen photos in the Photos app, a single tap shows the status bar again.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Best practices](https://developer.apple.com/design/human-interface-guidelines/status-bars\\#Best-practices)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/status-bars",
+  "source_location": "Status bars | Apple Developer Documentation > [Best practices](https://developer.apple.com/design/human-interface-guidelines/status-bars\\#Best-practices)",
+  "supporting_text": " **Avoid permanently hiding the status bar.** Without a status bar, people have to leave your app to check the time or see if they have a Wi-Fi connection. Let people redisplay a hidden status bar with a simple, discoverable gesture. For example, when browsing full-screen photos in the Photos app, a single tap shows the status bar again. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

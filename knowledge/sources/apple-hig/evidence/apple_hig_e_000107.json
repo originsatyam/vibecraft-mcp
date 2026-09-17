@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000107",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [visionOS](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#visionOS)",
+  "claim": "Keep interface elements within a person’s field of view. Prefer horizontal layouts to vertical ones that might cause neck strain, and avoid demanding the viewer’s attention in different locations in quick succession.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Visuals & Accessibility / [visionOS](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#visionOS)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [visionOS](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#visionOS)",
+  "supporting_text": " - Keep interface elements within a person’s field of view. Prefer horizontal layouts to vertical ones that might cause neck strain, and avoid demanding the viewer’s attention in different locations in quick succession. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

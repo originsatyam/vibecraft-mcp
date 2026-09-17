@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000070",
+  "source_id": "apple_hig_buttons",
+  "title": "Buttons | Apple Developer Documentation - [visionOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#visionOS)",
+  "claim": "Avoid creating a custom button that uses a white background fill and black text or icons.** The system reserves this visual style to convey the toggled state.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [visionOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#visionOS)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+  "source_location": "Buttons | Apple Developer Documentation > [visionOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#visionOS)",
+  "supporting_text": " **Avoid creating a custom button that uses a white background fill and black text or icons.** The system reserves this visual style to convey the toggled state. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

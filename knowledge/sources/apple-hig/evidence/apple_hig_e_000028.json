@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000028",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [Anatomy](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Anatomy)",
+  "claim": "Live Activities appear across the system in various locations like the _Dynamic Island_ and the Lock Screen. It serves as a unified home for alerts and indicators of ongoing activity. Depending on the device and system location where a Live Activity appears, the system chooses a _presentation_ style or a combination of styles to compose the appearance of your Live Activity. As a result, your Live Activity must support:",
+  "claim_type": "requirement",
+  "qualifier": "must",
+  "context": "Components / [Anatomy](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Anatomy)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [Anatomy](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Anatomy)",
+  "supporting_text": " Live Activities appear across the system in various locations like the _Dynamic Island_ and the Lock Screen. It serves as a unified home for alerts and indicators of ongoing activity. Depending on the device and system location where a Live Activity appears, the system chooses a _presentation_ style or a combination of styles to compose the appearance of your Live Activity. As a result, your Live Activity must support: ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

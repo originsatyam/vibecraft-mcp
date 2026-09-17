@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000081",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)",
+  "claim": "Prefer system-defined colors.** These colors have their own accessible variants that automatically adapt when people adjust their color preferences, such as enabling Increase Contrast or toggling between the light and dark appearances. For guidance, see [Color](https://developer.apple.com/design/human-interface-guidelines/color).",
+  "claim_type": "accessibility_requirement",
+  "qualifier": "prefer",
+  "context": "Visuals & Accessibility / [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)",
+  "supporting_text": " **Prefer system-defined colors.** These colors have their own accessible variants that automatically adapt when people adjust their color preferences, such as enabling Increase Contrast or toggling between the light and dark appearances. For guidance, see [Color](https://developer.apple.com/design/human-interface-guidelines/color). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

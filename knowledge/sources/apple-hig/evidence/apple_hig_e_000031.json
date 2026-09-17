@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000031",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [Choosing colors](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Choosing-colors)",
+  "claim": "Carefully consider using a custom background color and opacity.** You can’t customize background colors for compact, minimal, and expanded presentations. However, you can use a custom background color for the Lock Screen presentation. If you set a custom background color or image for the Lock Screen presentation, ensure sufficient contrast — especially for tint colors on devices that feature an Always-On display with reduced luminance.",
+  "claim_type": "guideline",
+  "qualifier": "consider",
+  "context": "Components / [Choosing colors](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Choosing-colors)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [Choosing colors](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Choosing-colors)",
+  "supporting_text": " **Carefully consider using a custom background color and opacity.** You can’t customize background colors for compact, minimal, and expanded presentations. However, you can use a custom background color for the Lock Screen presentation. If you set a custom background color or image for the Lock Screen presentation, ensure sufficient contrast — especially for tint colors on devices that feature an Always-On display with reduced luminance. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

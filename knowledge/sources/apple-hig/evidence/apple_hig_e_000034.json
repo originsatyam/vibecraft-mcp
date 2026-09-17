@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000034",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [Offering interactivity](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Offering-interactivity)",
+  "claim": "Focus on simple, direct actions.** Buttons or toggles take up space that might otherwise display useful information. Only include interactive elements for essential functionality that’s directly related to your Live Activity and that people activate once or temporarily pause and resume, like music playback, workouts, or apps that access the microphone to record live audio. If you offer interactivity, prefer limiting it to a single element to help people avoid accidentally tapping the wrong control.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Offering interactivity](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Offering-interactivity)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [Offering interactivity](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Offering-interactivity)",
+  "supporting_text": " **Focus on simple, direct actions.** Buttons or toggles take up space that might otherwise display useful information. Only include interactive elements for essential functionality that’s directly related to your Live Activity and that people activate once or temporarily pause and resume, like music playback, workouts, or apps that access the microphone to record live audio. If you offer interactivity, prefer limiting it to a single element to help people avoid accidentally tapping the wrong control. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000002",
+  "source_id": "apple_hig_wallet",
+  "title": "Wallet | Apple Developer Documentation - [Pass images](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Pass-images)",
+  "claim": "Reserve pass images for visual content.** Embedded text isn’t accessible and may not be visible if images don’t display on all devices. For text information, use text fields and semantic tags instead. Use Pass Designer or corresponding APIs to add barcodes rather than embedding them in pass images.",
+  "claim_type": "accessibility_requirement",
+  "qualifier": "may",
+  "context": "Components / [Pass images](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Pass-images)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/wallet",
+  "source_location": "Wallet | Apple Developer Documentation > [Pass images](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Pass-images)",
+  "supporting_text": " **Reserve pass images for visual content.** Embedded text isn’t accessible and may not be visible if images don’t display on all devices. For text information, use text fields and semantic tags instead. Use Pass Designer or corresponding APIs to add barcodes rather than embedding them in pass images. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

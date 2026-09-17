@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000098",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Cognitive)",
+  "claim": "Let people control audio and video playback.** Avoid autoplaying audio and video content without also providing controls to start and stop it. Make sure these controls are discoverable and easy to act upon, and consider global settings that let people opt out of auto-playing all audio and video. For developer guidance, see [Animated images](https://developer.apple.com/documentation/accessibility/animated-images) and [`isVideoAutoplayEnabled`](https://developer.apple.com/documentation/uikit/uiaccessibility/isvideoautoplayenabled).",
+  "claim_type": "accessibility_requirement",
+  "qualifier": "avoid",
+  "context": "Visuals & Accessibility / [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Cognitive)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Cognitive)",
+  "supporting_text": " **Let people control audio and video playback.** Avoid autoplaying audio and video content without also providing controls to start and stop it. Make sure these controls are discoverable and easy to act upon, and consider global settings that let people opt out of auto-playing all audio and video. For developer guidance, see [Animated images](https://developer.apple.com/documentation/accessibility/animated-images) and [`isVideoAutoplayEnabled`](https://developer.apple.com/documentation/uikit/uiaccessibility/isvideoautoplayenabled). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

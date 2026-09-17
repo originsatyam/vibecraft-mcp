@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000045",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [CarPlay](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#CarPlay)",
+  "claim": "Consider creating a custom layout if your Live Activity would benefit from larger text or additional information.** Instead of using the default appearance in CarPlay, declare support for a [`ActivityFamily.small`](https://developer.apple.com/documentation/widgetkit/activityfamily/small) supplemental activity family.",
+  "claim_type": "definition",
+  "qualifier": "consider",
+  "context": "Components / [CarPlay](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#CarPlay)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [CarPlay](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#CarPlay)",
+  "supporting_text": " **Consider creating a custom layout if your Live Activity would benefit from larger text or additional information.** Instead of using the default appearance in CarPlay, declare support for a [`ActivityFamily.small`](https://developer.apple.com/documentation/widgetkit/activityfamily/small) supplemental activity family. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

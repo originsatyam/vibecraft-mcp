@@ -1,0 +1,17 @@
+{
+  "source_id": "apple_hig_color",
+  "slug": "color",
+  "title": "Color",
+  "url": "https://developer.apple.com/design/human-interface-guidelines/color",
+  "category": "Visuals & Accessibility",
+  "platforms": [
+    "iOS",
+    "iPadOS",
+    "macOS",
+    "watchOS",
+    "visionOS",
+    "tvOS"
+  ],
+  "retrieved_at": "2026-09-17T11:21:20.081Z",
+  "markdown": "\nColor | Apple Developer Documentation\nThis page requires JavaScript.\nPlease turn on JavaScript in your browser and refresh the page to view its content.\n"
+}

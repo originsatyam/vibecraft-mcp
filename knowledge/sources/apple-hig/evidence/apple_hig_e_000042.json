@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000042",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [StandBy presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#StandBy-presentation)",
+  "claim": "Update your layout for StandBy.** Make sure assets look great at the larger scale, and consider creating a custom layout that makes use of the extra space. For developer guidance, see [Creating custom views for Live Activities](https://developer.apple.com/documentation/activitykit/creating-custom-views-for-live-activities).",
+  "claim_type": "guideline",
+  "qualifier": "consider",
+  "context": "Components / [StandBy presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#StandBy-presentation)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [StandBy presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#StandBy-presentation)",
+  "supporting_text": " **Update your layout for StandBy.** Make sure assets look great at the larger scale, and consider creating a custom layout that makes use of the extra space. For developer guidance, see [Creating custom views for Live Activities](https://developer.apple.com/documentation/activitykit/creating-custom-views-for-live-activities). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

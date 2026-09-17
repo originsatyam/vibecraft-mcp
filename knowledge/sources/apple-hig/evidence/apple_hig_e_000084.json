@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000084",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Hearing](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Hearing)",
+  "claim": "The people who use your interface may be deaf or hard of hearing. They may also be in noisy or public environments.",
+  "claim_type": "guideline",
+  "qualifier": "may",
+  "context": "Visuals & Accessibility / [Hearing](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Hearing)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Hearing](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Hearing)",
+  "supporting_text": " The people who use your interface may be deaf or hard of hearing. They may also be in noisy or public environments. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

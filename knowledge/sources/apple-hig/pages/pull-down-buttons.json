@@ -1,0 +1,17 @@
+{
+  "source_id": "apple_hig_pull_down_buttons",
+  "slug": "pull-down-buttons",
+  "title": "Pull Down Buttons",
+  "url": "https://developer.apple.com/design/human-interface-guidelines/pull-down-buttons",
+  "category": "Components",
+  "platforms": [
+    "iOS",
+    "iPadOS",
+    "macOS",
+    "watchOS",
+    "visionOS",
+    "tvOS"
+  ],
+  "retrieved_at": "2026-09-17T11:20:46.281Z",
+  "markdown": "\nPull-down buttons | Apple Developer Documentation\nThis page requires JavaScript.\nPlease turn on JavaScript in your browser and refresh the page to view its content.\n"
+}

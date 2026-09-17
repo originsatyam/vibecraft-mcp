@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000071",
+  "source_id": "apple_hig_buttons",
+  "title": "Buttons | Apple Developer Documentation - [visionOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#visionOS)",
+  "claim": "In general, prefer circular or capsule-shape buttons.** People’s eyes tend to be drawn toward the corners in a shape, making it difficult to keep looking at the shape’s center. The more rounded a button’s shape, the easier it is for people to look steadily at it. When you need to display a button by itself, prefer a capsule-shape button.",
+  "claim_type": "recommendation",
+  "qualifier": "prefer",
+  "context": "Components / [visionOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#visionOS)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+  "source_location": "Buttons | Apple Developer Documentation > [visionOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#visionOS)",
+  "supporting_text": " **In general, prefer circular or capsule-shape buttons.** People’s eyes tend to be drawn toward the corners in a shape, making it difficult to keep looking at the shape’s center. The more rounded a button’s shape, the easier it is for people to look steadily at it. When you need to display a button by itself, prefer a capsule-shape button. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

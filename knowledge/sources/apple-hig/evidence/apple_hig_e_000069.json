@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000069",
+  "source_id": "apple_hig_buttons",
+  "title": "Buttons | Apple Developer Documentation - [visionOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#visionOS)",
+  "claim": "Prefer buttons that have a discernible background shape and fill.** It tends to be easier for people to see a button when it’s enclosed in a shape that uses a contrasting background fill. The exception is a button in a toolbar, context menu, alert, or [ornament](https://developer.apple.com/design/human-interface-guidelines/ornaments) where the shape and material of the larger component make the button comfortably visible. The following guidelines can help you ensure that a button looks good in different contexts:",
+  "claim_type": "recommendation",
+  "qualifier": "prefer",
+  "context": "Components / [visionOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#visionOS)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+  "source_location": "Buttons | Apple Developer Documentation > [visionOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#visionOS)",
+  "supporting_text": " **Prefer buttons that have a discernible background shape and fill.** It tends to be easier for people to see a button when it’s enclosed in a shape that uses a contrasting background fill. The exception is a button in a toolbar, context menu, alert, or [ornament](https://developer.apple.com/design/human-interface-guidelines/ornaments) where the shape and material of the larger component make the button comfortably visible. The following guidelines can help you ensure that a button looks good in different contexts: ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

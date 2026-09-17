@@ -1,0 +1,17 @@
+{
+  "source_id": "apple_hig_menus",
+  "slug": "menus",
+  "title": "Menus",
+  "url": "https://developer.apple.com/design/human-interface-guidelines/menus",
+  "category": "Components",
+  "platforms": [
+    "iOS",
+    "iPadOS",
+    "macOS",
+    "watchOS",
+    "visionOS",
+    "tvOS"
+  ],
+  "retrieved_at": "2026-09-17T11:21:00.537Z",
+  "markdown": "\nMenus | Apple Developer Documentation\nThis page requires JavaScript.\nPlease turn on JavaScript in your browser and refresh the page to view its content.\n"
+}

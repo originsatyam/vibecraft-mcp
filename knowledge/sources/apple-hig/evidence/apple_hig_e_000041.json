@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000041",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [Lock Screen presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Lock-Screen-presentation)",
+  "claim": "Use standard margins to align your design with notifications.** The standard layout margin for Live Activities on the Lock Screen is 14 points. While tighter margins may be appropriate for elements like graphics or buttons, avoid crowding the edges and creating a cluttered appearance. For developer guidance, see [`padding(_:_:)`](https://developer.apple.com/documentation/swiftui/view/padding(_:_:)).",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Lock Screen presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Lock-Screen-presentation)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [Lock Screen presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Lock-Screen-presentation)",
+  "supporting_text": " **Use standard margins to align your design with notifications.** The standard layout margin for Live Activities on the Lock Screen is 14 points. While tighter margins may be appropriate for elements like graphics or buttons, avoid crowding the edges and creating a cluttered appearance. For developer guidance, see [`padding(_:_:)`](https://developer.apple.com/documentation/swiftui/view/padding(_:_:)). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

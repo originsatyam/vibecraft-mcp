@@ -1,0 +1,17 @@
+{
+  "source_id": "apple_hig_context_menus",
+  "slug": "context-menus",
+  "title": "Context Menus",
+  "url": "https://developer.apple.com/design/human-interface-guidelines/context-menus",
+  "category": "Components",
+  "platforms": [
+    "iOS",
+    "iPadOS",
+    "macOS",
+    "watchOS",
+    "visionOS",
+    "tvOS"
+  ],
+  "retrieved_at": "2026-09-17T11:21:14.798Z",
+  "markdown": "\nContext menus | Apple Developer Documentation\nThis page requires JavaScript.\nPlease turn on JavaScript in your browser and refresh the page to view its content.\n"
+}

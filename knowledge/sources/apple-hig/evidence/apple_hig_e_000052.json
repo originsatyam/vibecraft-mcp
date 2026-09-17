@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000052",
+  "source_id": "apple_hig_pickers",
+  "title": "Pickers | Apple Developer Documentation - [Best practices](https://developer.apple.com/design/human-interface-guidelines/pickers\\#Best-practices)",
+  "claim": "Consider providing less granularity when specifying minutes in a date picker.** By default, a minute list includes 60 values (0 to 59). You can optionally increase the minute interval as long as it divides evenly into 60. For example, you might want quarter-hour intervals (0, 15, 30, and 45).",
+  "claim_type": "guideline",
+  "qualifier": "consider",
+  "context": "Components / [Best practices](https://developer.apple.com/design/human-interface-guidelines/pickers\\#Best-practices)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/pickers",
+  "source_location": "Pickers | Apple Developer Documentation > [Best practices](https://developer.apple.com/design/human-interface-guidelines/pickers\\#Best-practices)",
+  "supporting_text": " **Consider providing less granularity when specifying minutes in a date picker.** By default, a minute list includes 60 values (0 to 59). You can optionally increase the minute interval as long as it divides evenly into 60. For example, you might want quarter-hour intervals (0, 15, 30, and 45). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

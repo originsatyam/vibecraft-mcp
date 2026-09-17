@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000054",
+  "source_id": "apple_hig_edit_menus",
+  "title": "Edit menus | Apple Developer Documentation - [Best practices](https://developer.apple.com/design/human-interface-guidelines/edit-menus\\#Best-practices)",
+  "claim": "Offer commands that are relevant in the current context, removing or dimming commands that don’t apply.** For example, if nothing is selected, avoid showing options that require a selection, such as Copy or Cut. Similarly, avoid showing a Paste option when there’s nothing to paste.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Best practices](https://developer.apple.com/design/human-interface-guidelines/edit-menus\\#Best-practices)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/edit-menus",
+  "source_location": "Edit menus | Apple Developer Documentation > [Best practices](https://developer.apple.com/design/human-interface-guidelines/edit-menus\\#Best-practices)",
+  "supporting_text": " **Offer commands that are relevant in the current context, removing or dimming commands that don’t apply.** For example, if nothing is selected, avoid showing options that require a selection, such as Copy or Cut. Similarly, avoid showing a Paste option when there’s nothing to paste. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

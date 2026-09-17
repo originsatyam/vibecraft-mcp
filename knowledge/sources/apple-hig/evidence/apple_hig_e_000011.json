@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000011",
+  "source_id": "apple_hig_scroll_views",
+  "title": "Scroll views | Apple Developer Documentation - [Best practices](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#Best-practices)",
+  "claim": "Consider supporting page-by-page scrolling if it makes sense for your content.** In some situations, people appreciate scrolling by a fixed amount of content per interaction instead of scrolling continuously. On most platforms, you can define the size of such a _page_ — typically the current height or width of the view — and define an interaction that scrolls one page at a time. To help maintain context during page-by-page scrolling, you can define a unit of overlap, such as a line of text, a row of glyphs, or part of a picture, and subtract the unit from the page size. For developer guidance, see [`PagingScrollTargetBehavior`](https://developer.apple.com/documentation/swiftui/pagingscrolltargetbehavior).",
+  "claim_type": "guideline",
+  "qualifier": "consider",
+  "context": "Components / [Best practices](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#Best-practices)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/scroll-views",
+  "source_location": "Scroll views | Apple Developer Documentation > [Best practices](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#Best-practices)",
+  "supporting_text": " **Consider supporting page-by-page scrolling if it makes sense for your content.** In some situations, people appreciate scrolling by a fixed amount of content per interaction instead of scrolling continuously. On most platforms, you can define the size of such a _page_ — typically the current height or width of the view — and define an interaction that scrolls one page at a time. To help maintain context during page-by-page scrolling, you can define a unit of overlap, such as a line of text, a row of glyphs, or part of a picture, and subtract the unit from the page size. For developer guidance, see [`PagingScrollTargetBehavior`](https://developer.apple.com/documentation/swiftui/pagingscrolltargetbehavior). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

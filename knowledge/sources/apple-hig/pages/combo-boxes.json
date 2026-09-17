@@ -1,0 +1,17 @@
+{
+  "source_id": "apple_hig_combo_boxes",
+  "slug": "combo-boxes",
+  "title": "Combo boxes | Apple Developer Documentation",
+  "url": "https://developer.apple.com/design/human-interface-guidelines/combo-boxes",
+  "category": "Components",
+  "platforms": [
+    "iOS",
+    "iPadOS",
+    "macOS",
+    "watchOS",
+    "visionOS",
+    "tvOS"
+  ],
+  "retrieved_at": "2026-09-17T11:20:31.556Z",
+  "markdown": "* * *\n\n* * *\n\n[Skip Navigation](https://developer.apple.com/design/human-interface-guidelines/combo-boxes#app-main)\n\n# Combo boxes\n\nA combo box combines a text field with a pull-down button in a single control.\n\n![A stylized representation of a combo box control displaying a list of cities. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-combobox-intro@2x.png)\n\nPeople can enter a custom value into the field or click the button to choose from a list of predefined values. When people enter a custom value, it’s not added to the list of choices.\n\n## [Best practices](https://developer.apple.com/design/human-interface-guidelines/combo-boxes\\#Best-practices)\n\n**Populate the field with a meaningful default value from the list.** Although the field can be empty by default, it’s best when the default value refers to the hidden choices. The default value doesn’t have to be the first item in the list.\n\n**Use an introductory label to let people know what types of items to expect.** Generally, use title-style capitalization for labels and end them with a colon. For related guidance, see [Labels](https://developer.apple.com/design/human-interface-guidelines/labels).\n\n**Provide relevant choices.** People appreciate the ability to enter a custom value, as well as the convenience of choosing from a list of the most likely choices.\n\n**Make sure list items aren’t wider than the text field.** If an item is too wide, the text field might truncate it, which is hard for people to read.\n\nFor guidance, see [Text fields](https://developer.apple.com/design/human-interface-guidelines/text-fields) and [Pull-down buttons](https://developer.apple.com/design/human-interface-guidelines/pull-down-buttons).\n\n## [Platform considerations](https://developer.apple.com/design/human-interface-guidelines/combo-boxes\\#Platform-considerations)\n\n_Not supported in iOS, iPadOS, tvOS, visionOS, or watchOS._\n\n## [Resources](https://developer.apple.com/design/human-interface-guidelines/combo-boxes\\#Resources)\n\n#### [Related](https://developer.apple.com/design/human-interface-guidelines/combo-boxes\\#Related)\n\n[Text fields](https://developer.apple.com/design/human-interface-guidelines/text-fields)\n\n[Pull-down buttons](https://developer.apple.com/design/human-interface-guidelines/pull-down-buttons)\n\n#### [Developer documentation](https://developer.apple.com/design/human-interface-guidelines/combo-boxes\\#Developer-documentation)\n\n[`NSComboBox`](https://developer.apple.com/documentation/appkit/nscombobox) — AppKit\n\nCurrent page is Combo boxes\n\n##### Supported platforms\n\n- [Combo boxes](https://developer.apple.com/design/human-interface-guidelines/combo-boxes#app-top)\n- [Best practices](https://developer.apple.com/design/human-interface-guidelines/combo-boxes#Best-practices)\n- [Platform considerations](https://developer.apple.com/design/human-interface-guidelines/combo-boxes#Platform-considerations)\n- [Resources](https://developer.apple.com/design/human-interface-guidelines/combo-boxes#Resources)"
+}

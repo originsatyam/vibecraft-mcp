@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000082",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)",
+  "claim": "Convey information with more than color alone.** Some people have trouble differentiating between certain colors and shades. For example, people who are color blind may have particular difficulty with pairings such as red-green and blue-orange. Offer visual indicators, like distinct shapes or icons, in addition to color to help people perceive differences in function and changes in state. Consider allowing people to customize color schemes such as chart colors or game characters so they can personalize your interface in a way that’s comfortable for them.",
+  "claim_type": "definition",
+  "qualifier": "may",
+  "context": "Visuals & Accessibility / [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)",
+  "supporting_text": " **Convey information with more than color alone.** Some people have trouble differentiating between certain colors and shades. For example, people who are color blind may have particular difficulty with pairings such as red-green and blue-orange. Offer visual indicators, like distinct shapes or icons, in addition to color to help people perceive differences in function and changes in state. Consider allowing people to customize color schemes such as chart colors or game characters so they can personalize your interface in a way that’s comfortable for them. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000027",
+  "source_id": "apple_hig_tab_bars",
+  "title": "Tab bars | Apple Developer Documentation - [visionOS](https://developer.apple.com/design/human-interface-guidelines/tab-bars\\#visionOS)",
+  "claim": "If it makes sense in your app, consider using a sidebar within a tab.** If your app’s hierarchy is deep, you might want to use a [sidebar](https://developer.apple.com/design/human-interface-guidelines/sidebars) to support secondary navigation within a tab. If you do this, be sure to prevent selections in the sidebar from changing which tab is currently open.",
+  "claim_type": "definition",
+  "qualifier": "consider",
+  "context": "Components / [visionOS](https://developer.apple.com/design/human-interface-guidelines/tab-bars\\#visionOS)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/tab-bars",
+  "source_location": "Tab bars | Apple Developer Documentation > [visionOS](https://developer.apple.com/design/human-interface-guidelines/tab-bars\\#visionOS)",
+  "supporting_text": " **If it makes sense in your app, consider using a sidebar within a tab.** If your app’s hierarchy is deep, you might want to use a [sidebar](https://developer.apple.com/design/human-interface-guidelines/sidebars) to support secondary navigation within a tab. If you do this, be sure to prevent selections in the sidebar from changing which tab is currently open. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000044",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [StandBy presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#StandBy-presentation)",
+  "claim": "Use standard margins and avoid extending graphic elements to the edge of the screen.** Without standard margins, content gets cut off as the Live Activity extends, making it feel broken.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [StandBy presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#StandBy-presentation)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [StandBy presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#StandBy-presentation)",
+  "supporting_text": " **Use standard margins and avoid extending graphic elements to the edge of the screen.** Without standard margins, content gets cut off as the Live Activity extends, making it feel broken. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

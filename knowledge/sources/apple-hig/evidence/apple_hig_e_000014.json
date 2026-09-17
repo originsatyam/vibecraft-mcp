@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000014",
+  "source_id": "apple_hig_scroll_views",
+  "title": "Scroll views | Apple Developer Documentation - [visionOS](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#visionOS)",
+  "claim": "If necessary, account for the size of the scroll indicator.** Although the indicator’s overall size is small, it’s a little thicker than the same component in iOS. If your content uses tight margins, consider increasing them to prevent the scroll indicator from overlapping the content.",
+  "claim_type": "definition",
+  "qualifier": "consider",
+  "context": "Components / [visionOS](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#visionOS)",
+  "platform": "iOS",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/scroll-views",
+  "source_location": "Scroll views | Apple Developer Documentation > [visionOS](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#visionOS)",
+  "supporting_text": " **If necessary, account for the size of the scroll indicator.** Although the indicator’s overall size is small, it’s a little thicker than the same component in iOS. If your content uses tight margins, consider increasing them to prevent the scroll indicator from overlapping the content. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

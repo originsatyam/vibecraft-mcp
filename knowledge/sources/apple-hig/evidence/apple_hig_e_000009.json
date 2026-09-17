@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000009",
+  "source_id": "apple_hig_wallet",
+  "title": "Wallet | Apple Developer Documentation - [Identity verification](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Identity-verification)",
+  "claim": "| Button type | Consider using when… |",
+  "claim_type": "guideline",
+  "qualifier": "consider",
+  "context": "Components / [Identity verification](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Identity-verification)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/wallet",
+  "source_location": "Wallet | Apple Developer Documentation > [Identity verification](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Identity-verification)",
+  "supporting_text": " | Button type | Consider using when… | | --- | --- |",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

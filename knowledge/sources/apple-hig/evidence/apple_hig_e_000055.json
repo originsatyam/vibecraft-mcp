@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000055",
+  "source_id": "apple_hig_edit_menus",
+  "title": "Edit menus | Apple Developer Documentation - [Best practices](https://developer.apple.com/design/human-interface-guidelines/edit-menus\\#Best-practices)",
+  "claim": "List custom commands near relevant system-provided ones.** For example, if you offer custom formatting commands, you can help maintain the ordering people expect by listing them after the system-provided commands in the format section. Avoid overwhelming people with too many custom commands.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Best practices](https://developer.apple.com/design/human-interface-guidelines/edit-menus\\#Best-practices)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/edit-menus",
+  "source_location": "Edit menus | Apple Developer Documentation > [Best practices](https://developer.apple.com/design/human-interface-guidelines/edit-menus\\#Best-practices)",
+  "supporting_text": " **List custom commands near relevant system-provided ones.** For example, if you offer custom formatting commands, you can help maintain the ordering people expect by listing them after the system-provided commands in the format section. Avoid overwhelming people with too many custom commands. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

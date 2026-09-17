@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000097",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Cognitive)",
+  "claim": "Consider offering difficulty accommodations in games.** Everyone has their own way of playing and enjoying games. To support a variety of cognitive abilities, consider adding the ability to customize the difficulty level of your game, such as offering options for people to reduce the criteria for successfully completing a level, adjust reaction time, or enable control assistance.",
+  "claim_type": "guideline",
+  "qualifier": "consider",
+  "context": "Visuals & Accessibility / [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Cognitive)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Cognitive)",
+  "supporting_text": " **Consider offering difficulty accommodations in games.** Everyone has their own way of playing and enjoying games. To support a variety of cognitive abilities, consider adding the ability to customize the difficulty level of your game, such as offering options for people to reduce the criteria for successfully completing a level, adjust reaction time, or enable control assistance. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

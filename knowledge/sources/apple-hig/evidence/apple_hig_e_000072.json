@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000072",
+  "source_id": "apple_hig_buttons",
+  "title": "Buttons | Apple Developer Documentation - [visionOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#visionOS)",
+  "claim": "Provide enough space around a button to make it easy for people to look at it.** Aim to place buttons so their centers are always at least 60 pts apart. If your buttons measure 60 pts or larger, add 4 pts of padding around them to keep the hover effect from overlapping. Also, it’s usually best to avoid displaying small or mini buttons in a vertical stack or horizontal row.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [visionOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#visionOS)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+  "source_location": "Buttons | Apple Developer Documentation > [visionOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#visionOS)",
+  "supporting_text": " **Provide enough space around a button to make it easy for people to look at it.** Aim to place buttons so their centers are always at least 60 pts apart. If your buttons measure 60 pts or larger, add 4 pts of padding around them to keep the hover effect from overlapping. Also, it’s usually best to avoid displaying small or mini buttons in a vertical stack or horizontal row. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

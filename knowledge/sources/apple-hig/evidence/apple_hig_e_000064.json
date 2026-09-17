@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000064",
+  "source_id": "apple_hig_buttons",
+  "title": "Buttons | Apple Developer Documentation - [Square buttons](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Square-buttons)",
+  "claim": "Avoid using labels to introduce square buttons.** Because square buttons are closely connected with a specific view, their purpose is generally clear without the need for descriptive text.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Square buttons](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Square-buttons)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+  "source_location": "Buttons | Apple Developer Documentation > [Square buttons](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Square-buttons)",
+  "supporting_text": " **Avoid using labels to introduce square buttons.** Because square buttons are closely connected with a specific view, their purpose is generally clear without the need for descriptive text. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

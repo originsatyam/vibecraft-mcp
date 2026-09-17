@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000036",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [Starting, updating, and ending a Live Activity](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Starting-updating-and-ending-a-Live-Activity)",
+  "claim": "Start Live Activities at appropriate times, and make it easy for people to turn them off in your app.** People expect Live Activities to start and provide important updates for a task at hand or at specific times, even automatically. For example, they might expect a Live Activity to start after a food order, making a rideshare request, or when their favorite sports team’s match begins. However, Live Activities that appear unexpectedly can be surprising or even unwanted. Consider offering controls that allow people to turn off a Live Activity in the app view that corresponds to the activity. For example, a sports app may offer a button that lets people unfollow a game or team. When people can’t easily control the appearance of Live Activities from your app, they may choose to turn off Live Activities in Settings altogether.",
+  "claim_type": "definition",
+  "qualifier": "may",
+  "context": "Components / [Starting, updating, and ending a Live Activity](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Starting-updating-and-ending-a-Live-Activity)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [Starting, updating, and ending a Live Activity](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Starting-updating-and-ending-a-Live-Activity)",
+  "supporting_text": " **Start Live Activities at appropriate times, and make it easy for people to turn them off in your app.** People expect Live Activities to start and provide important updates for a task at hand or at specific times, even automatically. For example, they might expect a Live Activity to start after a food order, making a rideshare request, or when their favorite sports team’s match begins. However, Live Activities that appear unexpectedly can be surprising or even unwanted. Consider offering controls that allow people to turn off a Live Activity in the app view that corresponds to the activity. For example, a sports app may offer a button that lets people unfollow a game or team. When people can’t easily control the appearance of Live Activities from your app, they may choose to turn off Live Activities in Settings altogether. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

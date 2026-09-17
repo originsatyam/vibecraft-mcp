@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000048",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [watchOS](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#watchOS)",
+  "claim": "Carefully consider including buttons or toggles in your custom layout.** The custom watchOS layout also applies to your Live Activity in CarPlay where the system deactivates interactive elements. If people are likely to start or observe your Live Activity while driving, don’t include buttons or toggles in your custom watchOS layout. For developer guidance, see [Creating custom views for Live Activities](https://developer.apple.com/documentation/activitykit/creating-custom-views-for-live-activities).",
+  "claim_type": "definition",
+  "qualifier": "consider",
+  "context": "Components / [watchOS](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#watchOS)",
+  "platform": "watchOS",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [watchOS](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#watchOS)",
+  "supporting_text": " **Carefully consider including buttons or toggles in your custom layout.** The custom watchOS layout also applies to your Live Activity in CarPlay where the system deactivates interactive elements. If people are likely to start or observe your Live Activity while driving, don’t include buttons or toggles in your custom watchOS layout. For developer guidance, see [Creating custom views for Live Activities](https://developer.apple.com/documentation/activitykit/creating-custom-views-for-live-activities). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

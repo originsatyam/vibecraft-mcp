@@ -1,0 +1,17 @@
+{
+  "source_id": "apple_hig_menus_and_actions",
+  "slug": "menus-and-actions",
+  "title": "Menus And Actions",
+  "url": "https://developer.apple.com/design/human-interface-guidelines/menus-and-actions",
+  "category": "Components",
+  "platforms": [
+    "iOS",
+    "iPadOS",
+    "macOS",
+    "watchOS",
+    "visionOS",
+    "tvOS"
+  ],
+  "retrieved_at": "2026-09-17T11:20:55.796Z",
+  "markdown": "\nMenus and actions | Apple Developer Documentation\nThis page requires JavaScript.\nPlease turn on JavaScript in your browser and refresh the page to view its content.\n"
+}

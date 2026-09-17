@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000022",
+  "source_id": "apple_hig_tab_bars",
+  "title": "Tab bars | Apple Developer Documentation - [Best practices](https://developer.apple.com/design/human-interface-guidelines/tab-bars\\#Best-practices)",
+  "claim": "Use the appropriate number of tabs required to help people navigate your app.** As a representation of your app’s hierarchy, it’s important to weigh the complexity of additional tabs against the need for people to frequently access each section; keep in mind that it’s generally easier to navigate among fewer tabs. Where available, consider a sidebar or a tab bar that adapts to a sidebar as an alternative for an app with a complex information structure.",
+  "claim_type": "guideline",
+  "qualifier": "consider",
+  "context": "Components / [Best practices](https://developer.apple.com/design/human-interface-guidelines/tab-bars\\#Best-practices)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/tab-bars",
+  "source_location": "Tab bars | Apple Developer Documentation > [Best practices](https://developer.apple.com/design/human-interface-guidelines/tab-bars\\#Best-practices)",
+  "supporting_text": " **Use the appropriate number of tabs required to help people navigate your app.** As a representation of your app’s hierarchy, it’s important to weigh the complexity of additional tabs against the need for people to frequently access each section; keep in mind that it’s generally easier to navigate among fewer tabs. Where available, consider a sidebar or a tab bar that adapts to a sidebar as an alternative for an app with a complex information structure. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

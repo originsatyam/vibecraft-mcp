@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000089",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Mobility](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Mobility)",
+  "claim": "Offer alternatives to gestures.** Make sure your UI’s core functionality is accessible through more than one type of physical interaction. Gestures can be less comfortable for people who have limited dexterity, so offer onscreen ways to achieve the same outcome. For example, if you use a swipe gesture to dismiss a view, also make a button available so people can tap or use an assistive device.",
+  "claim_type": "accessibility_requirement",
+  "qualifier": "specified",
+  "context": "Visuals & Accessibility / [Mobility](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Mobility)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Mobility](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Mobility)",
+  "supporting_text": " **Offer alternatives to gestures.** Make sure your UI’s core functionality is accessible through more than one type of physical interaction. Gestures can be less comfortable for people who have limited dexterity, so offer onscreen ways to achieve the same outcome. For example, if you use a swipe gesture to dismiss a view, also make a button available so people can tap or use an assistive device. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000099",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Cognitive)",
+  "claim": "Allow people to opt out of flashing lights in video playback.** People might want to avoid bright, frequent flashes of light in the media they consume. A Dim Flashing Lights setting allows the system to calculate, mitigate, and inform people about flashing lights in a piece of media. If your app supports video playback, ensure that it responds appropriately to the Dim Flashing Lights setting. For developer guidance, see [Flashing lights](https://developer.apple.com/documentation/mediaaccessibility/flashing-lights).",
+  "claim_type": "accessibility_requirement",
+  "qualifier": "avoid",
+  "context": "Visuals & Accessibility / [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Cognitive)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Cognitive)",
+  "supporting_text": " **Allow people to opt out of flashing lights in video playback.** People might want to avoid bright, frequent flashes of light in the media they consume. A Dim Flashing Lights setting allows the system to calculate, mitigate, and inform people about flashing lights in a piece of media. If your app supports video playback, ensure that it responds appropriately to the Dim Flashing Lights setting. For developer guidance, see [Flashing lights](https://developer.apple.com/documentation/mediaaccessibility/flashing-lights). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

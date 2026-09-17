@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000025",
+  "source_id": "apple_hig_tab_bars",
+  "title": "Tab bars | Apple Developer Documentation - [Best practices](https://developer.apple.com/design/human-interface-guidelines/tab-bars\\#Best-practices)",
+  "claim": "Avoid applying a similar color to tab labels and content layer backgrounds.** If your app already has bright, colorful content in the content layer, prefer a monochromatic appearance for tab bars, or choose an accent color with sufficient visual differentiation. For more guidance, see [Liquid Glass color](https://developer.apple.com/design/human-interface-guidelines/color#Liquid-Glass-color).",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Best practices](https://developer.apple.com/design/human-interface-guidelines/tab-bars\\#Best-practices)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/tab-bars",
+  "source_location": "Tab bars | Apple Developer Documentation > [Best practices](https://developer.apple.com/design/human-interface-guidelines/tab-bars\\#Best-practices)",
+  "supporting_text": " **Avoid applying a similar color to tab labels and content layer backgrounds.** If your app already has bright, colorful content in the content layer, prefer a monochromatic appearance for tab bars, or choose an accent color with sufficient visual differentiation. For more guidance, see [Liquid Glass color](https://developer.apple.com/design/human-interface-guidelines/color#Liquid-Glass-color). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

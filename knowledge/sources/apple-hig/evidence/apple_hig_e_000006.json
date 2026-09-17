@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000006",
+  "source_id": "apple_hig_wallet",
+  "title": "Wallet | Apple Developer Documentation - [Identity verification](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Identity-verification)",
+  "claim": "Clearly and succinctly describe the reason you need the information you’re requesting.** You must write text that explains why people need to share identity information with your app (this text is called a _purpose string_ or _usage description string_). The system displays your purpose string in the verification sheet so people can make an informed decision. Here are a couple of examples:",
+  "claim_type": "requirement",
+  "qualifier": "must",
+  "context": "Components / [Identity verification](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Identity-verification)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/wallet",
+  "source_location": "Wallet | Apple Developer Documentation > [Identity verification](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Identity-verification)",
+  "supporting_text": " **Clearly and succinctly describe the reason you need the information you’re requesting.** You must write text that explains why people need to share identity information with your app (this text is called a _purpose string_ or _usage description string_). The system displays your purpose string in the verification sheet so people can make an informed decision. Here are a couple of examples: ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000074",
+  "source_id": "apple_hig_buttons",
+  "title": "Buttons | Apple Developer Documentation - [watchOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#watchOS)",
+  "claim": "Prefer buttons that span the width of the screen for primary actions in your app.** Full-width buttons look better and are easier for people to tap. If two buttons must share the same horizontal space, use the same height for both, and use images or short text titles for each button’s content.",
+  "claim_type": "requirement",
+  "qualifier": "must",
+  "context": "Components / [watchOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#watchOS)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+  "source_location": "Buttons | Apple Developer Documentation > [watchOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#watchOS)",
+  "supporting_text": " **Prefer buttons that span the width of the screen for primary actions in your app.** Full-width buttons look better and are easier for people to tap. If two buttons must share the same horizontal space, use the same height for both, and use images or short text titles for each button’s content. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

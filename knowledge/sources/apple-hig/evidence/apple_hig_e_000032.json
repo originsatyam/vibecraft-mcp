@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000032",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [Choosing colors](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Choosing-colors)",
+  "claim": "Use color to express the character and identity of your app.** Live Activities in the Dynamic Island use a black opaque background. Consider using bold colors for text and objects to convey the personality and brand of your app. Bold colors make your Live Activity recognizable at a glance, stand out from other Live Activities, and feel like a small, glanceable part of your app. Additionally, bold colors can help reinforce the relationship between elements in the Live Activity itself.",
+  "claim_type": "guideline",
+  "qualifier": "consider",
+  "context": "Components / [Choosing colors](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Choosing-colors)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [Choosing colors](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Choosing-colors)",
+  "supporting_text": " **Use color to express the character and identity of your app.** Live Activities in the Dynamic Island use a black opaque background. Consider using bold colors for text and objects to convey the personality and brand of your app. Bold colors make your Live Activity recognizable at a glance, stand out from other Live Activities, and feel like a small, glanceable part of your app. Additionally, bold colors can help reinforce the relationship between elements in the Live Activity itself. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000104",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Cognitive)",
+  "claim": "For developer guidance, see [Assistive Access](https://developer.apple.com/documentation/accessibility/assistive-access).",
+  "claim_type": "accessibility_requirement",
+  "qualifier": "specified",
+  "context": "Visuals & Accessibility / [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Cognitive)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Cognitive](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Cognitive)",
+  "supporting_text": " For developer guidance, see [Assistive Access](https://developer.apple.com/documentation/accessibility/assistive-access). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

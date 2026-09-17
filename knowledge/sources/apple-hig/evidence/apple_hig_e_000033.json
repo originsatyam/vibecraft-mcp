@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000033",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [Adding transitions and animating content updates](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Adding-transitions-and-animating-content-updates)",
+  "claim": "Try to avoid overlapping elements.** Sometimes, it’s best to animate out certain elements and then re-animate them in at a new position to avoid colliding with other parts of your transition. For example, when animating items in lists, only animate the element that moves to a new position and use fade-in-and-out transitions for the other list items.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Adding transitions and animating content updates](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Adding-transitions-and-animating-content-updates)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [Adding transitions and animating content updates](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Adding-transitions-and-animating-content-updates)",
+  "supporting_text": " **Try to avoid overlapping elements.** Sometimes, it’s best to animate out certain elements and then re-animate them in at a new position to avoid colliding with other parts of your transition. For example, when animating items in lists, only animate the element that moves to a new position and use fade-in-and-out transitions for the other list items. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

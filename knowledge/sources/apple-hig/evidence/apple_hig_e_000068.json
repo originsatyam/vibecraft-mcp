@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000068",
+  "source_id": "apple_hig_buttons",
+  "title": "Buttons | Apple Developer Documentation - [Image buttons](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Image-buttons)",
+  "claim": "Include about 10 pixels of padding between the edges of the image and the button edges.** An image button’s edges define its clickable area even when they aren’t visible. Including padding ensures that a click registers correctly even if it’s not precisely within the image. In general, avoid including a system-provided border in an image button; for developer guidance, see [`isBordered`](https://developer.apple.com/documentation/appkit/nsbutton/isbordered).",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Image buttons](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Image-buttons)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+  "source_location": "Buttons | Apple Developer Documentation > [Image buttons](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Image-buttons)",
+  "supporting_text": " **Include about 10 pixels of padding between the edges of the image and the button edges.** An image button’s edges define its clickable area even when they aren’t visible. Including padding ensures that a click registers correctly even if it’s not precisely within the image. In general, avoid including a system-provided border in an image button; for developer guidance, see [`isBordered`](https://developer.apple.com/documentation/appkit/nsbutton/isbordered). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

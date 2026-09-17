@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000016",
+  "source_id": "apple_hig_scroll_views",
+  "title": "Scroll views | Apple Developer Documentation - [Look to Scroll](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#Look-to-Scroll)",
+  "claim": "Define clear scroll areas within your app.** In views that support Look to Scroll, prefer making the view the full width or full height of the window. This gives people generous space to scroll and provides clear edges. If you inset a scroll view from a window, like in the Notes app, provide clear boundaries so people know where to look.",
+  "claim_type": "recommendation",
+  "qualifier": "prefer",
+  "context": "Components / [Look to Scroll](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#Look-to-Scroll)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/scroll-views",
+  "source_location": "Scroll views | Apple Developer Documentation > [Look to Scroll](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#Look-to-Scroll)",
+  "supporting_text": " **Define clear scroll areas within your app.** In views that support Look to Scroll, prefer making the view the full width or full height of the window. This gives people generous space to scroll and provides clear edges. If you inset a scroll view from a window, like in the Notes app, provide clear boundaries so people know where to look. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

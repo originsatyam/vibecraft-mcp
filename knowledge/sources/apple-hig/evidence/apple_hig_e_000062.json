@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000062",
+  "source_id": "apple_hig_buttons",
+  "title": "Buttons | Apple Developer Documentation - [Push buttons](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Push-buttons)",
+  "claim": "Consider supporting spring loading.** On systems with a Magic Trackpad, _spring loading_ lets people activate a button by dragging selected items over it and force clicking — that is, pressing harder — without dropping the selected items. After force clicking, people can continue dragging the items, possibly to perform additional actions.",
+  "claim_type": "guideline",
+  "qualifier": "consider",
+  "context": "Components / [Push buttons](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Push-buttons)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+  "source_location": "Buttons | Apple Developer Documentation > [Push buttons](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Push-buttons)",
+  "supporting_text": " **Consider supporting spring loading.** On systems with a Magic Trackpad, _spring loading_ lets people activate a button by dragging selected items over it and force clicking — that is, pressing harder — without dropping the selected items. After force clicking, people can continue dragging the items, possibly to perform additional actions. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

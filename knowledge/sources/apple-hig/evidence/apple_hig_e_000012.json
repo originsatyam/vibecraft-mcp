@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000012",
+  "source_id": "apple_hig_scroll_views",
+  "title": "Scroll views | Apple Developer Documentation - [Scroll edge effects](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#Scroll-edge-effects)",
+  "claim": "Prefer the automatic scroll edge effect style.** Where possible, use the default [automatic](https://developer.apple.com/documentation/swiftui/scrolledgeeffectstyle/automatic) style of the scroll edge effect. This style provides a more opaque visual separation for top toolbars that contain a large number of controls, text that appears outside of [Liquid Glass](https://developer.apple.com/design/human-interface-guidelines/materials#Liquid-Glass) controls, and pinned table headers. If you use the soft scroll edge effect style instead, thoroughly test your interface to ensure your controls maintain legibility in a variety of contexts.",
+  "claim_type": "recommendation",
+  "qualifier": "prefer",
+  "context": "Components / [Scroll edge effects](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#Scroll-edge-effects)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/scroll-views",
+  "source_location": "Scroll views | Apple Developer Documentation > [Scroll edge effects](https://developer.apple.com/design/human-interface-guidelines/scroll-views\\#Scroll-edge-effects)",
+  "supporting_text": " **Prefer the automatic scroll edge effect style.** Where possible, use the default [automatic](https://developer.apple.com/documentation/swiftui/scrolledgeeffectstyle/automatic) style of the scroll edge effect. This style provides a more opaque visual separation for top toolbars that contain a large number of controls, text that appears outside of [Liquid Glass](https://developer.apple.com/design/human-interface-guidelines/materials#Liquid-Glass) controls, and pinned table headers. If you use the soft scroll edge effect style instead, thoroughly test your interface to ensure your controls maintain legibility in a variety of contexts. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000050",
+  "source_id": "apple_hig_pickers",
+  "title": "Pickers | Apple Developer Documentation - [Best practices](https://developer.apple.com/design/human-interface-guidelines/pickers\\#Best-practices)",
+  "claim": "Consider using a picker to offer medium-to-long lists of items.** If you need to display a fairly short list of choices, consider using a [pull-down button](https://developer.apple.com/design/human-interface-guidelines/pull-down-buttons) instead of a picker. Although a picker makes it easy to scroll quickly through many items, it may add too much visual weight to a short list of items. On the other hand, if you need to present a very large set of items, consider using a [list or table](https://developer.apple.com/design/human-interface-guidelines/lists-and-tables). Lists and tables can adjust in height, and tables can include an index, which makes it much faster to target a section of the list.",
+  "claim_type": "guideline",
+  "qualifier": "may",
+  "context": "Components / [Best practices](https://developer.apple.com/design/human-interface-guidelines/pickers\\#Best-practices)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/pickers",
+  "source_location": "Pickers | Apple Developer Documentation > [Best practices](https://developer.apple.com/design/human-interface-guidelines/pickers\\#Best-practices)",
+  "supporting_text": " **Consider using a picker to offer medium-to-long lists of items.** If you need to display a fairly short list of choices, consider using a [pull-down button](https://developer.apple.com/design/human-interface-guidelines/pull-down-buttons) instead of a picker. Although a picker makes it easy to scroll quickly through many items, it may add too much visual weight to a short list of items. On the other hand, if you need to present a very large set of items, consider using a [list or table](https://developer.apple.com/design/human-interface-guidelines/lists-and-tables). Lists and tables can adjust in height, and tables can include an index, which makes it much faster to target a section of the list. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

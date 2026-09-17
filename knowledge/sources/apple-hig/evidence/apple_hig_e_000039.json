@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000039",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [Starting, updating, and ending a Live Activity](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Starting-updating-and-ending-a-Live-Activity)",
+  "claim": "Always end a Live Activity immediately when the task or event ends, and consider setting a custom dismissal time.** When a Live Activity ends, the system immediately removes it from the Dynamic Island and in CarPlay. On the Lock Screen, in the Mac menu bar, and the watchOS Smart Stack, it remains for up to four hours. Depending on the Live Activity, showing a summary may only be relevant for a brief time after it ends. Consider choosing a custom dismissal time that’s proportional to the duration of your Live Activity. In most cases, 15 to 30 minutes is adequate. For example, a rideshare app could end its Live Activity when a ride completes and remain visible for 30 minutes to allow people to view the ride summary and leave a tip. For developer guidance, refer to [Displaying live data with Live Activities](https://developer.apple.com/documentation/activitykit/displaying-live-data-with-live-activities).",
+  "claim_type": "definition",
+  "qualifier": "may",
+  "context": "Components / [Starting, updating, and ending a Live Activity](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Starting-updating-and-ending-a-Live-Activity)",
+  "platform": "watchOS",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [Starting, updating, and ending a Live Activity](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Starting-updating-and-ending-a-Live-Activity)",
+  "supporting_text": " **Always end a Live Activity immediately when the task or event ends, and consider setting a custom dismissal time.** When a Live Activity ends, the system immediately removes it from the Dynamic Island and in CarPlay. On the Lock Screen, in the Mac menu bar, and the watchOS Smart Stack, it remains for up to four hours. Depending on the Live Activity, showing a summary may only be relevant for a brief time after it ends. Consider choosing a custom dismissal time that’s proportional to the duration of your Live Activity. In most cases, 15 to 30 minutes is adequate. For example, a rideshare app could end its Live Activity when a ride completes and remain visible for 30 minutes to allow people to view the ride summary and leave a tip. For developer guidance, refer to [Displaying live data with Live Activities](https://developer.apple.com/documentation/activitykit/displaying-live-data-with-live-activities). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

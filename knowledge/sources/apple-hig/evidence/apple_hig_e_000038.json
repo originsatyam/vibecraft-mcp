@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000038",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [Starting, updating, and ending a Live Activity](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Starting-updating-and-ending-a-Live-Activity)",
+  "claim": "Let people track multiple events efficiently with a single Live Activity.** Instead of creating separate Live Activities people need to jump between to track different events, prefer a single Live Activity that uses a dynamic layout and rotates through events. For example, a sports app could offer a single Live Activity that cycles through scored points, substitutions, and fouls across multiple matches.",
+  "claim_type": "recommendation",
+  "qualifier": "prefer",
+  "context": "Components / [Starting, updating, and ending a Live Activity](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Starting-updating-and-ending-a-Live-Activity)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [Starting, updating, and ending a Live Activity](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Starting-updating-and-ending-a-Live-Activity)",
+  "supporting_text": " **Let people track multiple events efficiently with a single Live Activity.** Instead of creating separate Live Activities people need to jump between to track different events, prefer a single Live Activity that uses a dynamic layout and rotates through events. For example, a sports app could offer a single Live Activity that cycles through scored points, substitutions, and fouls across multiple matches. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

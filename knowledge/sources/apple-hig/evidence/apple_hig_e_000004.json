@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000004",
+  "source_id": "apple_hig_wallet",
+  "title": "Wallet | Apple Developer Documentation - [Strip image](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Strip-image)",
+  "claim": "Strip images appear on coupons and store cards to reinforce your brand or offer. Because text can appear over strip images, ensure sufficient contrast between your text and the image. Keep areas behind text uncluttered, and place important visual elements toward the bottom or trailing edge. Avoid embedding text in the strip image.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Strip image](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Strip-image)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/wallet",
+  "source_location": "Wallet | Apple Developer Documentation > [Strip image](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Strip-image)",
+  "supporting_text": " Strip images appear on coupons and store cards to reinforce your brand or offer. Because text can appear over strip images, ensure sufficient contrast between your text and the image. Keep areas behind text uncluttered, and place important visual elements toward the bottom or trailing edge. Avoid embedding text in the strip image. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

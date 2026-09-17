@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000030",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [Creating Live Activity layouts](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Creating-Live-Activity-layouts)",
+  "claim": "Adapt to different screen sizes and presentations.** Live Activities scale to fit various device screens. Create layouts and assets for various devices and scale factors, recognizing that the actual size on screen may vary or change. Ensure they look great everywhere by using the values in [Specifications](https://developer.apple.com/design/human-interface-guidelines/live-activities#Specifications) as guidance and providing appropriately sized content.",
+  "claim_type": "guideline",
+  "qualifier": "may",
+  "context": "Components / [Creating Live Activity layouts](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Creating-Live-Activity-layouts)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [Creating Live Activity layouts](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Creating-Live-Activity-layouts)",
+  "supporting_text": " **Adapt to different screen sizes and presentations.** Live Activities scale to fit various device screens. Create layouts and assets for various devices and scale factors, recognizing that the actual size on screen may vary or change. Ensure they look great everywhere by using the values in [Specifications](https://developer.apple.com/design/human-interface-guidelines/live-activities#Specifications) as guidance and providing appropriately sized content. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

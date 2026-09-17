@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000037",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [Starting, updating, and ending a Live Activity](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Starting-updating-and-ending-a-Live-Activity)",
+  "claim": "Alert people only for essential updates that require their attention.** Live Activity alerts light up the screen and by default play the notification sound to alert people about updates they shouldn’t miss. Alerts also show the expanded presentation in the Dynamic Island or a banner on devices that don’t support the Dynamic Island. To ensure your Live Activities provide the most value, avoid alerting people too often or with updates that aren’t crucial, and don’t use push notifications alongside Live Activities for the same updates.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Starting, updating, and ending a Live Activity](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Starting-updating-and-ending-a-Live-Activity)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [Starting, updating, and ending a Live Activity](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Starting-updating-and-ending-a-Live-Activity)",
+  "supporting_text": " **Alert people only for essential updates that require their attention.** Live Activity alerts light up the screen and by default play the notification sound to alert people about updates they shouldn’t miss. Alerts also show the expanded presentation in the Dynamic Island or a banner on devices that don’t support the Dynamic Island. To ensure your Live Activities provide the most value, avoid alerting people too often or with updates that aren’t crucial, and don’t use push notifications alongside Live Activities for the same updates. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

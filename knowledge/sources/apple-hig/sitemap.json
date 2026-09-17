@@ -1,0 +1,1592 @@
+{
+  "source": "Apple Human Interface Guidelines",
+  "base_url": "https://developer.apple.com/design/human-interface-guidelines",
+  "mapped_at": "2026-09-17T11:20:28.996Z",
+  "total_urls": 99,
+  "entries": [
+    {
+      "source_id": "apple_hig_index",
+      "slug": "index",
+      "url": "https://developer.apple.com/design/human-interface-guidelines",
+      "category": "Foundations",
+      "title": "Index",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_wallet",
+      "slug": "wallet",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/wallet",
+      "category": "Components",
+      "title": "Wallet",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_combo_boxes",
+      "slug": "combo-boxes",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/combo-boxes",
+      "category": "Components",
+      "title": "Combo Boxes",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_managing_notifications",
+      "slug": "managing-notifications",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/managing-notifications",
+      "category": "Patterns",
+      "title": "Managing Notifications",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_scroll_views",
+      "slug": "scroll-views",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/scroll-views",
+      "category": "Components",
+      "title": "Scroll Views",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_status_bars",
+      "slug": "status-bars",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/status-bars",
+      "category": "Components",
+      "title": "Status Bars",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_tab_bars",
+      "slug": "tab-bars",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/tab-bars",
+      "category": "Components",
+      "title": "Tab Bars",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_voiceover",
+      "slug": "voiceover",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/voiceover",
+      "category": "Foundations",
+      "title": "Voiceover",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_live_activities",
+      "slug": "live-activities",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+      "category": "Components",
+      "title": "Live Activities",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_pickers",
+      "slug": "pickers",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/pickers",
+      "category": "Components",
+      "title": "Pickers",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_edit_menus",
+      "slug": "edit-menus",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/edit-menus",
+      "category": "Components",
+      "title": "Edit Menus",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_imessage_apps_and_stickers",
+      "slug": "imessage-apps-and-stickers",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/imessage-apps-and-stickers",
+      "category": "Foundations",
+      "title": "Imessage Apps And Stickers",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_remotes",
+      "slug": "remotes",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/remotes",
+      "category": "Foundations",
+      "title": "Remotes",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_charting_data",
+      "slug": "charting-data",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/charting-data",
+      "category": "Foundations",
+      "title": "Charting Data",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_buttons",
+      "slug": "buttons",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+      "category": "Components",
+      "title": "Buttons",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_keyboards",
+      "slug": "keyboards",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/keyboards",
+      "category": "Foundations",
+      "title": "Keyboards",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_accessibility",
+      "slug": "accessibility",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+      "category": "Visuals & Accessibility",
+      "title": "Accessibility",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_getting_started",
+      "slug": "getting-started",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/getting-started",
+      "category": "Foundations",
+      "title": "Getting Started",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_system_experiences",
+      "slug": "system-experiences",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/system-experiences",
+      "category": "Foundations",
+      "title": "System Experiences",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_components",
+      "slug": "components",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/components",
+      "category": "Foundations",
+      "title": "Components",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_inclusion",
+      "slug": "inclusion",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/inclusion",
+      "category": "Foundations",
+      "title": "Inclusion",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_mac_catalyst",
+      "slug": "mac-catalyst",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/mac-catalyst",
+      "category": "Foundations",
+      "title": "Mac Catalyst",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_photo_editing",
+      "slug": "photo-editing",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/photo-editing",
+      "category": "Foundations",
+      "title": "Photo Editing",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_layout",
+      "slug": "layout",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/layout",
+      "category": "Visuals & Accessibility",
+      "title": "Layout",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_carplay",
+      "slug": "carplay",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/carplay",
+      "category": "Foundations",
+      "title": "Carplay",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_pull_down_buttons",
+      "slug": "pull-down-buttons",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/pull-down-buttons",
+      "category": "Components",
+      "title": "Pull Down Buttons",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_navigation_and_search",
+      "slug": "navigation-and-search",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/navigation-and-search",
+      "category": "Foundations",
+      "title": "Navigation And Search",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_text_fields",
+      "slug": "text-fields",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/text-fields",
+      "category": "Components",
+      "title": "Text Fields",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_onboarding",
+      "slug": "onboarding",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/onboarding",
+      "category": "Patterns",
+      "title": "Onboarding",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_snippets",
+      "slug": "snippets",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/snippets",
+      "category": "Foundations",
+      "title": "Snippets",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_lists_and_tables",
+      "slug": "lists-and-tables",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/lists-and-tables",
+      "category": "Components",
+      "title": "Lists And Tables",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_action_button",
+      "slug": "action-button",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/action-button",
+      "category": "Foundations",
+      "title": "Action Button",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_tab_views",
+      "slug": "tab-views",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/tab-views",
+      "category": "Foundations",
+      "title": "Tab Views",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_progress_indicators",
+      "slug": "progress-indicators",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/progress-indicators",
+      "category": "Foundations",
+      "title": "Progress Indicators",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_patterns",
+      "slug": "patterns",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/patterns",
+      "category": "Foundations",
+      "title": "Patterns",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_menus_and_actions",
+      "slug": "menus-and-actions",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/menus-and-actions",
+      "category": "Components",
+      "title": "Menus And Actions",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_gauges",
+      "slug": "gauges",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/gauges",
+      "category": "Foundations",
+      "title": "Gauges",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_file_management",
+      "slug": "file-management",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/file-management",
+      "category": "Patterns",
+      "title": "File Management",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_branding",
+      "slug": "branding",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/branding",
+      "category": "Visuals & Accessibility",
+      "title": "Branding",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_alerts",
+      "slug": "alerts",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/alerts",
+      "category": "Foundations",
+      "title": "Alerts",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_game_controls",
+      "slug": "game-controls",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/game-controls",
+      "category": "Foundations",
+      "title": "Game Controls",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_labels",
+      "slug": "labels",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/labels",
+      "category": "Foundations",
+      "title": "Labels",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_controls",
+      "slug": "controls",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/controls",
+      "category": "Foundations",
+      "title": "Controls",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_eyes",
+      "slug": "eyes",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/eyes",
+      "category": "Foundations",
+      "title": "Eyes",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_homekit",
+      "slug": "homekit",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/homekit",
+      "category": "Foundations",
+      "title": "Homekit",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_playing_video",
+      "slug": "playing-video",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/playing-video",
+      "category": "Foundations",
+      "title": "Playing Video",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_immersive_experiences",
+      "slug": "immersive-experiences",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/immersive-experiences",
+      "category": "Foundations",
+      "title": "Immersive Experiences",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_menus",
+      "slug": "menus",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/menus",
+      "category": "Components",
+      "title": "Menus",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_privacy",
+      "slug": "privacy",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/privacy",
+      "category": "Foundations",
+      "title": "Privacy",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_panels",
+      "slug": "panels",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/panels",
+      "category": "Foundations",
+      "title": "Panels",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_steppers",
+      "slug": "steppers",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/steppers",
+      "category": "Foundations",
+      "title": "Steppers",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_designing_for_tvos",
+      "slug": "designing-for-tvos",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/designing-for-tvos",
+      "category": "Platforms",
+      "title": "Designing For Tvos",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_designing_for_iphone_duo",
+      "slug": "designing-for-iphone-duo",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo",
+      "category": "Foundations",
+      "title": "Designing For Iphone Duo",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_sf_symbols",
+      "slug": "sf-symbols",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/sf-symbols",
+      "category": "Foundations",
+      "title": "Sf Symbols",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_action_sheets",
+      "slug": "action-sheets",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/action-sheets",
+      "category": "Components",
+      "title": "Action Sheets",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_presentation",
+      "slug": "presentation",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/presentation",
+      "category": "Foundations",
+      "title": "Presentation",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_dark_mode",
+      "slug": "dark-mode",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/dark-mode",
+      "category": "Visuals & Accessibility",
+      "title": "Dark Mode",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_foundations",
+      "slug": "foundations",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/foundations",
+      "category": "Foundations",
+      "title": "Foundations",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_undo_and_redo",
+      "slug": "undo-and-redo",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/undo-and-redo",
+      "category": "Patterns",
+      "title": "Undo And Redo",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_sliders",
+      "slug": "sliders",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/sliders",
+      "category": "Components",
+      "title": "Sliders",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_loading",
+      "slug": "loading",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/loading",
+      "category": "Patterns",
+      "title": "Loading",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_camera_control",
+      "slug": "camera-control",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/camera-control",
+      "category": "Foundations",
+      "title": "Camera Control",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_design_principles",
+      "slug": "design-principles",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/design-principles",
+      "category": "Foundations",
+      "title": "Design Principles",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_dock_menus",
+      "slug": "dock-menus",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/dock-menus",
+      "category": "Components",
+      "title": "Dock Menus",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_sheets",
+      "slug": "sheets",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/sheets",
+      "category": "Components",
+      "title": "Sheets",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_widgets",
+      "slug": "widgets",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/widgets",
+      "category": "Foundations",
+      "title": "Widgets",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_popovers",
+      "slug": "popovers",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/popovers",
+      "category": "Components",
+      "title": "Popovers",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_color_wells",
+      "slug": "color-wells",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/color-wells",
+      "category": "Visuals & Accessibility",
+      "title": "Color Wells",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_ratings_and_reviews",
+      "slug": "ratings-and-reviews",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/ratings-and-reviews",
+      "category": "Foundations",
+      "title": "Ratings And Reviews",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_toggles",
+      "slug": "toggles",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/toggles",
+      "category": "Foundations",
+      "title": "Toggles",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_going_full_screen",
+      "slug": "going-full-screen",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/going-full-screen",
+      "category": "Foundations",
+      "title": "Going Full Screen",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_researchkit",
+      "slug": "researchkit",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/researchkit",
+      "category": "Foundations",
+      "title": "Researchkit",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_windows",
+      "slug": "windows",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/windows",
+      "category": "Foundations",
+      "title": "Windows",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_split_views",
+      "slug": "split-views",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/split-views",
+      "category": "Foundations",
+      "title": "Split Views",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_drag_and_drop",
+      "slug": "drag-and-drop",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/drag-and-drop",
+      "category": "Patterns",
+      "title": "Drag And Drop",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_virtual_keyboards",
+      "slug": "virtual-keyboards",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/virtual-keyboards",
+      "category": "Foundations",
+      "title": "Virtual Keyboards",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_nfc",
+      "slug": "nfc",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/nfc",
+      "category": "Foundations",
+      "title": "Nfc",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_carekit",
+      "slug": "carekit",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/carekit",
+      "category": "Foundations",
+      "title": "Carekit",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_offering_help",
+      "slug": "offering-help",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/offering-help",
+      "category": "Foundations",
+      "title": "Offering Help",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_selection_and_input",
+      "slug": "selection-and-input",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/selection-and-input",
+      "category": "Foundations",
+      "title": "Selection And Input",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_workouts",
+      "slug": "workouts",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/workouts",
+      "category": "Foundations",
+      "title": "Workouts",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_top_shelf",
+      "slug": "top-shelf",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/top-shelf",
+      "category": "Foundations",
+      "title": "Top Shelf",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_disclosure_controls",
+      "slug": "disclosure-controls",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/disclosure-controls",
+      "category": "Foundations",
+      "title": "Disclosure Controls",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_activity_rings",
+      "slug": "activity-rings",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/activity-rings",
+      "category": "Foundations",
+      "title": "Activity Rings",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_airplay",
+      "slug": "airplay",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/airplay",
+      "category": "Foundations",
+      "title": "Airplay",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_typography",
+      "slug": "typography",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/typography",
+      "category": "Visuals & Accessibility",
+      "title": "Typography",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_charts",
+      "slug": "charts",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/charts",
+      "category": "Foundations",
+      "title": "Charts",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_right_to_left",
+      "slug": "right-to-left",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/right-to-left",
+      "category": "Foundations",
+      "title": "Right To Left",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_app_icons",
+      "slug": "app-icons",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/app-icons",
+      "category": "Visuals & Accessibility",
+      "title": "App Icons",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_context_menus",
+      "slug": "context-menus",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/context-menus",
+      "category": "Components",
+      "title": "Context Menus",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_healthkit",
+      "slug": "healthkit",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/healthkit",
+      "category": "Foundations",
+      "title": "Healthkit",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_in_app_purchase",
+      "slug": "in-app-purchase",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/in-app-purchase",
+      "category": "Foundations",
+      "title": "In App Purchase",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_icons",
+      "slug": "icons",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/icons",
+      "category": "Visuals & Accessibility",
+      "title": "Icons",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_notifications",
+      "slug": "notifications",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/notifications",
+      "category": "Foundations",
+      "title": "Notifications",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_color",
+      "slug": "color",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/color",
+      "category": "Visuals & Accessibility",
+      "title": "Color",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_launching",
+      "slug": "launching",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/launching",
+      "category": "Foundations",
+      "title": "Launching",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_multitasking",
+      "slug": "multitasking",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/multitasking",
+      "category": "Foundations",
+      "title": "Multitasking",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_writing",
+      "slug": "writing",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/writing",
+      "category": "Foundations",
+      "title": "Writing",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    },
+    {
+      "source_id": "apple_hig_materials",
+      "slug": "materials",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/materials",
+      "category": "Visuals & Accessibility",
+      "title": "Materials",
+      "platforms_supported": [
+        "iOS",
+        "iPadOS",
+        "macOS",
+        "watchOS",
+        "visionOS",
+        "tvOS"
+      ],
+      "status": "DISCOVERED"
+    }
+  ]
+}

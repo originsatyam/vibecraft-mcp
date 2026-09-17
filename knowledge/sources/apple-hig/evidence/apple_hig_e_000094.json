@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000094",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Speech](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Speech)",
+  "claim": "Support Switch Control.** Switch Control is an assistive technology that lets people control their devices through separate hardware, game controllers, or sounds such as a click or a pop. People can perform actions like selecting, tapping, typing, and drawing when your app or game supports the ability to navigate using Switch Control. For developer guidance, see [Switch Control](https://developer.apple.com/documentation/accessibility/switch-control).",
+  "claim_type": "accessibility_requirement",
+  "qualifier": "specified",
+  "context": "Visuals & Accessibility / [Speech](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Speech)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Speech](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Speech)",
+  "supporting_text": " **Support Switch Control.** Switch Control is an assistive technology that lets people control their devices through separate hardware, game controllers, or sounds such as a click or a pop. People can perform actions like selecting, tapping, typing, and drawing when your app or game supports the ability to navigate using Switch Control. For developer guidance, see [Switch Control](https://developer.apple.com/documentation/accessibility/switch-control). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

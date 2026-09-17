@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000005",
+  "source_id": "apple_hig_wallet",
+  "title": "Wallet | Apple Developer Documentation - [Displaying order and fulfillment details](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Displaying-order-and-fulfillment-details)",
+  "claim": "Avoid sending duplicate notifications.** For example, you can tell the system to avoid sending order-related notifications through Wallet when the customer has one of your associated apps installed.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Displaying order and fulfillment details](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Displaying-order-and-fulfillment-details)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/wallet",
+  "source_location": "Wallet | Apple Developer Documentation > [Displaying order and fulfillment details](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Displaying-order-and-fulfillment-details)",
+  "supporting_text": " **Avoid sending duplicate notifications.** For example, you can tell the system to avoid sending order-related notifications through Wallet when the customer has one of your associated apps installed. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

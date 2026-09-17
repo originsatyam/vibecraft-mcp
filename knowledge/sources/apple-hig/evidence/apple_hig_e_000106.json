@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000106",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [visionOS](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#visionOS)",
+  "claim": "Prioritize comfort.** The immersive nature of visionOS means that interfaces, animations, and interactions have a greater chance of causing motion sickness, and visual and ergonomic discomfort for people. To ensure the most comfortable experience, consider these tips:",
+  "claim_type": "guideline",
+  "qualifier": "consider",
+  "context": "Visuals & Accessibility / [visionOS](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#visionOS)",
+  "platform": "visionOS",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [visionOS](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#visionOS)",
+  "supporting_text": " **Prioritize comfort.** The immersive nature of visionOS means that interfaces, animations, and interactions have a greater chance of causing motion sickness, and visual and ergonomic discomfort for people. To ensure the most comfortable experience, consider these tips: ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

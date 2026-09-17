@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000047",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [watchOS](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#watchOS)",
+  "claim": "Consider creating a custom watchOS layout.** While the system provides a default view automatically, a custom layout designed for Apple Watch can show more information and add interactive functionality like a button or toggle.",
+  "claim_type": "guideline",
+  "qualifier": "consider",
+  "context": "Components / [watchOS](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#watchOS)",
+  "platform": "watchOS",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [watchOS](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#watchOS)",
+  "supporting_text": " **Consider creating a custom watchOS layout.** While the system provides a default view automatically, a custom layout designed for Apple Watch can show more information and add interactive functionality like a button or toggle. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

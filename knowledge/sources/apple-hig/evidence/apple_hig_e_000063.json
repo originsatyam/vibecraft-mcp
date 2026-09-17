@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000063",
+  "source_id": "apple_hig_buttons",
+  "title": "Buttons | Apple Developer Documentation - [Square buttons](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Square-buttons)",
+  "claim": "Prefer using a symbol in a square button.** [SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols) provides a wide range of symbols that automatically receive appropriate coloring in their default state and in response to user interaction.",
+  "claim_type": "recommendation",
+  "qualifier": "prefer",
+  "context": "Components / [Square buttons](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Square-buttons)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/buttons",
+  "source_location": "Buttons | Apple Developer Documentation > [Square buttons](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Square-buttons)",
+  "supporting_text": " **Prefer using a symbol in a square button.** [SF Symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols) provides a wide range of symbols that automatically receive appropriate coloring in their default state and in response to user interaction. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

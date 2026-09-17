@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000019",
+  "source_id": "apple_hig_status_bars",
+  "title": "Status bars | Apple Developer Documentation - [Best practices](https://developer.apple.com/design/human-interface-guidelines/status-bars\\#Best-practices)",
+  "claim": "Obscure content under the status bar.** By default, the background of the status bar is transparent, allowing content beneath to show through. This transparency can make it difficult to see information presented in the status bar. If controls are visible behind the status bar, people may attempt to interact with them and be unable to do so. Be sure to keep the status bar readable, and don’t imply that content behind it is interactive. Prefer using a scroll edge effect to place a blurred view behind the status bar. For developer guidance, see [`ScrollEdgeEffectStyle`](https://developer.apple.com/documentation/swiftui/scrolledgeeffectstyle) and [`UIScrollEdgeEffect`](https://developer.apple.com/documentation/uikit/uiscrolledgeeffect).",
+  "claim_type": "definition",
+  "qualifier": "may",
+  "context": "Components / [Best practices](https://developer.apple.com/design/human-interface-guidelines/status-bars\\#Best-practices)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/status-bars",
+  "source_location": "Status bars | Apple Developer Documentation > [Best practices](https://developer.apple.com/design/human-interface-guidelines/status-bars\\#Best-practices)",
+  "supporting_text": " **Obscure content under the status bar.** By default, the background of the status bar is transparent, allowing content beneath to show through. This transparency can make it difficult to see information presented in the status bar. If controls are visible behind the status bar, people may attempt to interact with them and be unable to do so. Be sure to keep the status bar readable, and don’t imply that content behind it is interactive. Prefer using a scroll edge effect to place a blurred view behind the status bar. For developer guidance, see [`ScrollEdgeEffectStyle`](https://developer.apple.com/documentation/swiftui/scrolledgeeffectstyle) and [`UIScrollEdgeEffect`](https://developer.apple.com/documentation/uikit/uiscrolledgeeffect). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

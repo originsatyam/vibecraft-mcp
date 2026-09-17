@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000040",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [Expanded presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Expanded-presentation)",
+  "claim": "Wrap content tightly around the TrueDepth camera.** Arrange content close to the TrueDepth camera, and try to avoid leaving too much room around it to use space more efficiently and to help diminish the camera’s presence.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Expanded presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Expanded-presentation)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [Expanded presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Expanded-presentation)",
+  "supporting_text": " **Wrap content tightly around the TrueDepth camera.** Arrange content close to the TrueDepth camera, and try to avoid leaving too much room around it to use space more efficiently and to help diminish the camera’s presence. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

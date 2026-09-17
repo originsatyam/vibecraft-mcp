@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000093",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Speech](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Speech)",
+  "claim": "Let people use the keyboard alone to navigate and interact with your app.** People can turn on Full Keyboard Access to navigate apps using their physical keyboard. The system also defines accessibility keyboard shortcuts and a wide range of other [keyboard shortcuts](https://support.apple.com/en-us/102650) that many people use all the time. Avoid overriding system-defined keyboard shortcuts and evaluate your app to ensure it works well with Full Keyboard Access. For additional guidance, see [Keyboards](https://developer.apple.com/design/human-interface-guidelines/keyboards). For developer guidance, see [Support Full Keyboard Access in your iOS app](https://developer.apple.com/videos/play/wwdc2021/10120).",
+  "claim_type": "accessibility_requirement",
+  "qualifier": "avoid",
+  "context": "Visuals & Accessibility / [Speech](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Speech)",
+  "platform": "iOS",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Speech](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Speech)",
+  "supporting_text": " **Let people use the keyboard alone to navigate and interact with your app.** People can turn on Full Keyboard Access to navigate apps using their physical keyboard. The system also defines accessibility keyboard shortcuts and a wide range of other [keyboard shortcuts](https://support.apple.com/en-us/102650) that many people use all the time. Avoid overriding system-defined keyboard shortcuts and evaluate your app to ensure it works well with Full Keyboard Access. For additional guidance, see [Keyboards](https://developer.apple.com/design/human-interface-guidelines/keyboards). For developer guidance, see [Support Full Keyboard Access in your iOS app](https://developer.apple.com/videos/play/wwdc2021/10120). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

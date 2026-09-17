@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000049",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [CarPlay dimensions](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#CarPlay-dimensions)",
+  "claim": "The system may scale your Live Activity to best fit a vehicle’s screen size and resolution. Use the listed values to verify your design:",
+  "claim_type": "guideline",
+  "qualifier": "may",
+  "context": "Components / [CarPlay dimensions](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#CarPlay-dimensions)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [CarPlay dimensions](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#CarPlay-dimensions)",
+  "supporting_text": " The system may scale your Live Activity to best fit a vehicle’s screen size and resolution. Use the listed values to verify your design: ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

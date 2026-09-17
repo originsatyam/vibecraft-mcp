@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000114",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Change log](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Change-log)",
+  "claim": "| June 9, 2025 | Added guidance and links for Assistive Access, Switch Control, and Accessibility Nutrition Labels. |",
+  "claim_type": "accessibility_requirement",
+  "qualifier": "specified",
+  "context": "Visuals & Accessibility / [Change log](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Change-log)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Change log](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Change-log)",
+  "supporting_text": "| --- | --- | | June 9, 2025 | Added guidance and links for Assistive Access, Switch Control, and Accessibility Nutrition Labels. | | March 7, 2025 | Expanded and refined all guidance. Moved Dynamic Type guidance to the Typography page, and moved VoiceOver guidance to a new VoiceOver page. |",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

@@ -1,0 +1,375 @@
+{
+  "total_measurements": 37,
+  "measurements": [
+    {
+      "measurement_id": "m_apple_000001",
+      "parameter": "wallet | apple developer documentation__logo__https___developer_apple_com_design_human_interface_guidelines_wallet__logo_",
+      "value": 50,
+      "unit": "pt",
+      "condition": "| **Minimum width** | 50 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Logo](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Logo)"
+    },
+    {
+      "measurement_id": "m_apple_000002",
+      "parameter": "wallet | apple developer documentation__logo__https___developer_apple_com_design_human_interface_guidelines_wallet__logo_",
+      "value": 160,
+      "unit": "pt",
+      "condition": "| **Maximum width** | 160 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Logo](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Logo)"
+    },
+    {
+      "measurement_id": "m_apple_000003",
+      "parameter": "wallet | apple developer documentation__logo__https___developer_apple_com_design_human_interface_guidelines_wallet__logo_",
+      "value": 50,
+      "unit": "pt",
+      "condition": "| **Height** | 50 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Logo](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Logo)"
+    },
+    {
+      "measurement_id": "m_apple_000004",
+      "parameter": "wallet | apple developer documentation__primary_logo__https___developer_apple_com_design_human_interface_guidelines_wallet__primary_logo_",
+      "value": 30,
+      "unit": "pt",
+      "condition": "| **Minimum width** | 30 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Primary logo](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Primary-logo)"
+    },
+    {
+      "measurement_id": "m_apple_000005",
+      "parameter": "wallet | apple developer documentation__primary_logo__https___developer_apple_com_design_human_interface_guidelines_wallet__primary_logo_",
+      "value": 126,
+      "unit": "pt",
+      "condition": "| **Maximum width** | 126 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Primary logo](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Primary-logo)"
+    },
+    {
+      "measurement_id": "m_apple_000006",
+      "parameter": "wallet | apple developer documentation__primary_logo__https___developer_apple_com_design_human_interface_guidelines_wallet__primary_logo_",
+      "value": 30,
+      "unit": "pt",
+      "condition": "| **Height** | 30 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Primary logo](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Primary-logo)"
+    },
+    {
+      "measurement_id": "m_apple_000007",
+      "parameter": "wallet | apple developer documentation__secondary_logo__https___developer_apple_com_design_human_interface_guidelines_wallet__secondary_logo_",
+      "value": 12,
+      "unit": "pt",
+      "condition": "| **Minimum width** | 12 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Secondary logo](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Secondary-logo)"
+    },
+    {
+      "measurement_id": "m_apple_000008",
+      "parameter": "wallet | apple developer documentation__secondary_logo__https___developer_apple_com_design_human_interface_guidelines_wallet__secondary_logo_",
+      "value": 135,
+      "unit": "pt",
+      "condition": "| **Maximum width** | 135 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Secondary logo](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Secondary-logo)"
+    },
+    {
+      "measurement_id": "m_apple_000009",
+      "parameter": "wallet | apple developer documentation__secondary_logo__https___developer_apple_com_design_human_interface_guidelines_wallet__secondary_logo_",
+      "value": 12,
+      "unit": "pt",
+      "condition": "| **Height** | 12 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Secondary logo](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Secondary-logo)"
+    },
+    {
+      "measurement_id": "m_apple_000010",
+      "parameter": "wallet | apple developer documentation__icon__https___developer_apple_com_design_human_interface_guidelines_wallet__icon_",
+      "value": 38,
+      "unit": "pt",
+      "condition": "| **Width** | 38 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Icon](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Icon)"
+    },
+    {
+      "measurement_id": "m_apple_000011",
+      "parameter": "wallet | apple developer documentation__icon__https___developer_apple_com_design_human_interface_guidelines_wallet__icon_",
+      "value": 38,
+      "unit": "pt",
+      "condition": "| **Height** | 38 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Icon](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Icon)"
+    },
+    {
+      "measurement_id": "m_apple_000012",
+      "parameter": "wallet | apple developer documentation__strip_image__https___developer_apple_com_design_human_interface_guidelines_wallet__strip_image_",
+      "value": 375,
+      "unit": "pt",
+      "condition": "| **Width** | 375 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Strip image](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Strip-image)"
+    },
+    {
+      "measurement_id": "m_apple_000013",
+      "parameter": "wallet | apple developer documentation__strip_image__https___developer_apple_com_design_human_interface_guidelines_wallet__strip_image_",
+      "value": 144,
+      "unit": "pt",
+      "condition": "| **Height** | 144 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Strip image](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Strip-image)"
+    },
+    {
+      "measurement_id": "m_apple_000014",
+      "parameter": "wallet | apple developer documentation__thumbnail__https___developer_apple_com_design_human_interface_guidelines_wallet__thumbnail_",
+      "value": 60,
+      "unit": "pt",
+      "condition": "| **Minimum width** | 60 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Thumbnail](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Thumbnail)"
+    },
+    {
+      "measurement_id": "m_apple_000015",
+      "parameter": "wallet | apple developer documentation__thumbnail__https___developer_apple_com_design_human_interface_guidelines_wallet__thumbnail_",
+      "value": 90,
+      "unit": "pt",
+      "condition": "| **Maximum width** | 90 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Thumbnail](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Thumbnail)"
+    },
+    {
+      "measurement_id": "m_apple_000016",
+      "parameter": "wallet | apple developer documentation__thumbnail__https___developer_apple_com_design_human_interface_guidelines_wallet__thumbnail_",
+      "value": 90,
+      "unit": "pt",
+      "condition": "| **Height** | 90 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Thumbnail](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Thumbnail)"
+    },
+    {
+      "measurement_id": "m_apple_000017",
+      "parameter": "wallet | apple developer documentation__background__https___developer_apple_com_design_human_interface_guidelines_wallet__background_",
+      "value": 343,
+      "unit": "pt",
+      "condition": "| **Width** | 343 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Background](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Background)"
+    },
+    {
+      "measurement_id": "m_apple_000018",
+      "parameter": "wallet | apple developer documentation__background__https___developer_apple_com_design_human_interface_guidelines_wallet__background_",
+      "value": 503,
+      "unit": "pt",
+      "condition": "| **Height** | 503 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Background](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Background)"
+    },
+    {
+      "measurement_id": "m_apple_000019",
+      "parameter": "wallet | apple developer documentation__background__https___developer_apple_com_design_human_interface_guidelines_wallet__background_",
+      "value": 358,
+      "unit": "pt",
+      "condition": "| **Width** | 358 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Background](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Background)"
+    },
+    {
+      "measurement_id": "m_apple_000020",
+      "parameter": "wallet | apple developer documentation__background__https___developer_apple_com_design_human_interface_guidelines_wallet__background_",
+      "value": 448,
+      "unit": "pt",
+      "condition": "| **Height** | 448 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Background](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Background)"
+    },
+    {
+      "measurement_id": "m_apple_000021",
+      "parameter": "wallet | apple developer documentation__footer__https___developer_apple_com_design_human_interface_guidelines_wallet__footer_",
+      "value": 268,
+      "unit": "pt",
+      "condition": "| **Width** | 268 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Footer](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Footer)"
+    },
+    {
+      "measurement_id": "m_apple_000022",
+      "parameter": "wallet | apple developer documentation__footer__https___developer_apple_com_design_human_interface_guidelines_wallet__footer_",
+      "value": 15,
+      "unit": "pt",
+      "condition": "| **Height** | 15 pt |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_wallet",
+      "source_location": "Wallet | Apple Developer Documentation > [Footer](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Footer)"
+    },
+    {
+      "measurement_id": "m_apple_000023",
+      "parameter": "buttons | apple developer documentation__best_practices__https___developer_apple_com_design_human_interface_guidelines_buttons__best_practices_",
+      "value": 44,
+      "unit": "pt",
+      "condition": "**Make buttons easy for people to use.** It’s essential to include enough space around a button so that people can visually distinguish it from surrounding components and content. Giving a button enough space is also critical for helping people select or activate it, regardless of the method of input they use. As a general rule, a button needs a hit region of at least 44x44 pt — in visionOS, 60x60 pt — to ensure that people can select it easily, whether they use a fingertip, a pointer, their eyes, or a remote.",
+      "platform": "visionOS",
+      "source_id": "apple_hig_buttons",
+      "source_location": "Buttons | Apple Developer Documentation > [Best practices](https://developer.apple.com/design/human-interface-guidelines/buttons\\#Best-practices)"
+    },
+    {
+      "measurement_id": "m_apple_000024",
+      "parameter": "buttons | apple developer documentation__visionos__https___developer_apple_com_design_human_interface_guidelines_buttons__visionos_",
+      "value": 28,
+      "unit": "pt",
+      "condition": "| Shape | Mini (28 pt) | Small (32 pt) | Regular (44 pt) | Large (52 pt) | Extra large (64 pt) |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_buttons",
+      "source_location": "Buttons | Apple Developer Documentation > [visionOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#visionOS)"
+    },
+    {
+      "measurement_id": "m_apple_000025",
+      "parameter": "buttons | apple developer documentation__visionos__https___developer_apple_com_design_human_interface_guidelines_buttons__visionos_",
+      "value": 60,
+      "unit": "pt",
+      "condition": "**Provide enough space around a button to make it easy for people to look at it.** Aim to place buttons so their centers are always at least 60 pts apart. If your buttons measure 60 pts or larger, add 4 pts of padding around them to keep the hover effect from overlapping. Also, it’s usually best to avoid displaying small or mini buttons in a vertical stack or horizontal row.",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_buttons",
+      "source_location": "Buttons | Apple Developer Documentation > [visionOS](https://developer.apple.com/design/human-interface-guidelines/buttons\\#visionOS)"
+    },
+    {
+      "measurement_id": "m_apple_000026",
+      "parameter": "accessibility | apple developer documentation__vision__https___developer_apple_com_design_human_interface_guidelines_accessibility__vision_",
+      "value": 17,
+      "unit": "pt",
+      "condition": "| iOS, iPadOS | 17 pt | 11 pt |",
+      "platform": "iOS, iPadOS",
+      "source_id": "apple_hig_accessibility",
+      "source_location": "Accessibility | Apple Developer Documentation > [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)"
+    },
+    {
+      "measurement_id": "m_apple_000027",
+      "parameter": "accessibility | apple developer documentation__vision__https___developer_apple_com_design_human_interface_guidelines_accessibility__vision_",
+      "value": 13,
+      "unit": "pt",
+      "condition": "| macOS | 13 pt | 10 pt |",
+      "platform": "macOS",
+      "source_id": "apple_hig_accessibility",
+      "source_location": "Accessibility | Apple Developer Documentation > [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)"
+    },
+    {
+      "measurement_id": "m_apple_000028",
+      "parameter": "accessibility | apple developer documentation__vision__https___developer_apple_com_design_human_interface_guidelines_accessibility__vision_",
+      "value": 29,
+      "unit": "pt",
+      "condition": "| tvOS | 29 pt | 23 pt |",
+      "platform": "tvOS",
+      "source_id": "apple_hig_accessibility",
+      "source_location": "Accessibility | Apple Developer Documentation > [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)"
+    },
+    {
+      "measurement_id": "m_apple_000029",
+      "parameter": "accessibility | apple developer documentation__vision__https___developer_apple_com_design_human_interface_guidelines_accessibility__vision_",
+      "value": 17,
+      "unit": "pt",
+      "condition": "| visionOS | 17 pt | 12 pt |",
+      "platform": "visionOS",
+      "source_id": "apple_hig_accessibility",
+      "source_location": "Accessibility | Apple Developer Documentation > [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)"
+    },
+    {
+      "measurement_id": "m_apple_000030",
+      "parameter": "accessibility | apple developer documentation__vision__https___developer_apple_com_design_human_interface_guidelines_accessibility__vision_",
+      "value": 16,
+      "unit": "pt",
+      "condition": "| watchOS | 16 pt | 12 pt |",
+      "platform": "watchOS",
+      "source_id": "apple_hig_accessibility",
+      "source_location": "Accessibility | Apple Developer Documentation > [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)"
+    },
+    {
+      "measurement_id": "m_apple_000031",
+      "parameter": "accessibility | apple developer documentation__vision__https___developer_apple_com_design_human_interface_guidelines_accessibility__vision_",
+      "value": 17,
+      "unit": "pt",
+      "condition": "| Up to 17 pts | All | 4.5:1 |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_accessibility",
+      "source_location": "Accessibility | Apple Developer Documentation > [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)"
+    },
+    {
+      "measurement_id": "m_apple_000032",
+      "parameter": "accessibility | apple developer documentation__vision__https___developer_apple_com_design_human_interface_guidelines_accessibility__vision_",
+      "value": 18,
+      "unit": "pt",
+      "condition": "| 18 pts | All | 3:1 |",
+      "platform": "Universal Apple Platforms",
+      "source_id": "apple_hig_accessibility",
+      "source_location": "Accessibility | Apple Developer Documentation > [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)"
+    },
+    {
+      "measurement_id": "m_apple_000033",
+      "parameter": "accessibility | apple developer documentation__mobility__https___developer_apple_com_design_human_interface_guidelines_accessibility__mobility_",
+      "value": 44,
+      "unit": "pt",
+      "condition": "| iOS, iPadOS | 44x44 pt | 28x28 pt |",
+      "platform": "iOS, iPadOS",
+      "source_id": "apple_hig_accessibility",
+      "source_location": "Accessibility | Apple Developer Documentation > [Mobility](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Mobility)"
+    },
+    {
+      "measurement_id": "m_apple_000034",
+      "parameter": "accessibility | apple developer documentation__mobility__https___developer_apple_com_design_human_interface_guidelines_accessibility__mobility_",
+      "value": 28,
+      "unit": "pt",
+      "condition": "| macOS | 28x28 pt | 20x20 pt |",
+      "platform": "macOS",
+      "source_id": "apple_hig_accessibility",
+      "source_location": "Accessibility | Apple Developer Documentation > [Mobility](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Mobility)"
+    },
+    {
+      "measurement_id": "m_apple_000035",
+      "parameter": "accessibility | apple developer documentation__mobility__https___developer_apple_com_design_human_interface_guidelines_accessibility__mobility_",
+      "value": 66,
+      "unit": "pt",
+      "condition": "| tvOS | 66x66 pt | 56x56 pt |",
+      "platform": "tvOS",
+      "source_id": "apple_hig_accessibility",
+      "source_location": "Accessibility | Apple Developer Documentation > [Mobility](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Mobility)"
+    },
+    {
+      "measurement_id": "m_apple_000036",
+      "parameter": "accessibility | apple developer documentation__mobility__https___developer_apple_com_design_human_interface_guidelines_accessibility__mobility_",
+      "value": 60,
+      "unit": "pt",
+      "condition": "| visionOS | 60x60 pt | 28x28 pt |",
+      "platform": "visionOS",
+      "source_id": "apple_hig_accessibility",
+      "source_location": "Accessibility | Apple Developer Documentation > [Mobility](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Mobility)"
+    },
+    {
+      "measurement_id": "m_apple_000037",
+      "parameter": "accessibility | apple developer documentation__mobility__https___developer_apple_com_design_human_interface_guidelines_accessibility__mobility_",
+      "value": 44,
+      "unit": "pt",
+      "condition": "| watchOS | 44x44 pt | 28x28 pt |",
+      "platform": "watchOS",
+      "source_id": "apple_hig_accessibility",
+      "source_location": "Accessibility | Apple Developer Documentation > [Mobility](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Mobility)"
+    }
+  ]
+}

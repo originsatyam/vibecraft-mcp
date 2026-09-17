@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000111",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [visionOS](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#visionOS)",
+  "claim": "For additional guidance, see [Create accessible spatial experiences](https://developer.apple.com/videos/play/wwdc2023/10034) and [Design considerations for vision and motion](https://developer.apple.com/videos/play/wwdc2023/10078).",
+  "claim_type": "accessibility_requirement",
+  "qualifier": "specified",
+  "context": "Visuals & Accessibility / [visionOS](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#visionOS)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [visionOS](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#visionOS)",
+  "supporting_text": " For additional guidance, see [Create accessible spatial experiences](https://developer.apple.com/videos/play/wwdc2023/10034) and [Design considerations for vision and motion](https://developer.apple.com/videos/play/wwdc2023/10078). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

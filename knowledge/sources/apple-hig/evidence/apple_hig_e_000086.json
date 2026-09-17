@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000086",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Hearing](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Hearing)",
+  "claim": "Use haptics in addition to audio cues.** If your interface conveys information through audio cues — such as a success chime, error sound, or game feedback — consider pairing that sound with matching haptics for people who can’t perceive the audio or have their audio turned off. In iOS and iPadOS, you can also use [Music Haptics](https://developer.apple.com/documentation/mediaaccessibility/music-haptics) and [Audio graphs](https://developer.apple.com/documentation/accessibility/audio-graphs) to let people experience music and infographics through vibration and texture. For guidance, see [Playing haptics](https://developer.apple.com/design/human-interface-guidelines/playing-haptics).",
+  "claim_type": "accessibility_requirement",
+  "qualifier": "consider",
+  "context": "Visuals & Accessibility / [Hearing](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Hearing)",
+  "platform": "iOS, iPadOS",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Hearing](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Hearing)",
+  "supporting_text": " **Use haptics in addition to audio cues.** If your interface conveys information through audio cues — such as a success chime, error sound, or game feedback — consider pairing that sound with matching haptics for people who can’t perceive the audio or have their audio turned off. In iOS and iPadOS, you can also use [Music Haptics](https://developer.apple.com/documentation/mediaaccessibility/music-haptics) and [Audio graphs](https://developer.apple.com/documentation/accessibility/audio-graphs) to let people experience music and infographics through vibration and texture. For guidance, see [Playing haptics](https://developer.apple.com/design/human-interface-guidelines/playing-haptics). ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

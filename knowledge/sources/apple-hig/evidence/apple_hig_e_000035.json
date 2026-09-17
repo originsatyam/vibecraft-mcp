@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000035",
+  "source_id": "apple_hig_live_activities",
+  "title": "Live Activities | Apple Developer Documentation - [Offering interactivity](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Offering-interactivity)",
+  "claim": "Consider letting people respond to event or progress updates.** If an update to your Live Activity is something that a person could respond to, consider offering a button or toggle to let people take action. For example, the Live Activity of a rideshare app could include a button to contact the driver while waiting for a ride to arrive.",
+  "claim_type": "definition",
+  "qualifier": "consider",
+  "context": "Components / [Offering interactivity](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Offering-interactivity)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities",
+  "source_location": "Live Activities | Apple Developer Documentation > [Offering interactivity](https://developer.apple.com/design/human-interface-guidelines/live-activities\\#Offering-interactivity)",
+  "supporting_text": " **Consider letting people respond to event or progress updates.** If an update to your Live Activity is something that a person could respond to, consider offering a button or toggle to let people take action. For example, the Live Activity of a rideshare app could include a button to contact the driver while waiting for a ride to arrive. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

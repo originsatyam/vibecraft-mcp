@@ -1,0 +1,1019 @@
+{
+  "total_relationships": 169,
+  "relationships": [
+    {
+      "from": "apple_hig_wallet",
+      "relationship": "references",
+      "target_title": "Skip Navigation",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/wallet#app-main"
+    },
+    {
+      "from": "apple_hig_wallet",
+      "relationship": "references",
+      "target_title": "watchOS",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/wallet#watchOS"
+    },
+    {
+      "from": "apple_hig_wallet",
+      "relationship": "references",
+      "target_title": "Displaying order and fulfillment details",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/wallet#Displaying-order-and-fulfillment-details"
+    },
+    {
+      "from": "apple_hig_wallet",
+      "relationship": "references",
+      "target_title": "ID Verifier",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/id-verifier"
+    },
+    {
+      "from": "apple_hig_wallet",
+      "relationship": "references",
+      "target_title": "Apple Pay",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/apple-pay"
+    },
+    {
+      "from": "apple_hig_wallet",
+      "relationship": "references",
+      "target_title": "ID Verifier",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/id-verifier"
+    },
+    {
+      "from": "apple_hig_wallet",
+      "relationship": "references",
+      "target_title": "Wallet",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/wallet#app-top"
+    },
+    {
+      "from": "apple_hig_wallet",
+      "relationship": "references",
+      "target_title": "Passes",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/wallet#Passes"
+    },
+    {
+      "from": "apple_hig_wallet",
+      "relationship": "references",
+      "target_title": "Pass anatomy",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/wallet#Pass-anatomy"
+    },
+    {
+      "from": "apple_hig_wallet",
+      "relationship": "references",
+      "target_title": "Designing passes",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/wallet#Designing-passes"
+    },
+    {
+      "from": "apple_hig_wallet",
+      "relationship": "references",
+      "target_title": "Pass styles",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/wallet#Pass-styles"
+    },
+    {
+      "from": "apple_hig_wallet",
+      "relationship": "references",
+      "target_title": "Pass images",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/wallet#Pass-images"
+    },
+    {
+      "from": "apple_hig_wallet",
+      "relationship": "references",
+      "target_title": "Order tracking",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/wallet#Order-tracking"
+    },
+    {
+      "from": "apple_hig_wallet",
+      "relationship": "references",
+      "target_title": "Identity verification",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/wallet#Identity-verification"
+    },
+    {
+      "from": "apple_hig_wallet",
+      "relationship": "references",
+      "target_title": "Platform considerations",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/wallet#Platform-considerations"
+    },
+    {
+      "from": "apple_hig_wallet",
+      "relationship": "references",
+      "target_title": "Resources",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/wallet#Resources"
+    },
+    {
+      "from": "apple_hig_wallet",
+      "relationship": "references",
+      "target_title": "Change log",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/wallet#Change-log"
+    },
+    {
+      "from": "apple_hig_combo_boxes",
+      "relationship": "references",
+      "target_title": "Skip Navigation",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/combo-boxes#app-main"
+    },
+    {
+      "from": "apple_hig_combo_boxes",
+      "relationship": "references",
+      "target_title": "Labels",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/labels"
+    },
+    {
+      "from": "apple_hig_combo_boxes",
+      "relationship": "references",
+      "target_title": "Text fields",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/text-fields"
+    },
+    {
+      "from": "apple_hig_combo_boxes",
+      "relationship": "references",
+      "target_title": "Text fields",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/text-fields"
+    },
+    {
+      "from": "apple_hig_combo_boxes",
+      "relationship": "references",
+      "target_title": "Pull-down buttons",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/pull-down-buttons"
+    },
+    {
+      "from": "apple_hig_combo_boxes",
+      "relationship": "references",
+      "target_title": "Combo boxes",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/combo-boxes#app-top"
+    },
+    {
+      "from": "apple_hig_combo_boxes",
+      "relationship": "references",
+      "target_title": "Best practices",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/combo-boxes#Best-practices"
+    },
+    {
+      "from": "apple_hig_combo_boxes",
+      "relationship": "references",
+      "target_title": "Platform considerations",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/combo-boxes#Platform-considerations"
+    },
+    {
+      "from": "apple_hig_combo_boxes",
+      "relationship": "references",
+      "target_title": "Resources",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/combo-boxes#Resources"
+    },
+    {
+      "from": "apple_hig_scroll_views",
+      "relationship": "references",
+      "target_title": "Skip Navigation",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/scroll-views#app-main"
+    },
+    {
+      "from": "apple_hig_scroll_views",
+      "relationship": "references",
+      "target_title": "toolbars",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/toolbars"
+    },
+    {
+      "from": "apple_hig_scroll_views",
+      "relationship": "references",
+      "target_title": "Liquid Glass",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/materials#Liquid-Glass"
+    },
+    {
+      "from": "apple_hig_scroll_views",
+      "relationship": "references",
+      "target_title": "Page controls",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/page-controls"
+    },
+    {
+      "from": "apple_hig_scroll_views",
+      "relationship": "references",
+      "target_title": "Play",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/scroll-views#"
+    },
+    {
+      "from": "apple_hig_scroll_views",
+      "relationship": "references",
+      "target_title": "Tab views",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/tab-views"
+    },
+    {
+      "from": "apple_hig_scroll_views",
+      "relationship": "references",
+      "target_title": "Page controls",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/page-controls"
+    },
+    {
+      "from": "apple_hig_scroll_views",
+      "relationship": "references",
+      "target_title": "Gestures",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/gestures"
+    },
+    {
+      "from": "apple_hig_scroll_views",
+      "relationship": "references",
+      "target_title": "Pointing devices",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/pointing-devices"
+    },
+    {
+      "from": "apple_hig_scroll_views",
+      "relationship": "references",
+      "target_title": "Scroll views",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/scroll-views#app-top"
+    },
+    {
+      "from": "apple_hig_scroll_views",
+      "relationship": "references",
+      "target_title": "Best practices",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/scroll-views#Best-practices"
+    },
+    {
+      "from": "apple_hig_scroll_views",
+      "relationship": "references",
+      "target_title": "Scroll edge effects",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/scroll-views#Scroll-edge-effects"
+    },
+    {
+      "from": "apple_hig_scroll_views",
+      "relationship": "references",
+      "target_title": "Platform considerations",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/scroll-views#Platform-considerations"
+    },
+    {
+      "from": "apple_hig_scroll_views",
+      "relationship": "references",
+      "target_title": "Resources",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/scroll-views#Resources"
+    },
+    {
+      "from": "apple_hig_scroll_views",
+      "relationship": "references",
+      "target_title": "Change log",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/scroll-views#Change-log"
+    },
+    {
+      "from": "apple_hig_status_bars",
+      "relationship": "references",
+      "target_title": "Skip Navigation",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/status-bars#app-main"
+    },
+    {
+      "from": "apple_hig_status_bars",
+      "relationship": "references",
+      "target_title": "Status bars",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/status-bars#app-top"
+    },
+    {
+      "from": "apple_hig_status_bars",
+      "relationship": "references",
+      "target_title": "Best practices",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/status-bars#Best-practices"
+    },
+    {
+      "from": "apple_hig_status_bars",
+      "relationship": "references",
+      "target_title": "Platform considerations",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/status-bars#Platform-considerations"
+    },
+    {
+      "from": "apple_hig_status_bars",
+      "relationship": "references",
+      "target_title": "Resources",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/status-bars#Resources"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "Skip Navigation",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/tab-bars#app-main"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "toolbar",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/toolbars"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "SF Symbols",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/sf-symbols"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "Notifications",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/notifications"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "Liquid Glass color",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/color#Liquid-Glass-color"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "Liquid Glass",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/materials#Liquid-Glass"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "Search fields",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/search-fields"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "Live-viewing apps",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-viewing-apps"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "Play",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/tab-bars#"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "sidebar",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/sidebars"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "Tab views",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/tab-views"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "Toolbars",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/toolbars"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "Sidebars",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/sidebars"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "Materials",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/materials"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "Tab bars",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/tab-bars#app-top"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "Best practices",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/tab-bars#Best-practices"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "Platform considerations",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/tab-bars#Platform-considerations"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "Resources",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/tab-bars#Resources"
+    },
+    {
+      "from": "apple_hig_tab_bars",
+      "relationship": "references",
+      "target_title": "Change log",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/tab-bars#Change-log"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Skip Navigation",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#app-main"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Compact",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#Compact"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Minimal",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#Minimal"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Expanded",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#Expanded"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Lock Screen",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#Lock-Screen"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Compact presentation",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#Compact-presentation"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Minimal presentation",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#Minimal-presentation"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Expanded presentation",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#Expanded-presentation"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Lock Screen presentation",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#Lock-Screen-presentation"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "StandBy presentation",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#StandBy-presentation"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Specifications",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#Specifications"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "App Shortcuts",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/app-shortcuts"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "StandBy",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#StandBy"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Dark Mode",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/dark-mode"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "watchOS",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#watchOS"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Live Activities",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#app-top"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Anatomy",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#Anatomy"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Best practices",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#Best-practices"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Presentation",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#Presentation"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "CarPlay",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#CarPlay"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Platform considerations",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#Platform-considerations"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Specifications",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#Specifications"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Resources",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#Resources"
+    },
+    {
+      "from": "apple_hig_live_activities",
+      "relationship": "references",
+      "target_title": "Change log",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/live-activities#Change-log"
+    },
+    {
+      "from": "apple_hig_pickers",
+      "relationship": "references",
+      "target_title": "Skip Navigation",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/pickers#app-main"
+    },
+    {
+      "from": "apple_hig_pickers",
+      "relationship": "references",
+      "target_title": "pull-down button",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/pull-down-buttons"
+    },
+    {
+      "from": "apple_hig_pickers",
+      "relationship": "references",
+      "target_title": "Pull-down buttons",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/pull-down-buttons"
+    },
+    {
+      "from": "apple_hig_pickers",
+      "relationship": "references",
+      "target_title": "Lists and tables",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/lists-and-tables"
+    },
+    {
+      "from": "apple_hig_pickers",
+      "relationship": "references",
+      "target_title": "Pickers",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/pickers#app-top"
+    },
+    {
+      "from": "apple_hig_pickers",
+      "relationship": "references",
+      "target_title": "Best practices",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/pickers#Best-practices"
+    },
+    {
+      "from": "apple_hig_pickers",
+      "relationship": "references",
+      "target_title": "Platform considerations",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/pickers#Platform-considerations"
+    },
+    {
+      "from": "apple_hig_pickers",
+      "relationship": "references",
+      "target_title": "Resources",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/pickers#Resources"
+    },
+    {
+      "from": "apple_hig_pickers",
+      "relationship": "references",
+      "target_title": "Change log",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/pickers#Change-log"
+    },
+    {
+      "from": "apple_hig_edit_menus",
+      "relationship": "references",
+      "target_title": "Skip Navigation",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/edit-menus#app-main"
+    },
+    {
+      "from": "apple_hig_edit_menus",
+      "relationship": "references",
+      "target_title": "context menu",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/context-menus"
+    },
+    {
+      "from": "apple_hig_edit_menus",
+      "relationship": "references",
+      "target_title": "Edit menu",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/the-menu-bar#Edit-menu"
+    },
+    {
+      "from": "apple_hig_edit_menus",
+      "relationship": "references",
+      "target_title": "pinch and hold",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/gestures#Standard-gestures"
+    },
+    {
+      "from": "apple_hig_edit_menus",
+      "relationship": "references",
+      "target_title": "Undo and redo",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/undo-and-redo"
+    },
+    {
+      "from": "apple_hig_edit_menus",
+      "relationship": "references",
+      "target_title": "Labels",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/labels"
+    },
+    {
+      "from": "apple_hig_edit_menus",
+      "relationship": "references",
+      "target_title": "Menus > iOS, iPadOS",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/menus#iOS-iPadOS"
+    },
+    {
+      "from": "apple_hig_edit_menus",
+      "relationship": "references",
+      "target_title": "Edit menu",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/the-menu-bar#Edit-menu"
+    },
+    {
+      "from": "apple_hig_edit_menus",
+      "relationship": "references",
+      "target_title": "Menus",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/menus"
+    },
+    {
+      "from": "apple_hig_edit_menus",
+      "relationship": "references",
+      "target_title": "Context menus",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/context-menus"
+    },
+    {
+      "from": "apple_hig_edit_menus",
+      "relationship": "references",
+      "target_title": "The menu bar",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/the-menu-bar"
+    },
+    {
+      "from": "apple_hig_edit_menus",
+      "relationship": "references",
+      "target_title": "Undo and redo",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/undo-and-redo"
+    },
+    {
+      "from": "apple_hig_edit_menus",
+      "relationship": "references",
+      "target_title": "Edit menus",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/edit-menus#app-top"
+    },
+    {
+      "from": "apple_hig_edit_menus",
+      "relationship": "references",
+      "target_title": "Best practices",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/edit-menus#Best-practices"
+    },
+    {
+      "from": "apple_hig_edit_menus",
+      "relationship": "references",
+      "target_title": "Content",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/edit-menus#Content"
+    },
+    {
+      "from": "apple_hig_edit_menus",
+      "relationship": "references",
+      "target_title": "Platform considerations",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/edit-menus#Platform-considerations"
+    },
+    {
+      "from": "apple_hig_edit_menus",
+      "relationship": "references",
+      "target_title": "Resources",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/edit-menus#Resources"
+    },
+    {
+      "from": "apple_hig_edit_menus",
+      "relationship": "references",
+      "target_title": "Change log",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/edit-menus#Change-log"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Skip Navigation",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/buttons#app-main"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "toggles",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/toggles"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Liquid Glass color",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/color#Liquid-Glass-color"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "symbol",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/sf-symbols"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "sheet",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/sheets"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "toolbar",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/toolbars"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "SF Symbols",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/sf-symbols"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Offering help",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/offering-help"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Toolbars",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/toolbars"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Labels",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/labels"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Play",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/buttons#"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Play",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/buttons#"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "ornament",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/ornaments"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "window",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/windows#visionOS"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "glass material",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/materials#visionOS"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Liquid Glass",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/materials#Liquid-Glass"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Pop-up buttons",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/pop-up-buttons"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Pull-down buttons",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/pull-down-buttons"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Toggles",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/toggles"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Segmented controls",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/segmented-controls"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Location button",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/privacy#Location-button"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Buttons",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/buttons#app-top"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Best practices",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/buttons#Best-practices"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Style",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/buttons#Style"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Content",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/buttons#Content"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Role",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/buttons#Role"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Platform considerations",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/buttons#Platform-considerations"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Resources",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/buttons#Resources"
+    },
+    {
+      "from": "apple_hig_buttons",
+      "relationship": "references",
+      "target_title": "Change log",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/buttons#Change-log"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Skip Navigation",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility#app-main"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Supporting Dynamic Type",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/typography#Supporting-Dynamic-Type"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Typography",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/typography"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Dark Mode",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/dark-mode"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Color",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/color"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "VoiceOver",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/voiceover"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Playing haptics",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/playing-haptics"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Siri",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/siri"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "VoiceOver",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/voiceover"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Keyboards",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/keyboards"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Play",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility#"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Play",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility#"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Inclusion",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/inclusion"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Typography",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/typography"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "VoiceOver",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/voiceover"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Accessibility",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility#app-top"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Vision",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility#Vision"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Hearing",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility#Hearing"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Mobility",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility#Mobility"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Speech",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility#Speech"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Cognitive",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility#Cognitive"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Platform considerations",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility#Platform-considerations"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Resources",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility#Resources"
+    },
+    {
+      "from": "apple_hig_accessibility",
+      "relationship": "references",
+      "target_title": "Change log",
+      "target_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility#Change-log"
+    }
+  ]
+}

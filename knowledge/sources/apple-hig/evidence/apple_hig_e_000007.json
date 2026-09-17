@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000007",
+  "source_id": "apple_hig_wallet",
+  "title": "Wallet | Apple Developer Documentation - [Identity verification](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Identity-verification)",
+  "claim": "For each purpose string, aim for a brief, complete sentence that’s direct, specific, and easy for everyone to understand. Use sentence case, avoid passive voice, and include a period at the end.",
+  "claim_type": "prohibition",
+  "qualifier": "avoid",
+  "context": "Components / [Identity verification](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Identity-verification)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/wallet",
+  "source_location": "Wallet | Apple Developer Documentation > [Identity verification](https://developer.apple.com/design/human-interface-guidelines/wallet\\#Identity-verification)",
+  "supporting_text": " For each purpose string, aim for a brief, complete sentence that’s direct, specific, and easy for everyone to understand. Use sentence case, avoid passive voice, and include a period at the end. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}

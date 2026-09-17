@@ -1,0 +1,15 @@
+{
+  "evidence_id": "apple_hig_e_000079",
+  "source_id": "apple_hig_accessibility",
+  "title": "Accessibility | Apple Developer Documentation - [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)",
+  "claim": "The people who use your interface may be blind, color blind, or have low vision or light sensitivity. They may also be in situations where lighting conditions and screen brightness affect their ability to interact with your interface.",
+  "claim_type": "guideline",
+  "qualifier": "may",
+  "context": "Visuals & Accessibility / [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)",
+  "platform": "Universal Apple Platforms",
+  "source_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+  "source_location": "Accessibility | Apple Developer Documentation > [Vision](https://developer.apple.com/design/human-interface-guidelines/accessibility\\#Vision)",
+  "supporting_text": " The people who use your interface may be blind, color blind, or have low vision or light sensitivity. They may also be in situations where lighting conditions and screen brightness affect their ability to interact with your interface. ",
+  "rule_candidate": true,
+  "status": "NOT_VALIDATED"
+}
