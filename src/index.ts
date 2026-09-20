@@ -11,11 +11,12 @@ import { handleGetDesignTokens } from "./tools/get_design_tokens.js";
 import { handleGetLayoutBlueprint } from "./tools/get_layout_blueprint.js";
 import { handleAuditSystemPerformance } from "./tools/audit_system_performance.js";
 import { handleCalculateUiMath } from "./tools/calculate_ui_math.js";
+import { handleQueryRagKnowledge } from "./tools/query_rag_knowledge.js";
 
 const server = new Server(
   {
     name: "vibecraft-mcp",
-    version: "1.9.0"
+    version: "3.0.0"
   },
   {
     capabilities: {
@@ -155,6 +156,23 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
             }
           }
         }
+      },
+      {
+        name: "query_rag_knowledge",
+        description:
+          "Executes semantic RAG retrieval with metadata filtering (category, topic, principle, pattern, dependencies, platform, useCase, priority) and BM25 relevance ranking across shadcn/ui components, Apple HIG, design math, and system governance.",
+        inputSchema: {
+          type: "object",
+          properties: {
+            query: { type: "string", description: "Search query e.g. 'dialog', 'modal', 'concentric', 'button', 'contrast', '4px grid'" },
+            category: { type: "string", description: "Filter by category e.g. 'shadcn_components', 'apple_hig', 'laws_of_ux', 'design_tokens', 'accessibility', 'design_math'" },
+            topic: { type: "string", description: "Filter by topic e.g. 'dialog_modal', 'button_hierarchy', 'concentric_corners', 'spacing_grid'" },
+            useCase: { type: "string", description: "Filter by use-case e.g. 'modal_dialog', 'cta_button', 'card_container', 'typography'" },
+            platform: { type: "string", description: "Filter by platform e.g. 'web', 'apple', 'cross-platform'" },
+            pipelineStage: { type: "string", enum: ["principles", "rules", "patterns", "calculations", "validation"], description: "Filter pipeline stage" },
+            limit: { type: "number", description: "Maximum chunks to retrieve (default 4)" }
+          }
+        }
       }
     ]
   };
@@ -181,6 +199,8 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         return handleGetComponentCode(args as any);
       case "get_design_tokens":
         return handleGetDesignTokens(args as any);
+      case "query_rag_knowledge":
+        return handleQueryRagKnowledge(args as any);
       default:
         throw new Error(`Unknown tool: ${name}`);
     }
