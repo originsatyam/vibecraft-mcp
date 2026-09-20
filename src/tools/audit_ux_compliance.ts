@@ -241,6 +241,19 @@ export function handleAuditUxCompliance(args: { codeOrPrompt: string; componentT
     }
   }
 
+  // Check 19: Arbitrary Pixel Spacing Anti-Pattern
+  const arbitrarySpacingMatch = code.match(/(p-\[\d+px\]|m-\[\d+px\]|gap-\[\d+px\]|w-\[\d+px\]|h-\[\d+px\])/g);
+  if (arbitrarySpacingMatch && arbitrarySpacingMatch.length > 0) {
+    const r = UX_RULES_DATABASE.tailwind_industry_standards;
+    violations.push({
+      ruleId: r.id,
+      title: r.title,
+      issue: `Arbitrary pixel spacing detected: ${arbitrarySpacingMatch.slice(0, 3).join(", ")}. Violates Tailwind 4px base grid scale math (1 unit = 4px).`,
+      recommendation: "Refactor arbitrary pixel values to standard 4px Tailwind grid scale classes (e.g., p-1 = 4px, p-2 = 8px, p-4 = 16px, p-6 = 24px, p-8 = 32px).",
+      example: r.codeRefactoringExample
+    });
+  }
+
   // Quantitative Craft Score Calculation (100 - weighted penalties)
   const totalPenalties = violations.reduce((sum, v) => {
     if (["clinical_color_semantics", "deterministic_compilation_engine", "z_index_stacking_system", "icon_button_accessibility"].includes(v.ruleId)) {

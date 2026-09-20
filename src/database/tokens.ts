@@ -190,5 +190,17 @@ export const DESIGN_TOKENS: Record<string, DesignTokenGroup> = {
       zToast: "z-50 [Toasts, Emergency Alerts, Critical Notifications]",
       stackingIsolation: "isolation: isolate [Constrain third-party widgets & Canvas from bleeding]"
     }
+  },
+  tailwindArchitecture: {
+    category: "Tailwind CSS v4 & v3 Industry Standards & Spacing Math Engine",
+    usageGuidance: "Strict 4px (0.25rem) base scale unit. Avoid arbitrary pixel values (e.g. p-[17px]). Use opacity modulations for theme colors.",
+    tokens: {
+      baseScaleUnit: "1 unit = 0.25rem = 4px",
+      spacingScaleFormula: "Scale = Math.round(pxValue / 4); class = `p-${scale}`",
+      colorOpacityModulation: "bg-primary/10, border-primary/20, text-foreground/80",
+      containerQueries: "@container, @md:grid-cols-2, @lg:grid-cols-3",
+      responsiveProgression: "Mobile-first: default (mobile) -> sm (640px) -> md (768px) -> lg (1024px) -> xl (1280px) -> 2xl (1536px)",
+      themeVariableSyntax: "@theme { --color-brand: #8B5CF6; --font-sans: Inter, sans-serif; }"
+    }
   }
 };

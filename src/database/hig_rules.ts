@@ -551,5 +551,28 @@ body {
 }`,
       explanation: "Replaces unapproved/random font choices with deterministic approved font tier based on context priority."
     }
+  },
+
+  tailwind_industry_standards: {
+    id: "tailwind_industry_standards",
+    category: "ds_governance",
+    title: "Tailwind CSS v4 & v3 Industry Architecture & Spacing Math Standards",
+    summary: "Enforce strict 4px (0.25rem) base scale alignment, semantic HSL opacity modulations, and container queries.",
+    keyPrinciples: [
+      "Strict 4px base scale unit: 1 unit = 0.25rem = 4px (p-1 = 4px, p-2 = 8px, p-4 = 16px, p-6 = 24px, p-8 = 32px).",
+      "FORBIDDEN: Un-aligned arbitrary pixel spacing (p-[17px], m-[13px], gap-[7px]).",
+      "Color Opacity Modulations: Use semantic opacity slashes e.g. bg-primary/10, border-primary/20, text-foreground/80 instead of hardcoded hexes.",
+      "Container Queries: Use @container with @md: and @lg: grid breakpoints for component-level responsiveness.",
+      "Stacking Isolation: Use isolate to contain stacking contexts."
+    ],
+    codeRefactoringExample: {
+      badCode: `<div className="p-[17px] m-[11px] bg-[#121212] z-[9999]">
+  <div className="gap-[7px] flex">Content</div>
+</div>`,
+      goodCode: `<div className="p-4 m-3 bg-card/90 border border-border/50 rounded-2xl isolate @container">
+  <div className="gap-2 flex @md:grid @md:grid-cols-2">Content</div>
+</div>`,
+      explanation: "Replaces arbitrary pixel values and hardcoded hexes with 4px grid aligned Tailwind classes and container queries."
+    }
   }
 };

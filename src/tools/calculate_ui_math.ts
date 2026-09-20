@@ -1,5 +1,5 @@
 export interface MathCalculationArgs {
-  operation: "nested_corner_radius" | "grid_alignment" | "wcag_contrast_ratio" | "optical_line_height" | "ux_priority_score" | "complexity_cost" | "font_selection_priority";
+  operation: "nested_corner_radius" | "grid_alignment" | "wcag_contrast_ratio" | "optical_line_height" | "ux_priority_score" | "complexity_cost" | "font_selection_priority" | "tailwind_spacing_converter";
   outerRadiusPx?: number;
   paddingPx?: number;
   valuePx?: number;
@@ -412,13 +412,49 @@ export function handleCalculateUiMath(args: MathCalculationArgs) {
       };
     }
 
+    case "tailwind_spacing_converter": {
+      const px = args.valuePx ?? 16;
+      const rem = px / 16;
+      const tailwindScale = px / 4;
+      const isGridAligned = px % 4 === 0;
+
+      const nearestScale = Math.round(px / 4);
+      const nearestPx = nearestScale * 4;
+
+      return {
+        content: [
+          {
+            type: "text",
+            text: JSON.stringify(
+              {
+                operation: "tailwind_spacing_converter",
+                formula: "TailwindScale = PxValue / 4; Rem = PxValue / 16",
+                inputs: { valuePx: px },
+                result: {
+                  valuePx: px,
+                  remValue: `${rem}rem`,
+                  tailwindClass: isGridAligned ? `p-${tailwindScale} / gap-${tailwindScale} / m-${tailwindScale}` : `Arbitrary (nearest standard: p-${nearestScale} [${nearestPx}px])`,
+                  is4pxGridAligned: isGridAligned,
+                  recommendation: isGridAligned 
+                    ? `Input ${px}px is perfectly aligned with Tailwind 4px grid scale (1 unit = 4px).`
+                    : `Input ${px}px is UNALIGNED with Tailwind 4px grid! Refactor to ${nearestPx}px (class: p-${nearestScale}).`
+                }
+              },
+              null,
+              2
+            )
+          }
+        ]
+      };
+    }
+
     default:
       return {
         content: [
           {
             type: "text",
             text: JSON.stringify({
-              error: `Invalid operation: '${operation}'. Available operations: 'nested_corner_radius', 'grid_alignment', 'wcag_contrast_ratio', 'optical_line_height', 'ux_priority_score', 'complexity_cost', 'font_selection_priority'.`
+              error: `Invalid operation: '${operation}'. Available operations: 'nested_corner_radius', 'grid_alignment', 'wcag_contrast_ratio', 'optical_line_height', 'ux_priority_score', 'complexity_cost', 'font_selection_priority', 'tailwind_spacing_converter'.`
             })
           }
         ],
