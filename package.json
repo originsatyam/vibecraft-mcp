@@ -1,7 +1,7 @@
 {
   "name": "vibecraft-mcp",
-  "version": "3.0.0",
-  "description": "Deterministic UI/UX & Systems Performance Intelligence Engine with RAG Semantic Chunking for AI Vibe-Coding",
+  "version": "3.1.0",
+  "description": "Deterministic UI/UX & Systems Performance Intelligence Engine with LRU Caching RAG for AI Vibe-Coding",
   "main": "dist/index.js",
   "type": "module",
   "bin": {

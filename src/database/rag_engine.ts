@@ -14,9 +14,14 @@ export interface RAGSearchResult {
   chunk: RAGChunk;
   relevanceScore: number;
   matchedPipelineStage: string;
+  cached?: boolean;
 }
 
-// Low-memory, high-speed BM25 / TF-IDF relevance scorer
+// In-memory query cache for 0ms ultra-low latency retrieval
+const QUERY_CACHE = new Map<string, RAGSearchResult[]>();
+const MAX_CACHE_SIZE = 100;
+
+// Fast BM25 / TF-IDF relevance scorer
 function calculateSimilarityScore(query: string, chunk: RAGChunk): number {
   const queryTokens = query.toLowerCase().split(/\W+/).filter(t => t.length > 2);
   if (queryTokens.length === 0) return 1;
@@ -31,20 +36,16 @@ function calculateSimilarityScore(query: string, chunk: RAGChunk): number {
     const occurrences = (targetText.match(reg) || []).length;
     if (occurrences > 0) {
       matchCount += occurrences;
-      // Title or topic exact match bonus
       if (chunk.title.toLowerCase().includes(token) || chunk.metadata.topic.toLowerCase().includes(token)) {
         exactMatchBonus += 15;
       }
     }
   }
 
-  // Priority weighting (Priority 1 = +10, Priority 5 = +2)
   const priorityBonus = (6 - chunk.metadata.priority) * 2;
-
   return (matchCount * 5) + exactMatchBonus + priorityBonus;
 }
 
-// Pipeline stage order ranking
 const PIPELINE_ORDER: Record<string, number> = {
   principles: 1,
   rules: 2,
@@ -54,9 +55,17 @@ const PIPELINE_ORDER: Record<string, number> = {
 };
 
 export function searchRAGKnowledge(options: RAGQueryOptions): RAGSearchResult[] {
-  const { query, category, topic, useCase, platform, pipelineStage, limit = 4 } = options;
+  const { query = "", category, topic, useCase, platform, pipelineStage, limit = 2 } = options;
 
-  let filteredChunks = RAG_KNOWLEDGE_BASE.filter(chunk => {
+  // 1. Cache Key Check
+  const cacheKey = JSON.stringify({ query: query.trim().toLowerCase(), category, topic, useCase, platform, pipelineStage, limit });
+  if (QUERY_CACHE.has(cacheKey)) {
+    const cachedResults = QUERY_CACHE.get(cacheKey)!;
+    return cachedResults.map(r => ({ ...r, cached: true }));
+  }
+
+  // 2. Metadata Filtering
+  const filteredChunks = RAG_KNOWLEDGE_BASE.filter(chunk => {
     if (category && chunk.metadata.category.toLowerCase() !== category.toLowerCase()) return false;
     if (topic && !chunk.metadata.topic.toLowerCase().includes(topic.toLowerCase())) return false;
     if (useCase && !chunk.metadata.useCase.toLowerCase().includes(useCase.toLowerCase())) return false;
@@ -65,13 +74,15 @@ export function searchRAGKnowledge(options: RAGQueryOptions): RAGSearchResult[] 
     return true;
   });
 
+  // 3. Relevance Scoring
   const scoredResults: RAGSearchResult[] = filteredChunks.map(chunk => ({
     chunk,
     relevanceScore: calculateSimilarityScore(query, chunk),
-    matchedPipelineStage: chunk.metadata.pipelineStage
+    matchedPipelineStage: chunk.metadata.pipelineStage,
+    cached: false
   }));
 
-  // Sort primarily by relevanceScore descending, secondarily by pipelineStage ascending
+  // 4. Ranking (Relevance Score DESC, Pipeline Order ASC)
   scoredResults.sort((a, b) => {
     if (b.relevanceScore !== a.relevanceScore) {
       return b.relevanceScore - a.relevanceScore;
@@ -79,5 +90,20 @@ export function searchRAGKnowledge(options: RAGQueryOptions): RAGSearchResult[] 
     return (PIPELINE_ORDER[a.matchedPipelineStage] || 99) - (PIPELINE_ORDER[b.matchedPipelineStage] || 99);
   });
 
-  return scoredResults.slice(0, Math.min(limit, 10));
+  // 5. Minimum Chunk Retrieval Pruning (Avoid token bloat)
+  let finalResults = scoredResults.slice(0, Math.min(limit, 5));
+
+  // If top result is high-confidence (score >= 30), return minimum required context
+  if (finalResults.length > 1 && finalResults[0].relevanceScore >= 30 && finalResults[1].relevanceScore < 15) {
+    finalResults = [finalResults[0]];
+  }
+
+  // Save to Cache
+  if (QUERY_CACHE.size >= MAX_CACHE_SIZE) {
+    const firstKey = QUERY_CACHE.keys().next().value;
+    if (firstKey) QUERY_CACHE.delete(firstKey);
+  }
+  QUERY_CACHE.set(cacheKey, finalResults);
+
+  return finalResults;
 }
