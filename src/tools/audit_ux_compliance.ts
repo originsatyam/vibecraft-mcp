@@ -225,6 +225,22 @@ export function handleAuditUxCompliance(args: { codeOrPrompt: string; componentT
     });
   }
 
+  // Check 18: Unapproved Font Tier Anti-Pattern
+  if (code.includes("font-family") || code.includes("font-")) {
+    const unapprovedFonts = ["comic sans", "arial", "times new roman", "pacifico", "papyrus", "impact", "courier new"];
+    const foundUnapproved = unapprovedFonts.filter(f => code.includes(f));
+    if (foundUnapproved.length > 0) {
+      const r = UX_RULES_DATABASE.default_font_system_priority;
+      violations.push({
+        ruleId: r.id,
+        title: r.title,
+        issue: `Unapproved font(s) detected: '${foundUnapproved.join(", ")}'. Violates strict approved font system [SF Pro, Inter, Geist, Helvetica].`,
+        recommendation: "Use the approved font tier based on context priority: SF Pro (Apple platform), Inter (Modern Web/SaaS fallback), Geist (Dev tools/IDEs), Helvetica (Helvetica/Apple-style visual systems).",
+        example: r.codeRefactoringExample
+      });
+    }
+  }
+
   // Quantitative Craft Score Calculation (100 - weighted penalties)
   const totalPenalties = violations.reduce((sum, v) => {
     if (["clinical_color_semantics", "deterministic_compilation_engine", "z_index_stacking_system", "icon_button_accessibility"].includes(v.ruleId)) {

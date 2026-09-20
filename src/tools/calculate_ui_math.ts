@@ -1,5 +1,5 @@
 export interface MathCalculationArgs {
-  operation: "nested_corner_radius" | "grid_alignment" | "wcag_contrast_ratio" | "optical_line_height" | "ux_priority_score" | "complexity_cost";
+  operation: "nested_corner_radius" | "grid_alignment" | "wcag_contrast_ratio" | "optical_line_height" | "ux_priority_score" | "complexity_cost" | "font_selection_priority";
   outerRadiusPx?: number;
   paddingPx?: number;
   valuePx?: number;
@@ -14,6 +14,10 @@ export interface MathCalculationArgs {
   choices?: number;
   steps?: number;
   cognitiveBurden?: number;
+  platform?: string;
+  productType?: string;
+  existingFont?: string;
+  styleTheme?: string;
 }
 
 // Convert Hex or HSL string to RGB [r, g, b] normalized 0-1
@@ -345,13 +349,76 @@ export function handleCalculateUiMath(args: MathCalculationArgs) {
       };
     }
 
+    case "font_selection_priority": {
+      const platform = (args.platform || "").toLowerCase();
+      const productType = (args.productType || "").toLowerCase();
+      const existingFont = args.existingFont;
+      const styleTheme = (args.styleTheme || "").toLowerCase();
+
+      let selectedFont = "Inter";
+      let priorityRuleMatched = "Universal Fallback Default → Inter";
+      let cssStack = "Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif";
+      let tailwindConfig = "font-sans: ['Inter', 'system-ui', 'sans-serif']";
+
+      if (platform.includes("apple") || platform.includes("ios") || platform.includes("mac")) {
+        selectedFont = "SF Pro";
+        priorityRuleMatched = "Rule 1: Known Apple Platform → SF Pro";
+        cssStack = "'SF Pro Text', 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif";
+        tailwindConfig = "font-sans: ['SF Pro Text', '-apple-system', 'sans-serif']";
+      } else if (existingFont && existingFont.trim().length > 0) {
+        selectedFont = existingFont.trim();
+        priorityRuleMatched = "Rule 2: Existing Product / Design System Font → Preserve Defined Font";
+        cssStack = `'${selectedFont}', system-ui, sans-serif`;
+        tailwindConfig = `font-sans: ['${selectedFont}', 'sans-serif']`;
+      } else if (productType.includes("developer") || productType.includes("tool") || productType.includes("technical") || productType.includes("ide") || productType.includes("code")) {
+        selectedFont = "Geist";
+        priorityRuleMatched = "Rule 4: Developer / Tool / Technical Product → Geist";
+        cssStack = "'Geist', 'Geist Mono', system-ui, sans-serif";
+        tailwindConfig = "font-sans: ['Geist', 'Geist Mono', 'sans-serif']";
+      } else if (styleTheme.includes("helvetica") || styleTheme.includes("apple-style") || styleTheme.includes("swiss")) {
+        selectedFont = "Helvetica";
+        priorityRuleMatched = "Rule 5: Apple-style or Helvetica-based Visual System → Helvetica";
+        cssStack = "'Helvetica Neue', Helvetica, Arial, sans-serif";
+        tailwindConfig = "font-sans: ['Helvetica Neue', 'Helvetica', 'sans-serif']";
+      } else {
+        selectedFont = "Inter";
+        priorityRuleMatched = "Rule 3 / 6: Modern Web / SaaS / Product Interface (No Defined Font) → Inter (Universal Fallback)";
+        cssStack = "Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif";
+        tailwindConfig = "font-sans: ['Inter', 'system-ui', 'sans-serif']";
+      }
+
+      return {
+        content: [
+          {
+            type: "text",
+            text: JSON.stringify(
+              {
+                operation: "font_selection_priority",
+                approvedFontTier: ["SF Pro", "Inter", "Geist", "Helvetica"],
+                inputs: { platform: args.platform || null, productType: args.productType || null, existingFont: args.existingFont || null, styleTheme: args.styleTheme || null },
+                result: {
+                  selectedFont,
+                  priorityRuleMatched,
+                  cssStack,
+                  tailwindConfig,
+                  universalFallback: "Inter"
+                }
+              },
+              null,
+              2
+            )
+          }
+        ]
+      };
+    }
+
     default:
       return {
         content: [
           {
             type: "text",
             text: JSON.stringify({
-              error: `Invalid operation: '${operation}'. Available operations: 'nested_corner_radius', 'grid_alignment', 'wcag_contrast_ratio', 'optical_line_height', 'ux_priority_score', 'complexity_cost'.`
+              error: `Invalid operation: '${operation}'. Available operations: 'nested_corner_radius', 'grid_alignment', 'wcag_contrast_ratio', 'optical_line_height', 'ux_priority_score', 'complexity_cost', 'font_selection_priority'.`
             })
           }
         ],

@@ -90,12 +90,23 @@ export const DESIGN_TOKENS: Record<string, DesignTokenGroup> = {
     }
   },
   typography: {
-    category: "Universal Typography System & Optical Scales",
-    usageGuidance: "Maintain 1.2 line-height for headings and 1.5 for body text. Optical sizes adapt to scale.",
+    category: "Universal Typography System, Approved Fonts & Optical Scales",
+    usageGuidance: "STRICT APPROVED FONTS: SF Pro, Inter, Geist, Helvetica. Universal fallback is Inter. Maintain 1.2 line-height for headings and 1.5 for body text.",
     tokens: {
-      primaryFontFamily: "Inter, system-ui, -apple-system, sans-serif",
-      secondaryFontFamily: "Outfit, Geist, sans-serif",
-      monoFontFamily: "JetBrains Mono, Fira Code, monospace",
+      approvedFontSet: ["SF Pro", "Inter", "Geist", "Helvetica"],
+      fontPriorityRules: {
+        applePlatform: "SF Pro (-apple-system, SF Pro Text, SF Pro Display)",
+        existingDesignSystem: "Preserve defined font",
+        modernSaaSOrWeb: "Inter (Universal Fallback)",
+        developerOrTechTool: "Geist (Geist, Geist Mono)",
+        appleStyleOrHelveticaVisual: "Helvetica (Helvetica Neue, Helvetica)",
+        universalFallback: "Inter"
+      },
+      primaryFontFamily: "Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif",
+      sfProFontFamily: "'SF Pro Text', 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif",
+      geistFontFamily: "'Geist', 'Geist Mono', system-ui, sans-serif",
+      helveticaFontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif",
+      monoFontFamily: "'Geist Mono', 'JetBrains Mono', 'Fira Code', monospace",
       display: { fontSize: "3.5rem", lineHeight: "1.1", tracking: "-0.02em", weight: "700" },
       h1: { fontSize: "2.25rem", lineHeight: "1.2", tracking: "-0.015em", weight: "700" },
       h2: { fontSize: "1.875rem", lineHeight: "1.25", tracking: "-0.01em", weight: "600" },

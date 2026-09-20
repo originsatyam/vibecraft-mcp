@@ -521,5 +521,35 @@ export const UX_RULES_DATABASE: Record<string, UXRule> = {
 </div>`,
       explanation: "Offers inline non-modal 'Save to Workspace' investment prompt right after task completion."
     }
+  },
+
+  default_font_system_priority: {
+    id: "default_font_system_priority",
+    category: "ds_governance",
+    title: "Default Approved Font System & Context Selection Priority",
+    summary: "Strictly enforce font selection from the approved tier [SF Pro, Inter, Geist, Helvetica] with deterministic context priority and Inter as universal fallback.",
+    keyPrinciples: [
+      "Approved Font Tier: SF Pro, Inter, Geist, Helvetica ONLY.",
+      "Apple Platform Context → SF Pro ('SF Pro Text', 'SF Pro Display', -apple-system).",
+      "Existing Design System → Preserve defined font.",
+      "Modern Web / SaaS / Product Interface → Inter (Universal Fallback).",
+      "Developer / Tool / Technical Product → Geist ('Geist', 'Geist Mono').",
+      "Apple-Style or Helvetica Visual System → Helvetica ('Helvetica Neue', Helvetica).",
+      "Universal Fallback Default → Inter."
+    ],
+    codeRefactoringExample: {
+      badCode: `/* Generic / Unapproved Font Choices */
+body {
+  font-family: 'Comic Sans MS', 'Arial', 'Times New Roman', sans-serif;
+}`,
+      goodCode: `/* Deterministic Approved Font System */
+:root {
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-geist: 'Geist', 'Geist Mono', system-ui, sans-serif;
+  --font-sf: 'SF Pro Text', 'SF Pro Display', -apple-system, sans-serif;
+  --font-helvetica: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}`,
+      explanation: "Replaces unapproved/random font choices with deterministic approved font tier based on context priority."
+    }
   }
 };
