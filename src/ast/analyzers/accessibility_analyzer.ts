@@ -122,7 +122,28 @@ export function analyzeAccessibility(ctx: CollectedASTContext): ASTFinding[] {
         });
       }
     }
+
+    // 5. Raw Emoji Glyph Rejection (Never use emojis in UI text)
+    if (elem.hasTextChildren) {
+      const emojiRegex = /[\u{1F300}-\u{1F5FF}\u{1F600}-\u{1F64F}\u{1F680}-\u{1F6FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{1F900}-\u{1F9FF}]/u;
+      const textJoined = elem.textChildrenContent.join(" ");
+      if (emojiRegex.test(textJoined)) {
+        findings.push({
+          ruleId: "no_raw_emoji_in_ui",
+          category: "accessibility",
+          severity: "high",
+          status: "FAIL",
+          confidence: "HIGH",
+          title: "Raw Emoji Glyph Detected in UI Text",
+          issue: `Element <${tag}> contains raw Unicode emoji glyphs. Emojis produce inconsistent cross-platform rendering and break screen reader pronunciation.`,
+          evidence: `Text content: "${textJoined.substring(0, 40)}"`,
+          suggestedRemediation: "Replace raw emoji glyph with a clean vector SVG icon (Lucide React or inline <svg>).",
+          sourceLocation: elem.loc
+        });
+      }
+    }
   }
 
   return findings;
 }
+
