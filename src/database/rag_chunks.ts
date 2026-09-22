@@ -225,22 +225,20 @@ Good Code (Concentric):
   // 6. APPROVED FONT TIER SELECTION CHUNK
   {
     id: "approved_font_system_priority",
-    title: "Strict Approved Font Tier & Context Priority Selection",
-    summary: "Deterministic font selection from approved tier [SF Pro, Inter, Geist, Helvetica] with Inter as universal fallback.",
+    title: "Strict Approved Font Tier & Context Priority Selection (Inter / Geist Majority)",
+    summary: "Deterministic font selection using Inter or Geist for the vast majority of interface text, headings, buttons, and numeric values. Monospace is strictly reserved for code blocks.",
     content: `/* Approved Font Priority Pipeline */
-Tier: SF Pro | Inter | Geist | Helvetica
+Tier: Inter | Geist | SF Pro | Helvetica
 
 Selection Priority:
-1. Known Apple Platform -> SF Pro ('SF Pro Text', 'SF Pro Display')
-2. Existing Design System -> Preserve defined font
-3. Modern Web / SaaS / Product Interface -> Inter (Universal Fallback)
-4. Developer / Tool / Technical Product -> Geist ('Geist', 'Geist Mono')
-5. Apple-style or Helvetica Visual System -> Helvetica ('Helvetica Neue', Helvetica)
-6. Universal Fallback -> Inter
+1. Modern Web / SaaS / Product Interface -> Inter or Geist (Universal Majority Fonts)
+2. Product Interface Headers & Body -> Inter / Geist (font-sans + tabular-nums)
+3. Known Apple Platform -> SF Pro ('SF Pro Text', 'SF Pro Display')
+4. Universal Fallback -> Inter
 
 Tailwind Configuration:
---font-sans: "Inter", "Geist", "SF Pro Text", -apple-system, sans-serif;
---font-mono: "Geist Mono", monospace;`,
+--font-sans: "Inter", "Geist", -apple-system, sans-serif;
+--font-mono: "Geist Mono", monospace; (RESERVED FOR RAW CODE ONLY)`,
     metadata: {
       category: "design_tokens",
       topic: "font_system",

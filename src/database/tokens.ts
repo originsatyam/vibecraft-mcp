@@ -124,20 +124,19 @@ export const DESIGN_TOKENS: Record<string, DesignTokenGroup> = {
   },
   typography: {
     category: "Universal Typography System, Approved Fonts & Optical Scales",
-    usageGuidance: "STRICT APPROVED FONTS: SF Pro, Inter, Geist, Helvetica. Universal fallback is Inter. Maintain 1.2 line-height for headings and 1.5 for body text.",
+    usageGuidance: "STRICT APPROVED FONTS: Inter, Geist, SF Pro, Helvetica. Majority font for ALL interface text, headings, data, numbers, tables, and values is Inter or Geist (sans-serif). Do NOT use font-mono for numbers, dates, IDs, or table values unless explicitly displaying raw code snippets.",
     tokens: {
-      approvedFontSet: ["SF Pro", "Inter", "Geist", "Helvetica"],
+      approvedFontSet: ["Inter", "Geist", "SF Pro", "Helvetica"],
       fontPriorityRules: {
+        modernSaaSOrWeb: "Inter (Universal Primary UI Font)",
+        cleanProductInterface: "Geist (Primary Modern Sans)",
         applePlatform: "SF Pro (-apple-system, SF Pro Text, SF Pro Display)",
-        existingDesignSystem: "Preserve defined font",
-        modernSaaSOrWeb: "Inter (Universal Fallback)",
-        developerOrTechTool: "Geist (Geist, Geist Mono)",
-        appleStyleOrHelveticaVisual: "Helvetica (Helvetica Neue, Helvetica)",
-        universalFallback: "Inter"
+        universalFallback: "Inter",
+        monoUsage: "STRICTLY RESERVED FOR RAW CODE BLOCKS (Do not use mono for UI labels/numbers)"
       },
-      primaryFontFamily: "Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif",
+      primaryFontFamily: "Inter, Geist, system-ui, -apple-system, BlinkMacSystemFont, sans-serif",
+      geistFontFamily: "'Geist', 'Inter', system-ui, sans-serif",
       sfProFontFamily: "'SF Pro Text', 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif",
-      geistFontFamily: "'Geist', 'Geist Mono', system-ui, sans-serif",
       helveticaFontFamily: "'Helvetica Neue', Helvetica, Arial, sans-serif",
       monoFontFamily: "'Geist Mono', 'JetBrains Mono', 'Fira Code', monospace",
       display: { fontSize: "3.5rem", lineHeight: "1.1", tracking: "-0.02em", weight: "700" },
