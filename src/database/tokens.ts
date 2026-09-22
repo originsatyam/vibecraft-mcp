@@ -226,5 +226,16 @@ export const DESIGN_TOKENS: Record<string, DesignTokenGroup> = {
       badgeVariant: "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2",
       concentricRadiusCalc: "--radius-lg: var(--radius); --radius-md: calc(var(--radius) - 2px); --radius-sm: calc(var(--radius) - 4px);"
     }
+  },
+  figmaExtractedIntelligence: {
+    category: "Figma Design Intelligence Extraction (iOS 18 / Community Inspection)",
+    usageGuidance: "Transferable design logic, concentric corner math, multi-state navigation grammar, and density surface separation extracted from Figma node analysis.",
+    tokens: {
+      concentricRadiusFormula: "R_inner = max(0, R_outer - Padding)",
+      touchTargetConstraint: "Min interactive bounding box 44px x 44px for mobile/tablet tap targets.",
+      layeredSurfaceDensity: "Ultrathin/Thin for persistent backgrounds; Regular/Thick for transient overlays and modal dialogs.",
+      sidebarNavGeometry: "Sidebar width 320px, item height 44px, item radius 11px, horizontal padding 24px, gap 10px.",
+      svgStrokePadding: "P_svg = max(8px, strokeWidth * 2) with overflow: visible to prevent edge clipping."
+    }
   }
 };
