@@ -1,5 +1,5 @@
 export interface RAGChunkMetadata {
-  category: "shadcn_components" | "apple_hig" | "laws_of_ux" | "design_tokens" | "accessibility" | "governance" | "design_math";
+  category: "shadcn_components" | "apple_hig" | "laws_of_ux" | "design_tokens" | "accessibility" | "governance" | "design_math" | "figma_intelligence";
   topic: string;
   principle: string;
   pattern: string;
@@ -52,7 +52,7 @@ export function AccessibleDialog({ isOpen, onOpenChange, title, children }) {
     metadata: {
       category: "shadcn_components",
       topic: "dialog_modal",
-      principle: "Apple Modality & Focus Trap Trap Prevention",
+      principle: "Apple Modality & Focus Trap Prevention",
       pattern: "DialogPrimitive.Root + Backdrop Blur + SR-Only Close",
       conditions: "When displaying critical non-destructive user confirmation or task wizards",
       dependencies: ["@radix-ui/react-dialog", "lucide-react", "tailwind-merge"],
@@ -68,7 +68,7 @@ export function AccessibleDialog({ isOpen, onOpenChange, title, children }) {
   {
     id: "shadcn_button_cva",
     title: "shadcn/ui Button Variants (CVA) & Fitts's Law Hit Area",
-    summary: "Single primary CTA with CVA variant variants (default, secondary, ghost, destructive, outline).",
+    summary: "Single primary CTA with CVA variant compositions (default, secondary, ghost, destructive, outline).",
     content: `/* shadcn/ui Button CVA Architecture */
 import { cva, type VariantProps } from "class-variance-authority";
 
@@ -112,7 +112,80 @@ const buttonVariants = cva(
     }
   },
 
-  // 3. CONCENTRIC CORNER RADIUS MATH CHUNK
+  // 3. SHADCN CVA & SLOT CONTRACTS CHUNK
+  {
+    id: "shadcn_cva_slot_contracts",
+    title: "shadcn/ui Slot Composition & Class Merging (cn) Contracts",
+    summary: "Polymorphic component rendering using @radix-ui/react-slot and tailwind-merge cn() utility.",
+    content: `/* Polymorphic Slot & cn Utility Contract */
+import * as React from "react";
+import { Slot } from "@radix-ui/react-slot";
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
+
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  asChild?: boolean;
+}
+
+export const Component = React.forwardRef<HTMLButtonElement, ButtonProps>(
+  ({ className, asChild = false, ...props }, ref) => {
+    const Comp = asChild ? Slot : "button";
+    return <Comp className={cn("inline-flex items-center", className)} ref={ref} {...props} />;
+  }
+);`,
+    metadata: {
+      category: "shadcn_components",
+      topic: "cva_slot_contracts",
+      principle: "Polymorphic Architecture & Zero-Conflict Class Merging",
+      pattern: "asChild ? Slot : 'button' + twMerge(clsx(inputs))",
+      conditions: "Required when wrapping components or nesting links/buttons cleanly",
+      dependencies: ["@radix-ui/react-slot", "tailwind-merge", "clsx"],
+      platform: "web",
+      useCase: "polymorphic_component",
+      priority: 1,
+      source: "https://github.com/shadcn-ui/ui",
+      pipelineStage: "patterns"
+    }
+  },
+
+  // 4. FIGMA LAYOUT & TOKEN EXTRACTION CHUNK
+  {
+    id: "figma_layout_token_extraction",
+    title: "Figma Design Intelligence: Auto-Layout & Token Mapping",
+    summary: "Translates Figma node structures (FRAME/COMPONENT) directly into flexbox, grid, rounded borders, and HSL semantic tokens.",
+    content: `/* Figma Node -> Tailwind CSS Mapping Rules */
+Figma Property Mapping:
+- layoutMode === 'HORIZONTAL' -> 'flex flex-row'
+- layoutMode === 'VERTICAL'   -> 'flex flex-col'
+- primaryAxisAlignItems === 'SPACE_BETWEEN' -> 'justify-between'
+- counterAxisAlignItems === 'CENTER'       -> 'items-center'
+- itemSpacing (16px)          -> 'gap-4' (Spacing = Px / 4)
+- cornerRadius (16px)         -> 'rounded-2xl'
+- fills[0].color (RGBA)       -> HSL color variable '--primary' / '--card'
+
+Extraction Rule:
+Preserve component hierarchy and calculate concentric inner radii:
+R_inner = Math.max(0, R_outer - Padding)`,
+    metadata: {
+      category: "figma_intelligence",
+      topic: "figma_extraction",
+      principle: "Deterministic Figma AST Node Translation",
+      pattern: "layoutMode -> flex | itemSpacing -> gap-{N} | fills -> CSS Var",
+      conditions: "Used when importing design specs from Figma files or node subtrees",
+      dependencies: ["figma-developer-mcp", "tailwindcss"],
+      platform: "cross-platform",
+      useCase: "design_system_import",
+      priority: 1,
+      source: "figma_mcp_extraction_spec",
+      pipelineStage: "rules"
+    }
+  },
+
+  // 5. CONCENTRIC CORNER RADIUS MATH CHUNK
   {
     id: "nested_corner_radius_math",
     title: "Concentric Corner Radius Formula & Nested Container Geometry",
@@ -149,7 +222,7 @@ Good Code (Concentric):
     }
   },
 
-  // 4. APPROVED FONT TIER SELECTION CHUNK
+  // 6. APPROVED FONT TIER SELECTION CHUNK
   {
     id: "approved_font_system_priority",
     title: "Strict Approved Font Tier & Context Priority Selection",
@@ -183,7 +256,7 @@ Tailwind Configuration:
     }
   },
 
-  // 5. TAILWIND 4PX SPACING GRID CHUNK
+  // 7. TAILWIND 4PX SPACING GRID CHUNK
   {
     id: "tailwind_4px_grid_math",
     title: "Tailwind CSS 4px Base Spatial Grid Conversion & Audit",
@@ -219,7 +292,7 @@ Convert 17px -> 16px (p-4) or 20px (p-5).`,
     }
   },
 
-  // 6. WCAG 2.1 AA CONTRAST MATH CHUNK
+  // 8. WCAG 2.1 AA CONTRAST MATH CHUNK
   {
     id: "wcag_contrast_math",
     title: "WCAG 2.1 AA Relative Luminance & Contrast Ratio Math",
@@ -249,6 +322,62 @@ Contrast Ratio: (0.95 + 0.05) / (0.005 + 0.05) = 1.00 / 0.055 = 18.18:1 (PASSED 
       priority: 1,
       source: "w3c_wcag_21",
       pipelineStage: "validation"
+    }
+  },
+
+  // 9. APPLE HIG MODALITY & GLASSMORPHISM CHUNK
+  {
+    id: "apple_hig_modality_glass",
+    title: "Apple HIG Liquid Glassmorphism & Touch Boundary Standards",
+    summary: "Defines liquid glass backdrop filters, subtle 1px specular borders, and 44x44pt minimum touch targets.",
+    content: `/* Apple HIG Glassmorphism & Touch Target Standards */
+Touch Target: Minimum 44px x 44px (min-h-[44px] min-w-[44px])
+
+Glass Container Spec:
+className="bg-background/80 backdrop-blur-xl border border-white/10 shadow-2xl rounded-3xl"
+
+Interactive Transitions:
+className="transition-all duration-300 ease-out active:scale-[0.98] hover:bg-accent/50"`,
+    metadata: {
+      category: "apple_hig",
+      topic: "glassmorphism_touch",
+      principle: "Apple Human Interface Guidelines Touch & Glass",
+      pattern: "backdrop-blur-xl + bg-background/80 + min-h-[44px]",
+      conditions: "Applied to floating toolbars, cards, sidebars, and iOS/macOS web components",
+      dependencies: ["tailwindcss"],
+      platform: "apple",
+      useCase: "glass_card",
+      priority: 1,
+      source: "apple_hig_spec",
+      pipelineStage: "patterns"
+    }
+  },
+
+  // 10. ACCESSIBILITY ARIA & KEYBOARD FOCUS GOVERNANCE CHUNK
+  {
+    id: "aria_keyboard_focus_governance",
+    title: "ARIA Roles & Keyboard Navigation Governance",
+    summary: "Enforces focus-visible rings, screen reader aria attributes (aria-expanded, aria-controls), and keyboard escape handlers.",
+    content: `/* ARIA & Keyboard Focus Governance */
+Focus Ring Standard:
+className="focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+
+ARIA Attribute Contract:
+- Buttons triggering popovers must carry aria-expanded={isOpen} and aria-controls="content-id"
+- Interactive non-button elements (div/span) MUST include role="button", tabIndex={0}, and onKeyDown for Enter/Space
+- Hidden icons MUST use aria-hidden="true"`,
+    metadata: {
+      category: "accessibility",
+      topic: "aria_keyboard_focus",
+      principle: "Keyboard Operability & Screen Reader Accessibility",
+      pattern: "focus-visible:ring-2 + aria-expanded + tabIndex={0}",
+      conditions: "Mandatory across all interactive widgets and dropdown menus",
+      dependencies: ["wcag-2.1"],
+      platform: "web",
+      useCase: "interactive_widget",
+      priority: 1,
+      source: "w3c_aria_1.2",
+      pipelineStage: "rules"
     }
   }
 ];

@@ -19,31 +19,74 @@ export interface RAGSearchResult {
 
 // In-memory query cache for 0ms ultra-low latency retrieval
 const QUERY_CACHE = new Map<string, RAGSearchResult[]>();
-const MAX_CACHE_SIZE = 100;
+const MAX_CACHE_SIZE = 250;
 
-// Fast BM25 / TF-IDF relevance scorer
+// UI/UX Domain Synonym Expansion Dictionary
+const DOMAIN_SYNONYMS: Record<string, string[]> = {
+  modal: ["dialog", "popup", "overlay", "radix", "focus trap"],
+  dialog: ["modal", "popup", "overlay", "window"],
+  button: ["cta", "cva", "action", "trigger", "fitts"],
+  cta: ["button", "primary action", "cva"],
+  radius: ["corner", "concentric", "rounded", "geometry"],
+  corner: ["radius", "rounded", "concentric", "clipping"],
+  contrast: ["wcag", "luminance", "accessibility", "a11y", "color"],
+  wcag: ["contrast", "luminance", "accessibility", "a11y"],
+  figma: ["auto-layout", "frame", "token", "extraction", "node"],
+  glass: ["glassmorphism", "backdrop", "blur", "apple", "hig"],
+  grid: ["spacing", "padding", "margin", "gap", "4px"],
+  aria: ["accessibility", "keyboard", "focus", "screen reader"],
+  font: ["typography", "inter", "geist", "sf pro", "helvetica"]
+};
+
+// Common Stop Words to Filter Out
+const STOP_WORDS = new Set(["the", "and", "is", "for", "with", "how", "what", "should", "using", "when", "that", "this", "can"]);
+
+// Enhanced BM25 / Field-Weighted Relevance Scorer
 function calculateSimilarityScore(query: string, chunk: RAGChunk): number {
-  const queryTokens = query.toLowerCase().split(/\W+/).filter(t => t.length > 2);
-  if (queryTokens.length === 0) return 1;
+  const rawTokens = query.toLowerCase().split(/\W+/).filter(t => t.length > 2 && !STOP_WORDS.has(t));
+  if (rawTokens.length === 0) return 1;
 
-  const targetText = `${chunk.title} ${chunk.summary} ${chunk.metadata.topic} ${chunk.metadata.pattern} ${chunk.metadata.principle} ${chunk.metadata.useCase} ${chunk.content}`.toLowerCase();
-
-  let matchCount = 0;
-  let exactMatchBonus = 0;
-
-  for (const token of queryTokens) {
-    const reg = new RegExp(`\\b${token}\\b`, "g");
-    const occurrences = (targetText.match(reg) || []).length;
-    if (occurrences > 0) {
-      matchCount += occurrences;
-      if (chunk.title.toLowerCase().includes(token) || chunk.metadata.topic.toLowerCase().includes(token)) {
-        exactMatchBonus += 15;
-      }
+  // 1. Expand Tokens with Domain Synonyms
+  const expandedTokens = new Set<string>(rawTokens);
+  for (const token of rawTokens) {
+    if (DOMAIN_SYNONYMS[token]) {
+      DOMAIN_SYNONYMS[token].forEach(syn => expandedTokens.add(syn));
     }
   }
 
-  const priorityBonus = (6 - chunk.metadata.priority) * 2;
-  return (matchCount * 5) + exactMatchBonus + priorityBonus;
+  const tokenList = Array.from(expandedTokens);
+  const titleText = chunk.title.toLowerCase();
+  const topicText = chunk.metadata.topic.toLowerCase();
+  const principleText = chunk.metadata.principle.toLowerCase();
+  const patternText = chunk.metadata.pattern.toLowerCase();
+  const summaryText = chunk.summary.toLowerCase();
+  const bodyText = chunk.content.toLowerCase();
+
+  let score = 0;
+
+  // 2. Field-Weighted Token Matches
+  for (const token of tokenList) {
+    const isOriginal = rawTokens.includes(token);
+    const weightMultiplier = isOriginal ? 1.0 : 0.6; // Give full weight to exact query terms, subtle weight to synonyms
+
+    if (titleText.includes(token)) score += 25 * weightMultiplier;
+    if (topicText.includes(token)) score += 25 * weightMultiplier;
+    if (patternText.includes(token)) score += 18 * weightMultiplier;
+    if (principleText.includes(token)) score += 15 * weightMultiplier;
+    if (summaryText.includes(token)) score += 10 * weightMultiplier;
+    if (bodyText.includes(token)) score += 3 * weightMultiplier;
+  }
+
+  // 3. Bi-word Phrase Matching (N-gram bonus)
+  for (let i = 0; i < rawTokens.length - 1; i++) {
+    const phrase = `${rawTokens[i]} ${rawTokens[i + 1]}`;
+    if (titleText.includes(phrase) || topicText.includes(phrase)) score += 40;
+    else if (patternText.includes(phrase) || principleText.includes(phrase)) score += 25;
+  }
+
+  // 4. Priority Weighting (Priority 1 = Critical, gets +10 points)
+  const priorityBonus = (6 - chunk.metadata.priority) * 2.5;
+  return Math.round((score + priorityBonus) * 10) / 10;
 }
 
 const PIPELINE_ORDER: Record<string, number> = {
@@ -107,3 +150,4 @@ export function searchRAGKnowledge(options: RAGQueryOptions): RAGSearchResult[] 
 
   return finalResults;
 }
+
