@@ -89,6 +89,39 @@ export const DESIGN_TOKENS: Record<string, DesignTokenGroup> = {
       "color.status.error": "hsl(var(--destructive))"
     }
   },
+  interactiveFocus: {
+    category: "Single Focus Outline & Accessible Focus State Grammar",
+    usageGuidance: "STRICT SINGLE FOCUS RULE: Never stack native browser outlines + custom border + custom focus ring simultaneously. Apply outline: none or focus:outline-none alongside focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 to guarantee exactly ONE clear focus indicator.",
+    tokens: {
+      singleFocusRule: "ONE intentional focus indicator. Prevent stacking native outline + border + ring.",
+      defaultState: "border: 1px solid var(--border); background: var(--background);",
+      hoverState: "border-color: var(--muted-foreground); background: rgba(255, 255, 255, 0.04);",
+      focusState: "outline: none; border-color: var(--ring); box-shadow: 0 0 0 2px var(--background), 0 0 0 4px var(--ring);",
+      focusVisibleClasses: "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+    }
+  },
+  svgChartGeometry: {
+    category: "SVG Chart Geometry & Stroke Padding Safety Grammar",
+    usageGuidance: "STRICT CHART CLIPPING PREVENTION: SVG chart paths MUST include internal vertical padding P_svg = strokeWidth * 2 >= 8px. For viewBox='0 0 W H', path Y coordinates must cycle between [P_svg, H - P_svg] so line stroke peaks do not clip at top/bottom edges. Set overflow: visible or padding inside container.",
+    tokens: {
+      strokePaddingFormula: "P_svg = strokeWidth * 2 (min 8px)",
+      yCoordBounds: "[P_svg, H - P_svg]",
+      xCoordBounds: "[P_svg, W - P_svg]",
+      overflowProperty: "overflow: visible; on <svg> or inner padding box",
+      responsiveResizing: "viewBox='0 0 500 150' preserveAspectRatio='xMidYMid meet'"
+    }
+  },
+  navigationStateGrammar: {
+    category: "4-State Navigation Grammar (Default, Hover, Active, Selected)",
+    usageGuidance: "STRICT NAVIGATION STATES: Establish clear distinction between Default (resting), Hover (pointer-over), Active (pressed), and Selected (current page). Attach aria-current='page' ONLY to the single currently active page item.",
+    tokens: {
+      default: "color: var(--muted-foreground); background: transparent; font-weight: 500;",
+      hover: "color: var(--card-foreground); background: rgba(255, 255, 255, 0.04);",
+      activePressed: "color: var(--card-foreground); background: rgba(255, 255, 255, 0.08); transform: scale(0.98);",
+      selectedCurrent: "color: #ffffff; background: rgba(255, 255, 255, 0.06); border: 1px solid var(--border); font-weight: 600; aria-current='page'",
+      ariaCurrentRule: "aria-current='page' attached ONLY to current route item."
+    }
+  },
   typography: {
     category: "Universal Typography System, Approved Fonts & Optical Scales",
     usageGuidance: "STRICT APPROVED FONTS: SF Pro, Inter, Geist, Helvetica. Universal fallback is Inter. Maintain 1.2 line-height for headings and 1.5 for body text.",
@@ -147,11 +180,7 @@ export const DESIGN_TOKENS: Record<string, DesignTokenGroup> = {
       iconLg: "24px",
       iconXl: "32px",
       strokeWidth: "2px",
-      viewBox: "0 0 24 24",
-      statusSuccess: "CheckCircle2 (Green-500)",
-      statusWarning: "AlertTriangle (Amber-500)",
-      statusError: "AlertOctagon (Red-500)",
-      statusInfo: "Info (Blue-500)"
+      viewBox: "0 0 24 24"
     }
   },
   shadows: {
@@ -174,9 +203,7 @@ export const DESIGN_TOKENS: Record<string, DesignTokenGroup> = {
       appleSpringGentle: { type: "spring", stiffness: 200, damping: 28, mass: 1.2 },
       durationFast: "150ms",
       durationStandard: "250ms",
-      durationSlow: "350ms",
-      viewTransitionFade: "::view-transition-old(root), ::view-transition-new(root) { animation-duration: 250ms; }",
-      layoutIdMorphing: "framer-motion layoutId='shared-element-id' transition={{ type: 'spring', stiffness: 350, damping: 30 }}"
+      durationSlow: "350ms"
     }
   },
   zIndexScale: {
@@ -187,20 +214,7 @@ export const DESIGN_TOKENS: Record<string, DesignTokenGroup> = {
       zSticky: "z-10 to z-20 [Sticky Headers, Navbars, Sidebars]",
       zDropdown: "z-30 [Dropdown Menus, Popovers, Tooltips]",
       zModal: "z-40 [Modals, Dialog Overlays, Sheet Backdrops]",
-      zToast: "z-50 [Toasts, Emergency Alerts, Critical Notifications]",
-      stackingIsolation: "isolation: isolate [Constrain third-party widgets & Canvas from bleeding]"
-    }
-  },
-  tailwindArchitecture: {
-    category: "Tailwind CSS v4 & v3 Industry Standards & Spacing Math Engine",
-    usageGuidance: "Strict 4px (0.25rem) base scale unit. Avoid arbitrary pixel values (e.g. p-[17px]). Use opacity modulations for theme colors.",
-    tokens: {
-      baseScaleUnit: "1 unit = 0.25rem = 4px",
-      spacingScaleFormula: "Scale = Math.round(pxValue / 4); class = `p-${scale}`",
-      colorOpacityModulation: "bg-primary/10, border-primary/20, text-foreground/80",
-      containerQueries: "@container, @md:grid-cols-2, @lg:grid-cols-3",
-      responsiveProgression: "Mobile-first: default (mobile) -> sm (640px) -> md (768px) -> lg (1024px) -> xl (1280px) -> 2xl (1536px)",
-      themeVariableSyntax: "@theme { --color-brand: #8B5CF6; --font-sans: Inter, sans-serif; }"
+      zToast: "z-50 [Toasts, Emergency Alerts, Critical Notifications]"
     }
   }
 };

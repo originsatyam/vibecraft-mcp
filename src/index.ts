@@ -5,6 +5,7 @@ import { CallToolRequestSchema, ListToolsRequestSchema } from "@modelcontextprot
 
 import { handleGetUxGuidelines } from "./tools/get_ux_guidelines.js";
 import { handleAuditUxCompliance } from "./tools/audit_ux_compliance.js";
+import { handleFixUxCompliance } from "./tools/fix_ux_compliance.js";
 import { handleSearchUiComponents } from "./tools/search_ui_components.js";
 import { handleGetComponentCode } from "./tools/get_component_code.js";
 import { handleGetDesignTokens } from "./tools/get_design_tokens.js";
@@ -16,7 +17,7 @@ import { handleQueryRagKnowledge } from "./tools/query_rag_knowledge.js";
 const server = new Server(
   {
     name: "vibecraft-mcp",
-    version: "3.0.0"
+    version: "3.2.0"
   },
   {
     capabilities: {
@@ -106,7 +107,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
       {
         name: "audit_ux_compliance",
         description:
-          "Audits UI code or prompt specs against AI-slop prevention matrix, competing primary CTAs, TSOD levers, Design System 13-state matrix, Laws of UX, Apple HIG, Hook Model habit loops, IxDF principles, hardcoded hex colors, and icon accessibility.",
+          "Audits UI code or prompt specs against AI-slop prevention matrix, competing primary CTAs, TSOD levers, Design System 13-state matrix, Laws of UX, Apple HIG, Hook Model habit loops, IxDF principles, hardcoded hex colors, and icon accessibility using AST structural analysis.",
         inputSchema: {
           type: "object",
           properties: {
@@ -114,6 +115,20 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
             componentType: { type: "string", description: "Optional component category e.g. 'modal', 'card', 'form'" }
           },
           required: ["codeOrPrompt"]
+        }
+      },
+      {
+        name: "fix_ux_compliance",
+        description:
+          "Automatically repairs non-grid pixel spacing (p-[13px] -> p-3), arbitrary radii, concentric nested corner math, hardcoded hex colors, arbitrary z-indexes, and missing focus ring offsets deterministically without LLM estimation.",
+        inputSchema: {
+          type: "object",
+          properties: {
+            code: { type: "string", description: "React/Tailwind TSX source code string to auto-fix deterministically" },
+            rules: { type: "array", items: { type: "string" }, description: "Optional array of specific rule IDs to repair" },
+            safeMode: { type: "boolean", description: "Enforces safe mode preventing non-deterministic changes (default: true)" }
+          },
+          required: ["code"]
         }
       },
       {
@@ -193,6 +208,8 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         return handleGetUxGuidelines(args as any);
       case "audit_ux_compliance":
         return handleAuditUxCompliance(args as any);
+      case "fix_ux_compliance":
+        return handleFixUxCompliance(args as any);
       case "search_ui_components":
         return handleSearchUiComponents(args as any);
       case "get_component_code":
@@ -215,7 +232,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
-  console.error("vibecraft-mcp server v1.9.0 running on stdio");
+  console.error("vibecraft-mcp server v3.2.0 running on stdio");
 }
 
 main().catch((error) => {
