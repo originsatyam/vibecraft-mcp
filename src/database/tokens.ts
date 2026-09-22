@@ -216,5 +216,15 @@ export const DESIGN_TOKENS: Record<string, DesignTokenGroup> = {
       zModal: "z-40 [Modals, Dialog Overlays, Sheet Backdrops]",
       zToast: "z-50 [Toasts, Emergency Alerts, Critical Notifications]"
     }
+  },
+  componentVariantContracts: {
+    category: "shadcn/ui & Radix Component Variant Contracts (CVA)",
+    usageGuidance: "Standardized Class Variance Authority (CVA) variant matrices and size scales across Buttons, Badges, Inputs, and Navigation components.",
+    tokens: {
+      buttonVariants: "cva('inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50', { variants: { variant: { default, destructive, outline, secondary, ghost, link }, size: { default: 'h-9 px-4 py-2', sm: 'h-8 px-3 text-xs', lg: 'h-10 px-8', icon: 'h-9 w-9' } } })",
+      inputVariant: "flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50",
+      badgeVariant: "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2",
+      concentricRadiusCalc: "--radius-lg: var(--radius); --radius-md: calc(var(--radius) - 2px); --radius-sm: calc(var(--radius) - 4px);"
+    }
   }
 };
